@@ -1,0 +1,82 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+html,
+body,
+#map {
+  height: 100%;
+  width: 100vw;
+}
+
+h1 {
+  padding: 10px;
+  font-size: 16px;
+  font-family: Tahoma, Helvetica, sans-serif;
+  color: #264653;
+}
+
+h2 {
+  font-size: 18px;
+  font-family: Tahoma, Helvetica, sans-serif;
+  color: #ac2c2d;
+  padding: -3px;
+}
+
+table.indicadores {
+  border: 0px solid #656361;
+  background-color: #ffffff;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.indicadores td,
+table.indicadores th {
+  border-bottom: 1px solid #aaaaaa;
+  padding: 3px 2px;
+}
+table.indicadores tbody td {
+  font-size: 10px;
+  color: #333333;
+}
+table.indicadores thead {
+  background: #fff;
+}
+table.indicadores thead th {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ac2c2d;
+  border-bottom: 2px solid #ac2c2d;
+}
+table.indicadores thead th:first-child {
+  border-left: 2px solid #fff;
+}
+
+table.indicadores tfoot {
+  font-size: 11px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #b4ddcd;
+  background: -moz-linear-gradient(top, #c7e5d9 0%, #bbe0d2 66%, #b4ddcd 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #c7e5d9 0%,
+    #bbe0d2 66%,
+    #b4ddcd 100%
+  );
+  background: linear-gradient(to bottom, #c7e5d9 0%, #bbe0d2 66%, #b4ddcd 100%);
+  border-top: 3px solid #f9ffff;
+}
+table.indicadores tfoot td {
+  font-size: 11px;
+}
+table.indicadores tfoot .links {
+  text-align: right;
+}
+table.indicadores tfoot .links a {
+  display: inline-block;
+  background: #ac2c2d;
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 5px;
+}

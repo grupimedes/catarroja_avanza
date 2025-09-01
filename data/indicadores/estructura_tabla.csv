@@ -1,0 +1,155 @@
+﻿ID;NOMBRE;UDS;VALOR
+I.1;SUPERFICIE;m2;feature.properties.i1_sup
+I.2;COMPACIDAD;;feature.properties.i2_comp
+I.3;PERMEABILIDAD DEL SUELO;%;feature.properties.i3_perm
+I.4;PRESENCIA DE AGUA;;feature.properties.i4_agua
+IB.1;DRENAJE SOSTENIBLE;;feature.properties.ib1_sud
+I.5;DISTANCIA A OTRA ZONA VERDE MAYOR DE 1HA;m;feature.properties.i5_d1ha
+I.6;DISTANCIA AL HÁBITAT FUENTE;m;feature.properties.i6_dhf
+I.7;COBERTURA ARBÓREA;%;feature.properties.i7_coba
+I.8;COBERTURA ARBUSTIVA;%;feature.properties.i8_cobb
+I.9;COBERTURA DE PRADERA;%;feature.properties.i9_cobc
+I.10;NDVI;;feature.properties.i10_ndvi
+I.11;DENSIDAD DE ARBOLADO;arb/ha;feature.properties.i11_darbo
+I.12;DIVERSIDAD DE ESPECIES VEGETALES;;feature.properties.i12_divv
+I.13;PRESENCIA DE ESPECIES ARBÓREAS Y ARBUSTIVAS AUTÓCTONAS;%;feature.properties.i13_aut
+I.14;PRESENCIA DE ESPECIES ARBÓREAS Y ARBUSTIVAS ;%;feature.properties.i14_exo
+I.15;DISTRIBUCIÓN DE LOS DIFERENTES PORTES ARBÓREOS;s;feature.properties.i15_spor
+I.16;NÚMERO DE ÁRBOLES MONUMENTALES CATALOGADOS;n;feature.properties.i16_amon
+I.17;ESPECIES ARBÓREAS SOMETIDAS A LIMITACIONES (-);%;feature.properties.i17_alim
+I.18;EDAD FENOLÓGICA DEL ARBOLADO;;feature.properties.i18_aedad
+I.19;FIJACIÓN DE CARBONO POR PARTE DEL ARBOLADO;;feature.properties.i19_afij
+I.20;NATURALIZACIÓN;%;feature.properties.i20_nat
+I.21;AVIFAUNA;;feature.properties.i21_aves
+I.22;GATOS (-);;feature.properties.i22_gat
+IB.2;ESTRUCTURAS DE FOMENTO DE LA BIODIVERSIDAD;;feature.properties.ib2_biofom
+I.23;SISTEMA DE RIEGO;;feature.properties.i23_rieg
+I.24;INSTALACIONES DE ENERGÍA RENOVABLE;;feature.properties.i24_renov
+I.25;INSTALACIONES DEPORTIVAS;;feature.properties.i25_insdep
+I.26;EQUIPAMIENTOS DEPORTIVOS;;feature.properties.i26_eqdep
+I.27;CARRIL BICI;m;feature.properties.i27_cabic
+I.28;JUEGO INFANTIL;;feature.properties.i28_jue
+I.29;ESPARCIMIENTO CANINO;;feature.properties.i29_can
+I.30;RECURSOS DE EDUCACIÓN AMBIENTAL;;feature.properties.i30_recedu
+I.31;DOTACIONES CULTURALES;;feature.properties.i31_dotc
+I.32;SERVICIOS ADMINISTRATIVOS;;feature.properties.i32_serva
+I.33;PATRIMONIO;;feature.properties.i33_patri
+I.34;ANFITEATRO - GRADAS;;feature.properties.i34_anfi
+IB.3;HUERTOS URBANOS;;feature.properties.ib3_hue
+I.35;BAÑOS PÚBLICOS;;feature.properties.i35_bany
+I.36;BAR - CAFETERÍA;;feature.properties.i36_bar
+I.37;TERRAZA HOSTELERÍA (-+);n/ha;feature.properties.i37_terra
+I.38;FUENTES BEBEDERO;;feature.properties.i38_fuen
+I.39;BANCOS;n/ha;feature.properties.i39_ban
+I.40;MESAS;n/ha;feature.properties.i40_mes
+I.41;PAPELERAS;n/ha;feature.properties.i41_pape
+I.42;HORARIO RESTRINGIDO (-+);;feature.properties.i42_cier
+I.43;APARCAMIENTO BICICLETAS;n;feature.properties.i43_apabi
+I.44;POBLACIÓN A 15. MIN A PIE;hab;feature.properties.i44_pob
+I.45;ACCESIBILIDAD A PERSONAS CON MOVILIDAD REDUCIDA;;feature.properties.i45_movr
+I.46;ÍNDICE DE RUIDO;;feature.properties.i46_rui
+I.47;DIVERSIDAD DE PAISAJES;;feature.properties.i47_divp
+I.48;USOS IDENTIFICADOS;;feature.properties.i48_usos
+I.49;ATRIBUTOS POSITIVOS QUE DEFINEN A LA ZONA VERDE;;feature.properties.i49n
+I.50;ATRIBUTOS NEGATIVOS QUE DEFINEN A LA ZONA VERDE (-);;feature.properties.i50n
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
