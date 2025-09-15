@@ -164,7 +164,6 @@ function popupEjemplo(feature, layer) {
       feature.properties.id +
       "</h2><b>CÓDIGO: </b>" +
       feature.properties.tipo +
-      "<br/><img width='100%' src='https://catarrojavanza.es/wp-content/uploads/2025/08/003b-1024x724.jpg'></img><br/>" +
       "<iframe width='100%' height='315' src='https://www.youtube.com/embed/ySx_VDknnn4?si=0kPjKmMQGylF-shi' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></tbody></table>";
 
     tablaEjemplo.appendChild(tabla);
@@ -180,7 +179,7 @@ function popupEjemplo(feature, layer) {
 
     var explicacion = document.createElement("explicacion");
     explicacion.innerHTML =
-      "<br/><a href='https://plaverdvalencia.com/documentacio/'><h1>Documentación (p. 214)</h1></a><br/><img src='js/metodo.png' width='100%'>";
+      "<br/><a href='https://catarrojavanza.es/'><h1>Más información</h1></a><br/>";
 
     metodoEjemplo.appendChild(explicacion);
 
