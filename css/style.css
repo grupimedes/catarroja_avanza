@@ -10,7 +10,7 @@ body,
 }
 
 h1 {
-  padding: 10px;
+  padding: 0px;
   font-size: 16px;
   font-family: Tahoma, Helvetica, sans-serif;
   color: #264653;
@@ -79,4 +79,58 @@ table.indicadores tfoot .links a {
   color: #ffffff;
   padding: 2px 8px;
   border-radius: 5px;
+}
+
+/* popup hover finalizado */
+
+.finalizado-pophover.leaflet-popup {
+  position: absolute;
+  width: fit-content;
+  margin-bottom: 17px;
+}
+
+.finalizado-pophover .leaflet-popup-content-wrapper {
+  background: #72af26;
+  color: #eee;
+  font-size: 12px;
+  line-height: 24px;
+  border-radius: 5px;
+}
+.finalizado-pophover .leaflet-popup-content-wrapper a {
+  color: rgba(200, 200, 200, 0.1);
+}
+.finalizado-pophover .leaflet-popup-tip-container {
+  margin-top: -1px;
+}
+.finalizado-pophover .leaflet-popup-tip {
+  background: #72af26;
+  color: #333;
+  box-shadow: 0 3px 140px rgba(0, 0, 0, 0.4);
+}
+
+/* popup hover ejecucion */
+
+.ejecucion-pophover.leaflet-popup {
+  position: absolute;
+  width: fit-content;
+  margin-bottom: 17px;
+}
+
+.ejecucion-pophover .leaflet-popup-content-wrapper {
+  background: #f69730;
+  color: #eee;
+  font-size: 12px;
+  line-height: 24px;
+  border-radius: 5px;
+}
+.ejecucion-pophover .leaflet-popup-content-wrapper a {
+  color: rgba(200, 200, 200, 0.1);
+}
+.ejecucion-pophover .leaflet-popup-tip-container {
+  margin-top: -1px;
+}
+.ejecucion-pophover .leaflet-popup-tip {
+  background: #f69730;
+  color: #333;
+  box-shadow: 0 3px 140px rgba(0, 0, 0, 0.4);
 }

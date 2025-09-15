@@ -1,11 +1,10 @@
 // Selector capas
 
-var overlayMaps = {
-  Ejemplo: Ejemplo,
-  "<b>Zonas Verdes</b>": zonasverdesF,
-  Indicadores: indicadoreszv,
+var baseLayers = {
+  "<b>Actuación 01: Renovación de contenedores</b>": actuacion01,
+  "Ejemplo polígonos": ejemplo_poli,
 };
 
-var seleccionador = new L.Control.Layers(null, overlayMaps, {
+var seleccionador = new L.Control.Layers(baseLayers, null, {
   collapsed: false,
 }).addTo(map);
