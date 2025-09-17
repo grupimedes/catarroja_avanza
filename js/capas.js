@@ -1,18 +1,11 @@
-/* Velo
-
-var estiloVelo = {
-  fillColor: "#ffffff",
-  color: "#ffffff",
-  weight: 0,
-  opacity: 1,
-  fillOpacity: 0,
-};
-
-var velo = L.geoJson(velo, { style: estiloVelo, interactive: false }).addTo(
-  map
-);*/
-
 // Actuación 01: Renovación de contenedores
+
+// Radio del punto de los contenedores variable en función del zoom
+
+function getRadius() {
+  const zoom = map.getZoom();
+  return zoom * 0.5;
+}
 
 // Finalizado
 
@@ -28,13 +21,8 @@ function popupFinalizado(feature, layer) {
       feature.properties.capacidad
   );
 
-  layer.on("click", function (e) {
-    map.fitBounds(finalizado.getBounds());
-  });
-
   layer.on("mouseover", function (e) {
     tooltipPopup = L.popup({
-      offset: L.point(0, -25),
       className: "finalizado-pophover",
     });
     tooltipPopup.setContent("<b>" + feature.properties.direccion + "</b>");
@@ -47,23 +35,27 @@ function popupFinalizado(feature, layer) {
   });
 }
 
-var iconoFinalizado = L.AwesomeMarkers.icon({
-  icon: "recycle",
-  prefix: "fa",
-  markerColor: "green",
-});
+function estiloFinalizado(feature, layer) {
+  return {
+    radius: getRadius(),
+    fillColor: "#72af26",
+    color: "#72af26",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.9,
+  };
+}
 
 var finalizado = L.geoJson(contenedores, {
   pointToLayer: function (feature, latlng) {
-    return L.marker(latlng, {
-      icon: iconoFinalizado,
-    });
+    return L.circleMarker(latlng, estiloFinalizado);
   },
+  style: estiloFinalizado,
   onEachFeature: popupFinalizado,
   filter: function (feature, layer) {
     return feature.properties.estado == "Finalizado";
   },
-});
+}).addTo(map);
 
 // En ejecución
 
@@ -79,13 +71,8 @@ function popupEjecucion(feature, layer) {
       feature.properties.capacidad
   );
 
-  layer.on("click", function (e) {
-    map.fitBounds(ejecucion.getBounds());
-  });
-
   layer.on("mouseover", function (e) {
     tooltipPopup = L.popup({
-      offset: L.point(0, -25),
       className: "ejecucion-pophover",
     });
     tooltipPopup.setContent("<b>" + feature.properties.direccion + "</b>");
@@ -98,23 +85,27 @@ function popupEjecucion(feature, layer) {
   });
 }
 
-var iconoEjecucion = L.AwesomeMarkers.icon({
-  icon: "recycle",
-  prefix: "fa",
-  markerColor: "orange",
-});
+function estiloEjecucion(feature, layer) {
+  return {
+    radius: getRadius(),
+    fillColor: "#f69730",
+    color: "#f69730",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.9,
+  };
+}
 
 var ejecucion = L.geoJson(contenedores, {
   pointToLayer: function (feature, latlng) {
-    return L.marker(latlng, {
-      icon: iconoEjecucion,
-    });
+    return L.circleMarker(latlng, estiloEjecucion);
   },
+  style: estiloEjecucion,
   onEachFeature: popupEjecucion,
   filter: function (feature, layer) {
     return feature.properties.estado == "En ejecución";
   },
-});
+}).addTo(map);
 
 // Grupo
 

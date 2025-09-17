@@ -34,7 +34,7 @@
   max-height: 250;
   overflow-y: auto;
   line-height: 1.2;
-  width: 175px;
+  width: 200px;
 }
 
 .leaflet-html-legend h4 {
@@ -93,17 +93,18 @@
 /* force OSX to show a scrollbar */
 .leaflet-html-legend::-webkit-scrollbar {
   -webkit-appearance: none;
+  display: none;
   width: 7px;
 }
 
 .leaflet-html-legend::-webkit-scrollbar-thumb {
-  border-radius: 0px;
-  background-color: rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  background-color: #e7e7e7;
+  -webkit-box-shadow: 0 0 1px #e7e7e7;
 }
 
 .leaflet-html-legend::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #c1c1c1;
 }
 
 /* from http://lugolabs.com/caret */

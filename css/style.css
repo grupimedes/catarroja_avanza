@@ -23,6 +23,15 @@ h2 {
   padding: -3px;
 }
 
+h3 {
+  font-size: 12px;
+  font-family: Tahoma, Helvetica, sans-serif;
+  color: #ac2c2d;
+  border: solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
 table.indicadores {
   border: 0px solid #656361;
   background-color: #ffffff;

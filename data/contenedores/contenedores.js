@@ -312,8 +312,8 @@ var contenedores = {
       properties: {
         id: 20,
         direccion: "Av Generalitat",
-        lat: 39.39881441,
-        lon: -0.399713244,
+        lat: 39.40991196,
+        lon: -0.405946525,
         tipologia: "RSU",
         soterrado: "SOT",
         num: 1,
@@ -321,7 +321,7 @@ var contenedores = {
         capacidad: "3000L",
         estado: "Finalizado",
       },
-      geometry: { type: "Point", coordinates: [-0.399713244, 39.39881441] },
+      geometry: { type: "Point", coordinates: [-0.405946525, 39.40991196] },
     },
     {
       type: "Feature",
@@ -360,8 +360,8 @@ var contenedores = {
       properties: {
         id: 23,
         direccion: "Sant Vicente con Av Generalitat",
-        lat: 39.40991209,
-        lon: -0.405937009,
+        lat: 39.41032279,
+        lon: -0.406118157,
         tipologia: "RSU",
         soterrado: "SOT",
         num: 1,
@@ -369,7 +369,7 @@ var contenedores = {
         capacidad: "3000L",
         estado: "Finalizado",
       },
-      geometry: { type: "Point", coordinates: [-0.405937009, 39.40991209] },
+      geometry: { type: "Point", coordinates: [-0.406118157, 39.41032279] },
     },
     {
       type: "Feature",

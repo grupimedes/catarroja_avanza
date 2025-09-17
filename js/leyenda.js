@@ -1,5 +1,5 @@
 var leyenda = L.control.htmllegend({
-  position: "bottomright",
+  position: "topright",
   legends: [
     {
       name: "ACTUACIÓN 01: <br/>Renovación de contenedores",
@@ -10,7 +10,8 @@ var leyenda = L.control.htmllegend({
           html: "",
           style: {
             "background-color": "#72af26",
-            width: "15px",
+            "border-radius": "50%",
+            width: "20px",
             height: "20px",
           },
         },
@@ -19,15 +20,14 @@ var leyenda = L.control.htmllegend({
           html: "",
           style: {
             "background-color": "#f69730",
-            width: "15px",
+            "border-radius": "50%",
+            width: "20px",
             height: "20px",
           },
         },
       ],
     },
   ],
-  collapseSimple: true,
   disableVisibilityControls: true,
-  detectStretched: true,
 });
 map.addControl(leyenda);
