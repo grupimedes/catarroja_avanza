@@ -55,7 +55,7 @@ var finalizado = L.geoJson(contenedores, {
   filter: function (feature, layer) {
     return feature.properties.estado == "Finalizado";
   },
-}).addTo(map);
+});
 
 // En ejecución
 
@@ -105,11 +105,11 @@ var ejecucion = L.geoJson(contenedores, {
   filter: function (feature, layer) {
     return feature.properties.estado == "En ejecución";
   },
-}).addTo(map);
+});
 
 // Grupo
 
-var actuacion01 = L.layerGroup([finalizado, ejecucion]).addTo(map);
+var contenedores = L.layerGroup([finalizado, ejecucion]);
 
 // Ejemplo
 

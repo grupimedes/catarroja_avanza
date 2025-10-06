@@ -2,8 +2,8 @@ var leyenda = L.control.htmllegend({
   position: "topright",
   legends: [
     {
-      name: "ACTUACIÓN 01: <br/>Renovación de contenedores",
-      layer: actuacion01,
+      name: "Renovación de contenedores",
+      layer: contenedores,
       elements: [
         {
           label: "Finalizado",
