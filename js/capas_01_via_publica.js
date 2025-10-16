@@ -1,4 +1,10 @@
-// Actuación 01: Renovación de contenedores
+// 01: VÍA PÚBLICA
+
+// ALCANTARILLADO
+
+// SEÑALIZACIONES
+
+// CONTENEDORES
 
 // Radio del punto de los contenedores variable en función del zoom
 
@@ -7,7 +13,7 @@ function getRadius() {
   return zoom * 0.5;
 }
 
-// Finalizado
+// Estado Finalizado
 
 function popupFinalizado(feature, layer) {
   layer.bindPopup(
@@ -38,8 +44,8 @@ function popupFinalizado(feature, layer) {
 function estiloFinalizado(feature, layer) {
   return {
     radius: getRadius(),
-    fillColor: "#72af26",
-    color: "#72af26",
+    fillColor: "#00A34F",
+    color: "#00A34F",
     weight: 1,
     opacity: 1,
     fillOpacity: 0.9,
@@ -57,11 +63,11 @@ var finalizado = L.geoJson(contenedores, {
   },
 });
 
-// En ejecución
+// Estado En ejecución
 
 function popupEjecucion(feature, layer) {
   layer.bindPopup(
-    "<h1 style='color: #f69730'>" +
+    "<h1 style='color: #F5B800'>" +
       feature.properties.estado.toUpperCase() +
       "</h1><br/>Dirección: " +
       feature.properties.direccion +
@@ -88,8 +94,8 @@ function popupEjecucion(feature, layer) {
 function estiloEjecucion(feature, layer) {
   return {
     radius: getRadius(),
-    fillColor: "#f69730",
-    color: "#f69730",
+    fillColor: "#F5B800",
+    color: "#F5B800",
     weight: 1,
     opacity: 1,
     fillOpacity: 0.9,
@@ -107,11 +113,11 @@ var ejecucion = L.geoJson(contenedores, {
   },
 });
 
-// Grupo
+// Contenedores agrupados
 
-var contenedores = L.layerGroup([finalizado, ejecucion]);
+var contenedores = L.layerGroup([finalizado, ejecucion]).addTo(map);
 
-// Ejemplo
+// EJEMPLO CON FICHA
 
 function popupEjemplo(feature, layer) {
   function highlightFeature(e) {
@@ -198,7 +204,7 @@ function popupEjemplo(feature, layer) {
 }
 
 function getColorTipo(d) {
-  return d == "A" ? "#ac2c2d" : d == "B" ? "#125b7e" : "#692228";
+  return d == "A" ? "#ac2c2d" : d == "B" ? "#125B7D" : "#692228";
 }
 
 function estiloEjemplo(feature) {

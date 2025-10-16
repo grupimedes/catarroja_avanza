@@ -90,29 +90,29 @@ table.indicadores tfoot .links a {
   border-radius: 5px;
 }
 
-/* popup hover finalizado */
+/* popup hover prevision */
 
-.finalizado-pophover.leaflet-popup {
+.prevision-pophover.leaflet-popup {
   position: absolute;
   width: fit-content;
   margin-bottom: 17px;
 }
 
-.finalizado-pophover .leaflet-popup-content-wrapper {
-  background: #72af26;
+.prevision-pophover .leaflet-popup-content-wrapper {
+  background: #14688f;
   color: #eee;
   font-size: 12px;
   line-height: 24px;
   border-radius: 5px;
 }
-.finalizado-pophover .leaflet-popup-content-wrapper a {
+.prevision-pophover .leaflet-popup-content-wrapper a {
   color: rgba(200, 200, 200, 0.1);
 }
-.finalizado-pophover .leaflet-popup-tip-container {
+.prevision-pophover .leaflet-popup-tip-container {
   margin-top: -1px;
 }
-.finalizado-pophover .leaflet-popup-tip {
-  background: #72af26;
+.prevision-pophover .leaflet-popup-tip {
+  background: #14688f;
   color: #333;
   box-shadow: 0 3px 140px rgba(0, 0, 0, 0.4);
 }
@@ -126,7 +126,7 @@ table.indicadores tfoot .links a {
 }
 
 .ejecucion-pophover .leaflet-popup-content-wrapper {
-  background: #f69730;
+  background: #f5b800;
   color: #eee;
   font-size: 12px;
   line-height: 24px;
@@ -139,7 +139,34 @@ table.indicadores tfoot .links a {
   margin-top: -1px;
 }
 .ejecucion-pophover .leaflet-popup-tip {
-  background: #f69730;
+  background: #f5b800;
+  color: #333;
+  box-shadow: 0 3px 140px rgba(0, 0, 0, 0.4);
+}
+
+/* popup hover finalizado */
+
+.finalizado-pophover.leaflet-popup {
+  position: absolute;
+  width: fit-content;
+  margin-bottom: 17px;
+}
+
+.finalizado-pophover .leaflet-popup-content-wrapper {
+  background: #00a34f;
+  color: #eee;
+  font-size: 12px;
+  line-height: 24px;
+  border-radius: 5px;
+}
+.finalizado-pophover .leaflet-popup-content-wrapper a {
+  color: rgba(200, 200, 200, 0.1);
+}
+.finalizado-pophover .leaflet-popup-tip-container {
+  margin-top: -1px;
+}
+.finalizado-pophover .leaflet-popup-tip {
+  background: #00a34f;
   color: #333;
   box-shadow: 0 3px 140px rgba(0, 0, 0, 0.4);
 }

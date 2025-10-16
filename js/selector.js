@@ -22,10 +22,6 @@ var overlayMaps = {
           layer: contenedores,
         },
         {
-          label: "Aceras y viales",
-          layer: contenedores,
-        },
-        {
           label: "Alumbrado",
           layer: contenedores,
         },
@@ -83,10 +79,6 @@ var overlayMaps = {
           label: "Villa romana",
           layer: contenedores,
         },
-        {
-          label: "Huerta",
-          layer: contenedores,
-        },
       ],
     },
     {
@@ -134,10 +126,6 @@ var overlayMaps = {
           label: "Residencia",
           layer: contenedores,
         },
-        {
-          label: "Centro de emergencia<br/>Jaume I",
-          layer: contenedores,
-        },
       ],
     },
     {
@@ -154,7 +142,7 @@ var overlayMaps = {
           layer: contenedores,
         },
         {
-          label: "Otros elementos",
+          label: "Centro de emergencias<br/>Jaume I",
           layer: contenedores,
         },
       ],

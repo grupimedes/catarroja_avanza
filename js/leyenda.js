@@ -6,10 +6,10 @@ var leyenda = L.control.htmllegend({
       layer: contenedores,
       elements: [
         {
-          label: "Finalizado",
+          label: "En previsión",
           html: "",
           style: {
-            "background-color": "#72af26",
+            "background-color": "#14688F",
             "border-radius": "50%",
             width: "20px",
             height: "20px",
@@ -19,7 +19,17 @@ var leyenda = L.control.htmllegend({
           label: "En ejecución",
           html: "",
           style: {
-            "background-color": "#f69730",
+            "background-color": "#F5B800",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "Finalizado",
+          html: "",
+          style: {
+            "background-color": "#00A34F",
             "border-radius": "50%",
             width: "20px",
             height: "20px",
