@@ -87,44 +87,16 @@ var overlayMaps = {
       collapsed: true,
       children: [
         {
-          label: "Instituto",
-          layer: ejemplo_poli,
+          label: "Centros educativos",
+          layer: centroEducativo,
         },
         {
-          label: "Ambulatorio",
-          layer: contenedores,
+          label: "Centos culturales",
+          layer: centroCultural,
         },
         {
-          label: "Espai Barraques<br/>(Nova Casa Major)",
-          layer: contenedores,
-        },
-        {
-          label: "Local Servicios Sociales",
-          layer: contenedores,
-        },
-        {
-          label: "TAC",
-          layer: contenedores,
-        },
-        {
-          label: "Museo Antonia Mir",
-          layer: contenedores,
-        },
-        {
-          label: "Espai Jove",
-          layer: contenedores,
-        },
-        {
-          label: "Casa Cultura",
-          layer: contenedores,
-        },
-        {
-          label: "EPA",
-          layer: contenedores,
-        },
-        {
-          label: "Residencia",
-          layer: contenedores,
+          label: "Centros sociosanitarios",
+          layer: centroSocio,
         },
       ],
     },

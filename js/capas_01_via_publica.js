@@ -39,6 +39,69 @@ function popupFinalizado(feature, layer) {
   layer.on("mouseout", function (e) {
     map.closePopup(tooltipPopup);
   });
+
+  layer.on("click", function (e) {
+    map.fitBounds(layer.getBounds());
+
+    var sidebar = L.control
+      .sidebar({ autopan: true, container: "sidebar", position: "left" })
+      .addTo(map);
+
+    var tablaEjemplo = document.createElement("div");
+    tablaEjemplo.className = "leaflet-sidebar-pane";
+
+    var header = document.createElement("h1");
+    header.className = "leaflet-sidebar-header";
+    header.innerHTML =
+      'Ejemplo <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
+    tablaEjemplo.appendChild(header);
+
+    var tabla = document.createElement("tabla");
+    tabla.innerHTML =
+      "<br/><b>NOMBRE: </b><h2>" +
+      feature.properties.id +
+      "</h2><b>CÓDIGO: </b>" +
+      feature.properties.tipo +
+      "<iframe width='100%' height='315' src='https://www.youtube.com/embed/ySx_VDknnn4?si=0kPjKmMQGylF-shi' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></tbody></table>";
+
+    tablaEjemplo.appendChild(tabla);
+
+    var metodoEjemplo = document.createElement("div");
+    metodoEjemplo.className = "leaflet-sidebar-pane";
+
+    var header = document.createElement("h1");
+    header.className = "leaflet-sidebar-header";
+    metodoEjemplo.appendChild(header);
+    header.innerHTML =
+      'Metodología de cálculo de Ejemplo <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
+
+    var explicacion = document.createElement("explicacion");
+    explicacion.innerHTML =
+      "<br/><a href='https://catarrojavanza.es/'><h1>Más información</h1></a><br/>";
+
+    metodoEjemplo.appendChild(explicacion);
+
+    var tablaContent = {
+      id: "tabla", // UID, used to access the panel
+      tab: '<i class="fa fa-table"></i>', // content can be passed as HTML string,
+      pane: tablaEjemplo, // DOM elements can be passed, too
+      title: "Info ", // an optional pane header
+      position: "top", // optional vertical alignment, defaults to 'top'
+    };
+
+    sidebar.addPanel(tablaContent);
+
+    var metodoContent = {
+      id: "metodologia", // UID, used to access the panel
+      tab: '<i class="fa fa-info"></i>', // content can be passed as HTML string,
+      pane: metodoEjemplo, // DOM elements can be passed, too
+      title: "Info ", // an optional pane header
+      position: "top", // optional vertical alignment, defaults to 'top'
+    };
+
+    sidebar.addPanel(metodoContent);
+    sidebar.open("tabla");
+  });
 }
 
 function estiloFinalizado(feature, layer) {
