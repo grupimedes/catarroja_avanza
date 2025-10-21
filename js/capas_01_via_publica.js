@@ -8,119 +8,78 @@
 
 // Radio del punto de los contenedores variable en función del zoom
 
+// Radio variable según zoom
 function getRadius() {
-  const zoom = map.getZoom();
-  return zoom * 0.5;
+  return map.getZoom() * 0.5;
 }
 
-// Estado Finalizado
+// Colores por estado de contenedores
+const coloresContenedores = {
+  Finalizado: "#00A34F",
+  "En ejecución": "#F5B800",
+};
 
-function popupContenedoresFinalizado(feature, layer) {
-  layer.bindPopup(
-    "<h1 style='color: #00A34F'>" +
-      feature.properties.estado.toUpperCase() +
-      "</h1><br/>Dirección: " +
-      feature.properties.direccion +
-      "<br/>Tipología: " +
-      feature.properties.tipologia +
-      "</b><br/>Capacidad: " +
-      feature.properties.capacidad
-  );
+// Función genérica de popup
+function popupContenedores(feature, layer) {
+  const colorEstado =
+    coloresContenedores[feature.properties.estado] || "#14688F";
 
-  layer.on("mouseover", function (e) {
+  layer.bindPopup(`
+    <h1 style="color: ${colorEstado}">${feature.properties.estado.toUpperCase()}</h1>
+    <br/>Dirección: ${feature.properties.direccion}
+    <br/>Tipología: ${feature.properties.tipologia}
+    <br/>Capacidad: ${feature.properties.capacidad}
+  `);
+
+  layer.on("mouseover", (e) => {
     tooltipPopup = L.popup({
-      className: "finalizado-pophover",
+      className: `${feature.properties.estado
+        .toLowerCase()
+        .replace(" ", "-")}-pophover`,
     });
     tooltipPopup.setContent("<b>" + feature.properties.direccion + "</b>");
     tooltipPopup.setLatLng(e.target.getLatLng());
     tooltipPopup.openOn(map);
   });
 
-  layer.on("mouseout", function (e) {
-    map.closePopup(tooltipPopup);
-  });
+  layer.on("mouseout", (e) => map.closePopup(tooltipPopup));
 }
 
-function estiloContenedorFinalizado(feature, layer) {
+// Función genérica de estilo
+function estiloContenedores(feature) {
+  const color = coloresContenedores[feature.properties.estado] || "#14688F";
   return {
     radius: getRadius(),
-    fillColor: "#00A34F",
-    color: "#00A34F",
+    fillColor: color,
+    color: color,
     weight: 1,
     opacity: 1,
     fillOpacity: 0.9,
   };
 }
 
-var contenedoresFinalizado = L.geoJson(contenedores, {
-  pointToLayer: function (feature, latlng) {
-    return L.circleMarker(latlng, estiloContenedorFinalizado);
-  },
-  style: estiloContenedorFinalizado,
-  onEachFeature: popupContenedoresFinalizado,
-  filter: function (feature, layer) {
-    return feature.properties.estado == "Finalizado";
-  },
-});
-
-// Estado En ejecución
-
-function popupContenedoresEjecucion(feature, layer) {
-  layer.bindPopup(
-    "<h1 style='color: #F5B800'>" +
-      feature.properties.estado.toUpperCase() +
-      "</h1><br/>Dirección: " +
-      feature.properties.direccion +
-      "<br/>Tipología: " +
-      feature.properties.tipologia +
-      "</b><br/>Capacidad: " +
-      feature.properties.capacidad
-  );
-
-  layer.on("mouseover", function (e) {
-    tooltipPopup = L.popup({
-      className: "ejecucion-pophover",
-    });
-    tooltipPopup.setContent("<b>" + feature.properties.direccion + "</b>");
-    tooltipPopup.setLatLng(e.target.getLatLng());
-    tooltipPopup.openOn(map);
-  });
-
-  layer.on("mouseout", function (e) {
-    map.closePopup(tooltipPopup);
+// Función para crear layer por estado
+function crearLayerContenedores(estado) {
+  return L.geoJson(contenedores, {
+    pointToLayer: (feature, latlng) =>
+      L.circleMarker(latlng, estiloContenedores(feature)),
+    style: estiloContenedores,
+    onEachFeature: popupContenedores,
+    filter: (feature) => feature.properties.estado === estado,
   });
 }
 
-function estiloEjecucion(feature, layer) {
-  return {
-    radius: getRadius(),
-    fillColor: "#F5B800",
-    color: "#F5B800",
-    weight: 1,
-    opacity: 1,
-    fillOpacity: 0.9,
-  };
-}
+// Crear layers por estado
+const contenedoresFinalizado = crearLayerContenedores("Finalizado");
+const contenedoresEjecucion = crearLayerContenedores("En ejecución");
 
-var contenedoresEjecucion = L.geoJson(contenedores, {
-  pointToLayer: function (feature, latlng) {
-    return L.circleMarker(latlng, estiloEjecucion);
-  },
-  style: estiloEjecucion,
-  onEachFeature: popupContenedoresEjecucion,
-  filter: function (feature, layer) {
-    return feature.properties.estado == "En ejecución";
-  },
-});
-
-// Contenedores agrupados
-
-var contenedores = L.layerGroup([
+// Agrupar todos los contenedores
+const contenedoresLayer = L.layerGroup([
   contenedoresFinalizado,
   contenedoresEjecucion,
-]);
+]).addTo(map);
 
-/* EJEMPLO CON FICHA
+/* EJEMPLO POLIS
 
 function popupEjemplo(feature, layer) {
   function highlightFeature(e) {
@@ -145,64 +104,6 @@ function popupEjemplo(feature, layer) {
   layer.on("click", function (e) {
     map.fitBounds(layer.getBounds());
 
-    var sidebar = L.control
-      .sidebar({ autopan: true, container: "sidebar", position: "left" })
-      .addTo(map);
-
-    var tablaEjemplo = document.createElement("div");
-    tablaEjemplo.className = "leaflet-sidebar-pane";
-
-    var header = document.createElement("h1");
-    header.className = "leaflet-sidebar-header";
-    header.innerHTML =
-      'Ejemplo <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
-    tablaEjemplo.appendChild(header);
-
-    var tabla = document.createElement("tabla");
-    tabla.innerHTML =
-      "<br/><b>NOMBRE: </b><h2>" +
-      feature.properties.id +
-      "</h2><b>CÓDIGO: </b>" +
-      feature.properties.tipo +
-      "<iframe width='100%' height='315' src='https://www.youtube.com/embed/ySx_VDknnn4?si=0kPjKmMQGylF-shi' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></tbody></table>";
-
-    tablaEjemplo.appendChild(tabla);
-
-    var metodoEjemplo = document.createElement("div");
-    metodoEjemplo.className = "leaflet-sidebar-pane";
-
-    var header = document.createElement("h1");
-    header.className = "leaflet-sidebar-header";
-    metodoEjemplo.appendChild(header);
-    header.innerHTML =
-      'Metodología de cálculo de Ejemplo <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
-
-    var explicacion = document.createElement("explicacion");
-    explicacion.innerHTML =
-      "<br/><a href='https://catarrojavanza.es/'><h1>Más información</h1></a><br/>";
-
-    metodoEjemplo.appendChild(explicacion);
-
-    var tablaContent = {
-      id: "tabla", // UID, used to access the panel
-      tab: '<i class="fa fa-table"></i>', // content can be passed as HTML string,
-      pane: tablaEjemplo, // DOM elements can be passed, too
-      title: "Info ", // an optional pane header
-      position: "top", // optional vertical alignment, defaults to 'top'
-    };
-
-    sidebar.addPanel(tablaContent);
-
-    var metodoContent = {
-      id: "metodologia", // UID, used to access the panel
-      tab: '<i class="fa fa-info"></i>', // content can be passed as HTML string,
-      pane: metodoEjemplo, // DOM elements can be passed, too
-      title: "Info ", // an optional pane header
-      position: "top", // optional vertical alignment, defaults to 'top'
-    };
-
-    sidebar.addPanel(metodoContent);
-    sidebar.open("tabla");
   });
 }
 

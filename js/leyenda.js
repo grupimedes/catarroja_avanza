@@ -3,7 +3,43 @@ var leyenda = L.control.htmllegend({
   legends: [
     {
       name: "Renovación de contenedores",
-      layer: contenedores,
+      layer: contenedoresLayer,
+      elements: [
+        {
+          label: "Prevista",
+          html: "",
+          style: {
+            "background-color": "#14688F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "En ejecución",
+          html: "",
+          style: {
+            "background-color": "#F5B800",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "Finalizado",
+          html: "",
+          style: {
+            "background-color": "#00A34F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+      ],
+    },
+    {
+      name: "Villa Romana",
+      layer: villaRomanaLayer,
       elements: [
         {
           label: "Prevista",
@@ -39,7 +75,7 @@ var leyenda = L.control.htmllegend({
     },
     {
       name: "Centros educativos",
-      layer: centroEducativo,
+      layer: centroEducativoLayer,
       elements: [
         {
           label: "Prevista",
@@ -75,7 +111,7 @@ var leyenda = L.control.htmllegend({
     },
     {
       name: "Centros culturales",
-      layer: centroCultural,
+      layer: centroCulturalLayer,
       elements: [
         {
           label: "Prevista",
@@ -111,7 +147,7 @@ var leyenda = L.control.htmllegend({
     },
     {
       name: "Centros sociosanitarios",
-      layer: centroSocio,
+      layer: centroSocioLayer,
       elements: [
         {
           label: "Prevista",

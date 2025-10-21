@@ -7,27 +7,27 @@ var overlayMaps = {
     {
       label: "<b>01. Vía pública</b>",
       selectAllCheckbox: false,
-      collapsed: true,
+      collapsed: false,
       children: [
         {
           label: "Alcantarillado",
-          layer: contenedores,
+          layer: contenedoresLayer,
         },
         {
           label: "Señalizaciones",
-          layer: contenedores,
+          layer: contenedoresLayer,
         },
         {
           label: "Contenedores",
-          layer: contenedores,
+          layer: contenedoresLayer,
         },
         {
           label: "Alumbrado",
-          layer: contenedores,
+          layer: contenedoresLayer,
         },
         {
           label: "Reurbanización",
-          layer: contenedores,
+          layer: contenedoresLayer,
         },
       ],
     },
@@ -38,27 +38,27 @@ var overlayMaps = {
       children: [
         {
           label: "Deportivas",
-          layer: contenedores,
+          layer: contenedoresLayer,
         },
         {
           label: "Eléctricas",
-          layer: contenedores,
+          layer: contenedoresLayer,
         },
         {
           label: "Red de riegos",
-          layer: contenedores,
+          layer: contenedoresLayer,
         },
         {
           label: "Port Cararroja",
-          layer: contenedores,
+          layer: contenedoresLayer,
         },
         {
           label: "Parking Plaça Major",
-          layer: contenedores,
+          layer: contenedoresLayer,
         },
         {
           label: "Cementerio",
-          layer: contenedores,
+          layer: contenedoresLayer,
         },
       ],
     },
@@ -69,34 +69,34 @@ var overlayMaps = {
       children: [
         {
           label: "Plazas",
-          layer: contenedores,
+          layer: contenedoresLayer,
         },
         {
           label: "Parques, jardines y<br/>zonas verdes",
-          layer: contenedores,
+          layer: contenedoresLayer,
         },
         {
           label: "Villa romana",
-          layer: contenedores,
+          layer: villaRomanaLayer,
         },
       ],
     },
     {
       label: "<b>04. Edificios públicos</b>",
       selectAllCheckbox: false,
-      collapsed: false,
+      collapsed: true,
       children: [
         {
           label: "Centros educativos",
-          layer: centroEducativo,
+          layer: centroEducativoLayer,
         },
         {
           label: "Centos culturales",
-          layer: centroCultural,
+          layer: centroCulturalLayer,
         },
         {
           label: "Centros sociosanitarios",
-          layer: centroSocio,
+          layer: centroSocioLayer,
         },
       ],
     },
@@ -107,15 +107,15 @@ var overlayMaps = {
       children: [
         {
           label: "Megafonía",
-          layer: contenedores,
+          layer: contenedoresLayer,
         },
         {
           label: "Barreras automáticas",
-          layer: contenedores,
+          layer: contenedoresLayer,
         },
         {
           label: "Centro de emergencias<br/>Jaume I",
-          layer: contenedores,
+          layer: contenedoresLayer,
         },
       ],
     },

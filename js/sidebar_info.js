@@ -1,4 +1,4 @@
-// Funciones para los popups
+// Funciones para la sidebar
 
 function infoActuacion(feature) {
   if (feature.properties.actuacion == null) {

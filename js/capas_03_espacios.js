@@ -1,14 +1,14 @@
-// 04. EDIFICIOS PÚBLICOS
+// 03. ESPACIOS PÚBLICOS
 
-// tipos de edificios y sus iconos FontAwesome
-const tiposEdificios = {
-  "Centros educativos": "fa-graduation-cap",
-  "Centros culturales": "fa-book",
-  "Centros sociosanitarios": "fa-people-group",
+// tipos de espacios y sus iconos FontAwesome
+const tiposEspacios = {
+  "Villa Romana": "fa-building-columns",
+  "Parques, jardines y zonas verdes": "fa-book",
+  Plazas: "fa-people-group",
 };
 
 // Colores por estado
-const coloresEdificios = {
+const coloresEspacios = {
   Prevista: "#14688F",
   "En ejecución": "#f5b800",
   Finalizado: "#00a34f",
@@ -19,7 +19,7 @@ function crearIcono(tipo, estado) {
   return L.divIcon({
     html: `
       <div style="
-        background-color: ${coloresEdificios[estado]};
+        background-color: ${coloresEspacios[estado]};
         color: white;
         width: 28px;
         height: 28px;
@@ -28,7 +28,7 @@ function crearIcono(tipo, estado) {
         align-items: center;
         justify-content: center;
         box-shadow: 0 0 4px rgba(0,0,0,0.4);">
-        <i class="fa-solid ${tiposEdificios[tipo]} fa-lg"></i>
+        <i class="fa-solid ${tiposEspacios[tipo]} fa-lg"></i>
       </div>`,
     className: "icono-personalizado",
   });
@@ -81,9 +81,9 @@ function popupEdificios(feature, layer) {
             feature.properties.comentario || infoComentario(feature)
           }</td></tr>
           <tr><td>ESTADO</td><td>${feature.properties.estado}</td></tr>
-          <tr><td>ENLACE</td><td><a href='${
+          <tr><td>ENLACE</td><td><a href="${
             feature.properties.enlace || infoEnlace(feature)
-          }'></a></td></tr>
+          }">Memoria técnica</a></td></tr>
         </tbody>
       </table>`;
     panel.appendChild(tabla);
@@ -101,7 +101,7 @@ function popupEdificios(feature, layer) {
 
 // Función para crear layer de un tipo y estado
 function crearLayer(tipo, estado) {
-  return L.geoJson(edificios, {
+  return L.geoJson(espacios, {
     pointToLayer: (feature, latlng) =>
       L.marker(latlng, { icon: crearIcono(tipo, estado) }),
     onEachFeature: popupEdificios,
@@ -112,13 +112,7 @@ function crearLayer(tipo, estado) {
 }
 
 // Crear layers por tipo y estado
-const estadosEdificios = ["Prevista", "En ejecución", "Finalizado"];
-const centroEducativoLayer = L.layerGroup(
-  estadosEdificios.map((e) => crearLayer("Centros educativos", e))
-);
-const centroCulturalLayer = L.layerGroup(
-  estadosEdificios.map((e) => crearLayer("Centros culturales", e))
-);
-const centroSocioLayer = L.layerGroup(
-  estadosEdificios.map((e) => crearLayer("Centros sociosanitarios", e))
+const estadosEspacios = ["Prevista", "En ejecución", "Finalizado"];
+const villaRomanaLayer = L.layerGroup(
+  estadosEspacios.map((e) => crearLayer("Villa Romana", e))
 );
