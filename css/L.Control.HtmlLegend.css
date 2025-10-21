@@ -84,11 +84,14 @@
   width: 100%;
 }
 
+/* cuando hay más de un elemento en la leyenda genera un separador
 .legend-block + .legend-block {
-  margin-top: 8px;
-  border-top: 1px solid #eee;
+  margin-top: 0px;
+  border-top: 0px solid #eee;
   padding-top: 4px;
 }
+
+*/
 
 /* force OSX to show a scrollbar */
 .leaflet-html-legend::-webkit-scrollbar {

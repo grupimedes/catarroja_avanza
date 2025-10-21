@@ -7,7 +7,7 @@ var overlayMaps = {
     {
       label: "<b>01. Vía pública</b>",
       selectAllCheckbox: false,
-      collapsed: false,
+      collapsed: true,
       children: [
         {
           label: "Alcantarillado",
@@ -84,7 +84,7 @@ var overlayMaps = {
     {
       label: "<b>04. Edificios públicos</b>",
       selectAllCheckbox: false,
-      collapsed: true,
+      collapsed: false,
       children: [
         {
           label: "Centros educativos",

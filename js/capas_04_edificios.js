@@ -7,7 +7,7 @@
 function popupCentroEducativoPrevision(feature, layer) {
   layer.on("mouseover", function (e) {
     tooltipPopup = L.popup({
-      offset: L.point(0, -25),
+      offset: L.point(0, -15),
       className: "prevision-pophover",
     });
     tooltipPopup.setContent("<b>" + feature.properties.nom + "</b>");
@@ -80,10 +80,24 @@ function popupCentroEducativoPrevision(feature, layer) {
   });
 }
 
-var iconoCentroEducativoPrevision = L.AwesomeMarkers.icon({
-  icon: "school",
-  prefix: "fa",
-  markerColor: "darkblue",
+var iconoCentroEducativoPrevision = L.divIcon({
+  html: `
+    <div style="
+      background-color: #14688F;
+      color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    ">
+      <i class="fa-solid fa-graduation-cap fa-lg"></i>
+    </div>
+  `,
+  className: "icono-personalizado",
+  iconSize: [30, 30],
 });
 
 var centroEducativoPrevision = L.geoJson(edificios, {
@@ -106,7 +120,7 @@ var centroEducativoPrevision = L.geoJson(edificios, {
 function popupCentroEducativoEjecucion(feature, layer) {
   layer.on("mouseover", function (e) {
     tooltipPopup = L.popup({
-      offset: L.point(0, -25),
+      offset: L.point(0, -15),
       className: "ejecucion-pophover",
     });
     tooltipPopup.setContent("<b>" + feature.properties.nom + "</b>");
@@ -179,10 +193,24 @@ function popupCentroEducativoEjecucion(feature, layer) {
   });
 }
 
-var iconoCentroEducativoEjecucion = L.AwesomeMarkers.icon({
-  icon: "school",
-  prefix: "fa",
-  markerColor: "orange",
+var iconoCentroEducativoEjecucion = L.divIcon({
+  html: `
+    <div style="
+      background-color: #f5b800;
+      color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    ">
+      <i class="fa-solid fa-graduation-cap fa-lg"></i>
+    </div>
+  `,
+  className: "icono-personalizado",
+  iconSize: [30, 30],
 });
 
 var centroEducativoEjecucion = L.geoJson(edificios, {
@@ -205,7 +233,7 @@ var centroEducativoEjecucion = L.geoJson(edificios, {
 function popupCentroEducativoFinalizado(feature, layer) {
   layer.on("mouseover", function (e) {
     tooltipPopup = L.popup({
-      offset: L.point(0, -25),
+      offset: L.point(0, -15),
       className: "finalizado-pophover",
     });
     tooltipPopup.setContent("<b>" + feature.properties.nom + "</b>");
@@ -278,10 +306,24 @@ function popupCentroEducativoFinalizado(feature, layer) {
   });
 }
 
-var iconoCentroEducativoFinalizado = L.AwesomeMarkers.icon({
-  icon: "school",
-  prefix: "fa",
-  markerColor: "green",
+var iconoCentroEducativoFinalizado = L.divIcon({
+  html: `
+    <div style="
+      background-color: #00a34f;
+      color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    ">
+      <i class="fa-solid fa-graduation-cap fa-lg"></i>
+    </div>
+  `,
+  className: "icono-personalizado",
+  iconSize: [30, 30],
 });
 
 var centroEducativoFinalizado = L.geoJson(edificios, {
@@ -305,7 +347,7 @@ var centroEducativo = L.layerGroup([
   centroEducativoPrevision,
   centroEducativoEjecucion,
   centroEducativoFinalizado,
-]);
+]).addTo(map);
 
 // CENTROS CULTURALES
 
@@ -314,7 +356,7 @@ var centroEducativo = L.layerGroup([
 function popupCentroCulturalPrevision(feature, layer) {
   layer.on("mouseover", function (e) {
     tooltipPopup = L.popup({
-      offset: L.point(0, -25),
+      offset: L.point(0, -15),
       className: "prevision-pophover",
     });
     tooltipPopup.setContent("<b>" + feature.properties.nom + "</b>");
@@ -387,10 +429,24 @@ function popupCentroCulturalPrevision(feature, layer) {
   });
 }
 
-var iconoCentroCulturalPrevision = L.AwesomeMarkers.icon({
-  icon: "school",
-  prefix: "fa",
-  markerColor: "darkblue",
+var iconoCentroCulturalPrevision = L.divIcon({
+  html: `
+    <div style="
+      background-color: #14688F;
+      color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    ">
+      <i class="fa-solid fa-book fa-lg"></i>
+    </div>
+  `,
+  className: "icono-personalizado",
+  iconSize: [30, 30],
 });
 
 var centroCulturalPrevision = L.geoJson(edificios, {
@@ -413,7 +469,7 @@ var centroCulturalPrevision = L.geoJson(edificios, {
 function popupCentroCulturalEjecucion(feature, layer) {
   layer.on("mouseover", function (e) {
     tooltipPopup = L.popup({
-      offset: L.point(0, -25),
+      offset: L.point(0, -15),
       className: "ejecucion-pophover",
     });
     tooltipPopup.setContent("<b>" + feature.properties.nom + "</b>");
@@ -486,10 +542,24 @@ function popupCentroCulturalEjecucion(feature, layer) {
   });
 }
 
-var iconoCentroCulturalEjecucion = L.AwesomeMarkers.icon({
-  icon: "school",
-  prefix: "fa",
-  markerColor: "orange",
+var iconoCentroCulturalEjecucion = L.divIcon({
+  html: `
+    <div style="
+      background-color: #f5b800;
+      color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    ">
+      <i class="fa-solid fa-book fa-lg"></i>
+    </div>
+  `,
+  className: "icono-personalizado",
+  iconSize: [30, 30],
 });
 
 var centroCulturalEjecucion = L.geoJson(edificios, {
@@ -512,7 +582,7 @@ var centroCulturalEjecucion = L.geoJson(edificios, {
 function popupCentroCulturalFinalizado(feature, layer) {
   layer.on("mouseover", function (e) {
     tooltipPopup = L.popup({
-      offset: L.point(0, -25),
+      offset: L.point(0, -15),
       className: "finalizado-pophover",
     });
     tooltipPopup.setContent("<b>" + feature.properties.nom + "</b>");
@@ -585,10 +655,24 @@ function popupCentroCulturalFinalizado(feature, layer) {
   });
 }
 
-var iconoCentroCulturalFinalizado = L.AwesomeMarkers.icon({
-  icon: "school",
-  prefix: "fa",
-  markerColor: "green",
+var iconoCentroCulturalFinalizado = L.divIcon({
+  html: `
+    <div style="
+      background-color: #00a34f;
+      color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    ">
+      <i class="fa-solid fa-book fa-lg"></i>
+    </div>
+  `,
+  className: "icono-personalizado",
+  iconSize: [30, 30],
 });
 
 var centroCulturalFinalizado = L.geoJson(edificios, {
@@ -621,7 +705,7 @@ var centroCultural = L.layerGroup([
 function popupCentroSocioPrevision(feature, layer) {
   layer.on("mouseover", function (e) {
     tooltipPopup = L.popup({
-      offset: L.point(0, -25),
+      offset: L.point(0, -15),
       className: "prevision-pophover",
     });
     tooltipPopup.setContent("<b>" + feature.properties.nom + "</b>");
@@ -694,10 +778,24 @@ function popupCentroSocioPrevision(feature, layer) {
   });
 }
 
-var iconoCentroSocioPrevision = L.AwesomeMarkers.icon({
-  icon: "school",
-  prefix: "fa",
-  markerColor: "darkblue",
+var iconoCentroSocioPrevision = L.divIcon({
+  html: `
+    <div style="
+      background-color: #14688F;
+      color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    ">
+      <i class="fa-solid fa-people-group fa-lg"></i>
+    </div>
+  `,
+  className: "icono-personalizado",
+  iconSize: [30, 30],
 });
 
 var centroSocioPrevision = L.geoJson(edificios, {
@@ -720,7 +818,7 @@ var centroSocioPrevision = L.geoJson(edificios, {
 function popupCentroSocioEjecucion(feature, layer) {
   layer.on("mouseover", function (e) {
     tooltipPopup = L.popup({
-      offset: L.point(0, -25),
+      offset: L.point(0, -15),
       className: "ejecucion-pophover",
     });
     tooltipPopup.setContent("<b>" + feature.properties.nom + "</b>");
@@ -793,10 +891,24 @@ function popupCentroSocioEjecucion(feature, layer) {
   });
 }
 
-var iconoCentroSocioEjecucion = L.AwesomeMarkers.icon({
-  icon: "school",
-  prefix: "fa",
-  markerColor: "orange",
+var iconoCentroSocioEjecucion = L.divIcon({
+  html: `
+    <div style="
+      background-color: #f5b800;
+      color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    ">
+      <i class="fa-solid fa-people-group fa-lg"></i>
+    </div>
+  `,
+  className: "icono-personalizado",
+  iconSize: [30, 30],
 });
 
 var centroSocioEjecucion = L.geoJson(edificios, {
@@ -819,7 +931,7 @@ var centroSocioEjecucion = L.geoJson(edificios, {
 function popupCentroSocioFinalizado(feature, layer) {
   layer.on("mouseover", function (e) {
     tooltipPopup = L.popup({
-      offset: L.point(0, -25),
+      offset: L.point(0, -15),
       className: "finalizado-pophover",
     });
     tooltipPopup.setContent("<b>" + feature.properties.nom + "</b>");
@@ -892,10 +1004,24 @@ function popupCentroSocioFinalizado(feature, layer) {
   });
 }
 
-var iconoCentroSocioFinalizado = L.AwesomeMarkers.icon({
-  icon: "school",
-  prefix: "fa",
-  markerColor: "green",
+var iconoCentroSocioFinalizado = L.divIcon({
+  html: `
+    <div style="
+      background-color: #00a34f;
+      color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    ">
+      <i class="fa-solid fa-people-group fa-lg"></i>
+    </div>
+  `,
+  className: "icono-personalizado",
+  iconSize: [30, 30],
 });
 
 var centroSocioFinalizado = L.geoJson(edificios, {

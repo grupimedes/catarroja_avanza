@@ -178,7 +178,7 @@ var ejecucion = L.geoJson(contenedores, {
 
 // Contenedores agrupados
 
-var contenedores = L.layerGroup([finalizado, ejecucion]).addTo(map);
+var contenedores = L.layerGroup([finalizado, ejecucion]);
 
 // EJEMPLO CON FICHA
 
