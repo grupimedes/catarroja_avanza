@@ -11,7 +11,7 @@ var overlayMaps = {
       children: [
         {
           label: "Alcantarillado",
-          layer: ejemplo_poli,
+          layer: contenedores,
         },
         {
           label: "Señalizaciones",
@@ -38,7 +38,7 @@ var overlayMaps = {
       children: [
         {
           label: "Deportivas",
-          layer: ejemplo_poli,
+          layer: contenedores,
         },
         {
           label: "Eléctricas",
@@ -69,7 +69,7 @@ var overlayMaps = {
       children: [
         {
           label: "Plazas",
-          layer: ejemplo_poli,
+          layer: contenedores,
         },
         {
           label: "Parques, jardines y<br/>zonas verdes",
@@ -107,7 +107,7 @@ var overlayMaps = {
       children: [
         {
           label: "Megafonía",
-          layer: ejemplo_poli,
+          layer: contenedores,
         },
         {
           label: "Barreras automáticas",

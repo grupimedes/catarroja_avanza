@@ -6,7 +6,7 @@ var leyenda = L.control.htmllegend({
       layer: contenedores,
       elements: [
         {
-          label: "En previsión",
+          label: "Prevista",
           html: "",
           style: {
             "background-color": "#14688F",
@@ -42,7 +42,7 @@ var leyenda = L.control.htmllegend({
       layer: centroEducativo,
       elements: [
         {
-          label: "En previsión",
+          label: "Prevista",
           html: "",
           style: {
             "background-color": "#14688F",
@@ -78,7 +78,7 @@ var leyenda = L.control.htmllegend({
       layer: centroCultural,
       elements: [
         {
-          label: "En previsión",
+          label: "Prevista",
           html: "",
           style: {
             "background-color": "#14688F",
@@ -114,7 +114,7 @@ var leyenda = L.control.htmllegend({
       layer: centroSocio,
       elements: [
         {
-          label: "En previsión",
+          label: "Prevista",
           html: "",
           style: {
             "background-color": "#14688F",

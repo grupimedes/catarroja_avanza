@@ -2,7 +2,7 @@
 
 // CENTROS EDUCATIVOS
 
-// En previsión
+// Prevista
 
 function popupCentroEducativoPrevision(feature, layer) {
   layer.on("mouseover", function (e) {
@@ -30,52 +30,38 @@ function popupCentroEducativoPrevision(feature, layer) {
     var header = document.createElement("h1");
     header.className = "leaflet-sidebar-header";
     header.innerHTML =
-      'Prevision <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
+      feature.properties.tipologia.toUpperCase() +
+      '<span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
     tablaPrevision.appendChild(header);
 
     var tabla = document.createElement("tabla");
     tabla.innerHTML =
-      "<br/><b>NOMBRE: </b><h2>" +
+      "<br/><h2>" +
       feature.properties.nom +
-      "</h2><b>DIRECCIÓN: </b>" +
-      feature.properties.direccion;
+      "<br><br><table class ='detalle'>" +
+      "<tbody><tr><td>DIRECCIÓN</td><td>" +
+      feature.properties.direccion +
+      "</td></tr><tr><td>ACTUACIÓN</td><td>" +
+      infoActuacion(feature) +
+      "</td></tr><tr><td>COMENTARIO</td><td>" +
+      infoComentario(feature) +
+      "</td></tr><tr><td>ESTADO</td><td>" +
+      feature.properties.estado +
+      "</td></tr><tr><td>ENLACE</td><td><a href='" +
+      infoEnlace(feature) +
+      "'></a></td></tr></tbody></table>";
 
     tablaPrevision.appendChild(tabla);
 
-    var metodoPrevision = document.createElement("div");
-    metodoPrevision.className = "leaflet-sidebar-pane";
-
-    var header = document.createElement("h1");
-    header.className = "leaflet-sidebar-header";
-    metodoPrevision.appendChild(header);
-    header.innerHTML =
-      'Metodología de cálculo de Prevision <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
-
-    var explicacion = document.createElement("explicacion");
-    explicacion.innerHTML =
-      "<br/><a href='https://catarrojavanza.es/'><h1>Más información</h1></a><br/>";
-
-    metodoPrevision.appendChild(explicacion);
-
     var tablaContent = {
       id: "tabla",
-      tab: '<i class="fa fa-table"></i>',
+      tab: '<i class="fa fa-info"></i>',
       pane: tablaPrevision,
       title: "Info ",
       position: "top",
     };
 
     sidebar.addPanel(tablaContent);
-
-    var metodoContent = {
-      id: "metodologia",
-      tab: '<i class="fa fa-info"></i>',
-      pane: metodoPrevision,
-      title: "Info ",
-      position: "top",
-    };
-
-    sidebar.addPanel(metodoContent);
     sidebar.open("tabla");
   });
 }
@@ -85,8 +71,8 @@ var iconoCentroEducativoPrevision = L.divIcon({
     <div style="
       background-color: #14688F;
       color: white;
-      width: 30px;
-      height: 30px;
+      width: 28px;
+      height: 28px;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -97,7 +83,6 @@ var iconoCentroEducativoPrevision = L.divIcon({
     </div>
   `,
   className: "icono-personalizado",
-  iconSize: [30, 30],
 });
 
 var centroEducativoPrevision = L.geoJson(edificios, {
@@ -110,7 +95,7 @@ var centroEducativoPrevision = L.geoJson(edificios, {
   filter: function (feature, layer) {
     return (
       feature.properties.tipologia == "Centros educativos" &&
-      feature.properties.estado == "En previsión"
+      feature.properties.estado == "Prevista"
     );
   },
 });
@@ -143,36 +128,32 @@ function popupCentroEducativoEjecucion(feature, layer) {
     var header = document.createElement("h1");
     header.className = "leaflet-sidebar-header";
     header.innerHTML =
-      'Ejecucion <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
+      feature.properties.tipologia.toUpperCase() +
+      '<span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
     tablaEjecucion.appendChild(header);
 
     var tabla = document.createElement("tabla");
     tabla.innerHTML =
-      "<br/><b>NOMBRE: </b><h2>" +
+      "<br/><h2>" +
       feature.properties.nom +
-      "</h2><b>DIRECCIÓN: </b>" +
-      feature.properties.direccion;
+      "<br><br><table class ='detalle'>" +
+      "<tbody><tr><td>DIRECCIÓN</td><td>" +
+      feature.properties.direccion +
+      "</td></tr><tr><td>ACTUACIÓN</td><td>" +
+      feature.properties.actuacion +
+      "</td></tr><tr><td>COMENTARIO</td><td>" +
+      feature.properties.comentario +
+      "</td></tr><tr><td>ESTADO</td><td>" +
+      feature.properties.estado +
+      "</td></tr><tr><td>ENLACE</td><td><a href='" +
+      feature.properties.enlace +
+      "'></a></td></tr></tbody></table>";
 
     tablaEjecucion.appendChild(tabla);
 
-    var metodoEjecucion = document.createElement("div");
-    metodoEjecucion.className = "leaflet-sidebar-pane";
-
-    var header = document.createElement("h1");
-    header.className = "leaflet-sidebar-header";
-    metodoEjecucion.appendChild(header);
-    header.innerHTML =
-      'Metodología de cálculo de Ejecucion <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
-
-    var explicacion = document.createElement("explicacion");
-    explicacion.innerHTML =
-      "<br/><a href='https://catarrojavanza.es/'><h1>Más información</h1></a><br/>";
-
-    metodoEjecucion.appendChild(explicacion);
-
     var tablaContent = {
       id: "tabla",
-      tab: '<i class="fa fa-table"></i>',
+      tab: '<i class="fa fa-info"></i>',
       pane: tablaEjecucion,
       title: "Info ",
       position: "top",
@@ -180,15 +161,6 @@ function popupCentroEducativoEjecucion(feature, layer) {
 
     sidebar.addPanel(tablaContent);
 
-    var metodoContent = {
-      id: "metodologia",
-      tab: '<i class="fa fa-info"></i>',
-      pane: metodoEjecucion,
-      title: "Info ",
-      position: "top",
-    };
-
-    sidebar.addPanel(metodoContent);
     sidebar.open("tabla");
   });
 }
@@ -198,8 +170,8 @@ var iconoCentroEducativoEjecucion = L.divIcon({
     <div style="
       background-color: #f5b800;
       color: white;
-      width: 30px;
-      height: 30px;
+      width: 28px;
+      height: 28px;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -210,7 +182,6 @@ var iconoCentroEducativoEjecucion = L.divIcon({
     </div>
   `,
   className: "icono-personalizado",
-  iconSize: [30, 30],
 });
 
 var centroEducativoEjecucion = L.geoJson(edificios, {
@@ -261,47 +232,32 @@ function popupCentroEducativoFinalizado(feature, layer) {
 
     var tabla = document.createElement("tabla");
     tabla.innerHTML =
-      "<br/><b>NOMBRE: </b><h2>" +
+      "<br/><h2>" +
       feature.properties.nom +
-      "</h2><b>DIRECCIÓN: </b>" +
-      feature.properties.direccion;
+      "<br><br><table class ='detalle'>" +
+      "<tbody><tr><td>DIRECCIÓN</td><td>" +
+      feature.properties.direccion +
+      "</td></tr><tr><td>ACTUACIÓN</td><td>" +
+      feature.properties.actuacion +
+      "</td></tr><tr><td>COMENTARIO</td><td>" +
+      feature.properties.comentario +
+      "</td></tr><tr><td>ESTADO</td><td>" +
+      feature.properties.estado +
+      "</td></tr><tr><td>ENLACE</td><td><a href='" +
+      feature.properties.enlace +
+      "'></a></td></tr></tbody></table>";
 
     tablaFinalizado.appendChild(tabla);
 
-    var metodoFinalizado = document.createElement("div");
-    metodoFinalizado.className = "leaflet-sidebar-pane";
-
-    var header = document.createElement("h1");
-    header.className = "leaflet-sidebar-header";
-    metodoFinalizado.appendChild(header);
-    header.innerHTML =
-      'Metodología de cálculo de Finalizado <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
-
-    var explicacion = document.createElement("explicacion");
-    explicacion.innerHTML =
-      "<br/><a href='https://catarrojavanza.es/'><h1>Más información</h1></a><br/>";
-
-    metodoFinalizado.appendChild(explicacion);
-
     var tablaContent = {
       id: "tabla",
-      tab: '<i class="fa fa-table"></i>',
+      tab: '<i class="fa fa-info"></i>',
       pane: tablaFinalizado,
       title: "Info ",
       position: "top",
     };
 
     sidebar.addPanel(tablaContent);
-
-    var metodoContent = {
-      id: "metodologia",
-      tab: '<i class="fa fa-info"></i>',
-      pane: metodoFinalizado,
-      title: "Info ",
-      position: "top",
-    };
-
-    sidebar.addPanel(metodoContent);
     sidebar.open("tabla");
   });
 }
@@ -311,8 +267,8 @@ var iconoCentroEducativoFinalizado = L.divIcon({
     <div style="
       background-color: #00a34f;
       color: white;
-      width: 30px;
-      height: 30px;
+      width: 28px;
+      height: 28px;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -323,7 +279,6 @@ var iconoCentroEducativoFinalizado = L.divIcon({
     </div>
   `,
   className: "icono-personalizado",
-  iconSize: [30, 30],
 });
 
 var centroEducativoFinalizado = L.geoJson(edificios, {
@@ -351,7 +306,7 @@ var centroEducativo = L.layerGroup([
 
 // CENTROS CULTURALES
 
-// En previsión
+// Prevista
 
 function popupCentroCulturalPrevision(feature, layer) {
   layer.on("mouseover", function (e) {
@@ -379,52 +334,37 @@ function popupCentroCulturalPrevision(feature, layer) {
     var header = document.createElement("h1");
     header.className = "leaflet-sidebar-header";
     header.innerHTML =
-      'Prevision <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
+      feature.properties.tipologia.toUpperCase() +
+      '<span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
     tablaPrevision.appendChild(header);
 
     var tabla = document.createElement("tabla");
     tabla.innerHTML =
-      "<br/><b>NOMBRE: </b><h2>" +
+      "<br/><h2>" +
       feature.properties.nom +
-      "</h2><b>DIRECCIÓN: </b>" +
-      feature.properties.direccion;
-
+      "<br><br><table class ='detalle'>" +
+      "<tbody><tr><td>DIRECCIÓN</td><td>" +
+      feature.properties.direccion +
+      "</td></tr><tr><td>ACTUACIÓN</td><td>" +
+      feature.properties.actuacion +
+      "</td></tr><tr><td>COMENTARIO</td><td>" +
+      feature.properties.comentario +
+      "</td></tr><tr><td>ESTADO</td><td>" +
+      feature.properties.estado +
+      "</td></tr><tr><td>ENLACE</td><td><a href='" +
+      feature.properties.enlace +
+      "'></a></td></tr></tbody></table>";
     tablaPrevision.appendChild(tabla);
-
-    var metodoPrevision = document.createElement("div");
-    metodoPrevision.className = "leaflet-sidebar-pane";
-
-    var header = document.createElement("h1");
-    header.className = "leaflet-sidebar-header";
-    metodoPrevision.appendChild(header);
-    header.innerHTML =
-      'Metodología de cálculo de Prevision <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
-
-    var explicacion = document.createElement("explicacion");
-    explicacion.innerHTML =
-      "<br/><a href='https://catarrojavanza.es/'><h1>Más información</h1></a><br/>";
-
-    metodoPrevision.appendChild(explicacion);
 
     var tablaContent = {
       id: "tabla",
-      tab: '<i class="fa fa-table"></i>',
+      tab: '<i class="fa fa-info"></i>',
       pane: tablaPrevision,
       title: "Info ",
       position: "top",
     };
 
     sidebar.addPanel(tablaContent);
-
-    var metodoContent = {
-      id: "metodologia",
-      tab: '<i class="fa fa-info"></i>',
-      pane: metodoPrevision,
-      title: "Info ",
-      position: "top",
-    };
-
-    sidebar.addPanel(metodoContent);
     sidebar.open("tabla");
   });
 }
@@ -434,8 +374,8 @@ var iconoCentroCulturalPrevision = L.divIcon({
     <div style="
       background-color: #14688F;
       color: white;
-      width: 30px;
-      height: 30px;
+      width: 28px;
+      height: 28px;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -446,7 +386,6 @@ var iconoCentroCulturalPrevision = L.divIcon({
     </div>
   `,
   className: "icono-personalizado",
-  iconSize: [30, 30],
 });
 
 var centroCulturalPrevision = L.geoJson(edificios, {
@@ -459,7 +398,7 @@ var centroCulturalPrevision = L.geoJson(edificios, {
   filter: function (feature, layer) {
     return (
       feature.properties.tipologia == "Centros culturales" &&
-      feature.properties.estado == "En previsión"
+      feature.properties.estado == "Prevista"
     );
   },
 });
@@ -492,36 +431,32 @@ function popupCentroCulturalEjecucion(feature, layer) {
     var header = document.createElement("h1");
     header.className = "leaflet-sidebar-header";
     header.innerHTML =
-      'Ejecucion <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
+      feature.properties.tipologia.toUpperCase() +
+      '<span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
     tablaEjecucion.appendChild(header);
 
     var tabla = document.createElement("tabla");
     tabla.innerHTML =
-      "<br/><b>NOMBRE: </b><h2>" +
+      "<br/><h2>" +
       feature.properties.nom +
-      "</h2><b>DIRECCIÓN: </b>" +
-      feature.properties.direccion;
+      "<br><br><table class ='detalle'>" +
+      "<tbody><tr><td>DIRECCIÓN</td><td>" +
+      feature.properties.direccion +
+      "</td></tr><tr><td>ACTUACIÓN</td><td>" +
+      feature.properties.actuacion +
+      "</td></tr><tr><td>COMENTARIO</td><td>" +
+      feature.properties.comentario +
+      "</td></tr><tr><td>ESTADO</td><td>" +
+      feature.properties.estado +
+      "</td></tr><tr><td>ENLACE</td><td><a href='" +
+      feature.properties.enlace +
+      "'></a></td></tr></tbody></table>";
 
     tablaEjecucion.appendChild(tabla);
 
-    var metodoEjecucion = document.createElement("div");
-    metodoEjecucion.className = "leaflet-sidebar-pane";
-
-    var header = document.createElement("h1");
-    header.className = "leaflet-sidebar-header";
-    metodoEjecucion.appendChild(header);
-    header.innerHTML =
-      'Metodología de cálculo de Ejecucion <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
-
-    var explicacion = document.createElement("explicacion");
-    explicacion.innerHTML =
-      "<br/><a href='https://catarrojavanza.es/'><h1>Más información</h1></a><br/>";
-
-    metodoEjecucion.appendChild(explicacion);
-
     var tablaContent = {
       id: "tabla",
-      tab: '<i class="fa fa-table"></i>',
+      tab: '<i class="fa fa-info"></i>',
       pane: tablaEjecucion,
       title: "Info ",
       position: "top",
@@ -529,15 +464,6 @@ function popupCentroCulturalEjecucion(feature, layer) {
 
     sidebar.addPanel(tablaContent);
 
-    var metodoContent = {
-      id: "metodologia",
-      tab: '<i class="fa fa-info"></i>',
-      pane: metodoEjecucion,
-      title: "Info ",
-      position: "top",
-    };
-
-    sidebar.addPanel(metodoContent);
     sidebar.open("tabla");
   });
 }
@@ -547,8 +473,8 @@ var iconoCentroCulturalEjecucion = L.divIcon({
     <div style="
       background-color: #f5b800;
       color: white;
-      width: 30px;
-      height: 30px;
+      width: 28px;
+      height: 28px;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -559,7 +485,6 @@ var iconoCentroCulturalEjecucion = L.divIcon({
     </div>
   `,
   className: "icono-personalizado",
-  iconSize: [30, 30],
 });
 
 var centroCulturalEjecucion = L.geoJson(edificios, {
@@ -605,36 +530,32 @@ function popupCentroCulturalFinalizado(feature, layer) {
     var header = document.createElement("h1");
     header.className = "leaflet-sidebar-header";
     header.innerHTML =
-      'Finalizado <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
+      feature.properties.tipologia.toUpperCase() +
+      '<span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
     tablaFinalizado.appendChild(header);
 
     var tabla = document.createElement("tabla");
     tabla.innerHTML =
-      "<br/><b>NOMBRE: </b><h2>" +
+      "<br/><h2>" +
       feature.properties.nom +
-      "</h2><b>DIRECCIÓN: </b>" +
-      feature.properties.direccion;
+      "<br><br><table class ='detalle'>" +
+      "<tbody><tr><td>DIRECCIÓN</td><td>" +
+      feature.properties.direccion +
+      "</td></tr><tr><td>ACTUACIÓN</td><td>" +
+      feature.properties.actuacion +
+      "</td></tr><tr><td>COMENTARIO</td><td>" +
+      feature.properties.comentario +
+      "</td></tr><tr><td>ESTADO</td><td>" +
+      feature.properties.estado +
+      "</td></tr><tr><td>ENLACE</td><td><a href='" +
+      feature.properties.enlace +
+      "'></a></td></tr></tbody></table>";
 
     tablaFinalizado.appendChild(tabla);
 
-    var metodoFinalizado = document.createElement("div");
-    metodoFinalizado.className = "leaflet-sidebar-pane";
-
-    var header = document.createElement("h1");
-    header.className = "leaflet-sidebar-header";
-    metodoFinalizado.appendChild(header);
-    header.innerHTML =
-      'Metodología de cálculo de Finalizado <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
-
-    var explicacion = document.createElement("explicacion");
-    explicacion.innerHTML =
-      "<br/><a href='https://catarrojavanza.es/'><h1>Más información</h1></a><br/>";
-
-    metodoFinalizado.appendChild(explicacion);
-
     var tablaContent = {
       id: "tabla",
-      tab: '<i class="fa fa-table"></i>',
+      tab: '<i class="fa fa-info"></i>',
       pane: tablaFinalizado,
       title: "Info ",
       position: "top",
@@ -642,15 +563,6 @@ function popupCentroCulturalFinalizado(feature, layer) {
 
     sidebar.addPanel(tablaContent);
 
-    var metodoContent = {
-      id: "metodologia",
-      tab: '<i class="fa fa-info"></i>',
-      pane: metodoFinalizado,
-      title: "Info ",
-      position: "top",
-    };
-
-    sidebar.addPanel(metodoContent);
     sidebar.open("tabla");
   });
 }
@@ -660,8 +572,8 @@ var iconoCentroCulturalFinalizado = L.divIcon({
     <div style="
       background-color: #00a34f;
       color: white;
-      width: 30px;
-      height: 30px;
+      width: 28px;
+      height: 28px;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -672,7 +584,6 @@ var iconoCentroCulturalFinalizado = L.divIcon({
     </div>
   `,
   className: "icono-personalizado",
-  iconSize: [30, 30],
 });
 
 var centroCulturalFinalizado = L.geoJson(edificios, {
@@ -700,7 +611,7 @@ var centroCultural = L.layerGroup([
 
 // CENTROS SOCIOSANITARIOS
 
-// En previsión
+// Prevista
 
 function popupCentroSocioPrevision(feature, layer) {
   layer.on("mouseover", function (e) {
@@ -728,52 +639,38 @@ function popupCentroSocioPrevision(feature, layer) {
     var header = document.createElement("h1");
     header.className = "leaflet-sidebar-header";
     header.innerHTML =
-      'Prevision <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
+      feature.properties.tipologia.toUpperCase() +
+      '<span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
     tablaPrevision.appendChild(header);
 
     var tabla = document.createElement("tabla");
     tabla.innerHTML =
-      "<br/><b>NOMBRE: </b><h2>" +
+      "<br/><h2>" +
       feature.properties.nom +
-      "</h2><b>DIRECCIÓN: </b>" +
-      feature.properties.direccion;
+      "<br><br><table class ='detalle'>" +
+      "<tbody><tr><td>DIRECCIÓN</td><td>" +
+      feature.properties.direccion +
+      "</td></tr><tr><td>ACTUACIÓN</td><td>" +
+      feature.properties.actuacion +
+      "</td></tr><tr><td>COMENTARIO</td><td>" +
+      feature.properties.comentario +
+      "</td></tr><tr><td>ESTADO</td><td>" +
+      feature.properties.estado +
+      "</td></tr><tr><td>ENLACE</td><td><a href='" +
+      feature.properties.enlace +
+      "'></a></td></tr></tbody></table>";
 
     tablaPrevision.appendChild(tabla);
 
-    var metodoPrevision = document.createElement("div");
-    metodoPrevision.className = "leaflet-sidebar-pane";
-
-    var header = document.createElement("h1");
-    header.className = "leaflet-sidebar-header";
-    metodoPrevision.appendChild(header);
-    header.innerHTML =
-      'Metodología de cálculo de Prevision <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
-
-    var explicacion = document.createElement("explicacion");
-    explicacion.innerHTML =
-      "<br/><a href='https://catarrojavanza.es/'><h1>Más información</h1></a><br/>";
-
-    metodoPrevision.appendChild(explicacion);
-
     var tablaContent = {
       id: "tabla",
-      tab: '<i class="fa fa-table"></i>',
+      tab: '<i class="fa fa-info"></i>',
       pane: tablaPrevision,
       title: "Info ",
       position: "top",
     };
 
     sidebar.addPanel(tablaContent);
-
-    var metodoContent = {
-      id: "metodologia",
-      tab: '<i class="fa fa-info"></i>',
-      pane: metodoPrevision,
-      title: "Info ",
-      position: "top",
-    };
-
-    sidebar.addPanel(metodoContent);
     sidebar.open("tabla");
   });
 }
@@ -783,8 +680,8 @@ var iconoCentroSocioPrevision = L.divIcon({
     <div style="
       background-color: #14688F;
       color: white;
-      width: 30px;
-      height: 30px;
+      width: 28px;
+      height: 28px;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -795,7 +692,6 @@ var iconoCentroSocioPrevision = L.divIcon({
     </div>
   `,
   className: "icono-personalizado",
-  iconSize: [30, 30],
 });
 
 var centroSocioPrevision = L.geoJson(edificios, {
@@ -808,7 +704,7 @@ var centroSocioPrevision = L.geoJson(edificios, {
   filter: function (feature, layer) {
     return (
       feature.properties.tipologia == "Centros sociosanitarios" &&
-      feature.properties.estado == "En previsión"
+      feature.properties.estado == "Prevista"
     );
   },
 });
@@ -841,36 +737,32 @@ function popupCentroSocioEjecucion(feature, layer) {
     var header = document.createElement("h1");
     header.className = "leaflet-sidebar-header";
     header.innerHTML =
-      'Ejecucion <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
+      feature.properties.tipologia.toUpperCase() +
+      '<span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
     tablaEjecucion.appendChild(header);
 
     var tabla = document.createElement("tabla");
     tabla.innerHTML =
-      "<br/><b>NOMBRE: </b><h2>" +
+      "<br/><h2>" +
       feature.properties.nom +
-      "</h2><b>DIRECCIÓN: </b>" +
-      feature.properties.direccion;
+      "<br><br><table class ='detalle'>" +
+      "<tbody><tr><td>DIRECCIÓN</td><td>" +
+      feature.properties.direccion +
+      "</td></tr><tr><td>ACTUACIÓN</td><td>" +
+      feature.properties.actuacion +
+      "</td></tr><tr><td>COMENTARIO</td><td>" +
+      feature.properties.comentario +
+      "</td></tr><tr><td>ESTADO</td><td>" +
+      feature.properties.estado +
+      "</td></tr><tr><td>ENLACE</td><td><a href='" +
+      feature.properties.enlace +
+      "'></a></td></tr></tbody></table>";
 
     tablaEjecucion.appendChild(tabla);
 
-    var metodoEjecucion = document.createElement("div");
-    metodoEjecucion.className = "leaflet-sidebar-pane";
-
-    var header = document.createElement("h1");
-    header.className = "leaflet-sidebar-header";
-    metodoEjecucion.appendChild(header);
-    header.innerHTML =
-      'Metodología de cálculo de Ejecucion <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
-
-    var explicacion = document.createElement("explicacion");
-    explicacion.innerHTML =
-      "<br/><a href='https://catarrojavanza.es/'><h1>Más información</h1></a><br/>";
-
-    metodoEjecucion.appendChild(explicacion);
-
     var tablaContent = {
       id: "tabla",
-      tab: '<i class="fa fa-table"></i>',
+      tab: '<i class="fa fa-info"></i>',
       pane: tablaEjecucion,
       title: "Info ",
       position: "top",
@@ -878,15 +770,6 @@ function popupCentroSocioEjecucion(feature, layer) {
 
     sidebar.addPanel(tablaContent);
 
-    var metodoContent = {
-      id: "metodologia",
-      tab: '<i class="fa fa-info"></i>',
-      pane: metodoEjecucion,
-      title: "Info ",
-      position: "top",
-    };
-
-    sidebar.addPanel(metodoContent);
     sidebar.open("tabla");
   });
 }
@@ -896,8 +779,8 @@ var iconoCentroSocioEjecucion = L.divIcon({
     <div style="
       background-color: #f5b800;
       color: white;
-      width: 30px;
-      height: 30px;
+      width: 28px;
+      height: 28px;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -908,7 +791,6 @@ var iconoCentroSocioEjecucion = L.divIcon({
     </div>
   `,
   className: "icono-personalizado",
-  iconSize: [30, 30],
 });
 
 var centroSocioEjecucion = L.geoJson(edificios, {
@@ -954,36 +836,32 @@ function popupCentroSocioFinalizado(feature, layer) {
     var header = document.createElement("h1");
     header.className = "leaflet-sidebar-header";
     header.innerHTML =
-      'Finalizado <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
+      feature.properties.tipologia.toUpperCase() +
+      '<span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
     tablaFinalizado.appendChild(header);
 
     var tabla = document.createElement("tabla");
     tabla.innerHTML =
-      "<br/><b>NOMBRE: </b><h2>" +
+      "<br/><h2>" +
       feature.properties.nom +
-      "</h2><b>DIRECCIÓN: </b>" +
-      feature.properties.direccion;
+      "<br><br><table class ='detalle'>" +
+      "<tbody><tr><td>DIRECCIÓN</td><td>" +
+      feature.properties.direccion +
+      "</td></tr><tr><td>ACTUACIÓN</td><td>" +
+      feature.properties.actuacion +
+      "</td></tr><tr><td>COMENTARIO</td><td>" +
+      feature.properties.comentario +
+      "</td></tr><tr><td>ESTADO</td><td>" +
+      feature.properties.estado +
+      "</td></tr><tr><td>ENLACE</td><td><a href='" +
+      feature.properties.enlace +
+      "'></a></td></tr></tbody></table>";
 
     tablaFinalizado.appendChild(tabla);
 
-    var metodoFinalizado = document.createElement("div");
-    metodoFinalizado.className = "leaflet-sidebar-pane";
-
-    var header = document.createElement("h1");
-    header.className = "leaflet-sidebar-header";
-    metodoFinalizado.appendChild(header);
-    header.innerHTML =
-      'Metodología de cálculo de Finalizado <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
-
-    var explicacion = document.createElement("explicacion");
-    explicacion.innerHTML =
-      "<br/><a href='https://catarrojavanza.es/'><h1>Más información</h1></a><br/>";
-
-    metodoFinalizado.appendChild(explicacion);
-
     var tablaContent = {
       id: "tabla",
-      tab: '<i class="fa fa-table"></i>',
+      tab: '<i class="fa fa-info"></i>',
       pane: tablaFinalizado,
       title: "Info ",
       position: "top",
@@ -991,15 +869,6 @@ function popupCentroSocioFinalizado(feature, layer) {
 
     sidebar.addPanel(tablaContent);
 
-    var metodoContent = {
-      id: "metodologia",
-      tab: '<i class="fa fa-info"></i>',
-      pane: metodoFinalizado,
-      title: "Info ",
-      position: "top",
-    };
-
-    sidebar.addPanel(metodoContent);
     sidebar.open("tabla");
   });
 }
@@ -1009,8 +878,8 @@ var iconoCentroSocioFinalizado = L.divIcon({
     <div style="
       background-color: #00a34f;
       color: white;
-      width: 30px;
-      height: 30px;
+      width: 28px;
+      height: 28px;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -1021,7 +890,6 @@ var iconoCentroSocioFinalizado = L.divIcon({
     </div>
   `,
   className: "icono-personalizado",
-  iconSize: [30, 30],
 });
 
 var centroSocioFinalizado = L.geoJson(edificios, {

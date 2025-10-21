@@ -15,9 +15,9 @@ function getRadius() {
 
 // Estado Finalizado
 
-function popupFinalizado(feature, layer) {
+function popupContenedoresFinalizado(feature, layer) {
   layer.bindPopup(
-    "<h1 style='color: #72af26'>" +
+    "<h1 style='color: #00A34F'>" +
       feature.properties.estado.toUpperCase() +
       "</h1><br/>Dirección: " +
       feature.properties.direccion +
@@ -39,72 +39,9 @@ function popupFinalizado(feature, layer) {
   layer.on("mouseout", function (e) {
     map.closePopup(tooltipPopup);
   });
-
-  layer.on("click", function (e) {
-    map.fitBounds(layer.getBounds());
-
-    var sidebar = L.control
-      .sidebar({ autopan: true, container: "sidebar", position: "left" })
-      .addTo(map);
-
-    var tablaEjemplo = document.createElement("div");
-    tablaEjemplo.className = "leaflet-sidebar-pane";
-
-    var header = document.createElement("h1");
-    header.className = "leaflet-sidebar-header";
-    header.innerHTML =
-      'Ejemplo <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
-    tablaEjemplo.appendChild(header);
-
-    var tabla = document.createElement("tabla");
-    tabla.innerHTML =
-      "<br/><b>NOMBRE: </b><h2>" +
-      feature.properties.id +
-      "</h2><b>CÓDIGO: </b>" +
-      feature.properties.tipo +
-      "<iframe width='100%' height='315' src='https://www.youtube.com/embed/ySx_VDknnn4?si=0kPjKmMQGylF-shi' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></tbody></table>";
-
-    tablaEjemplo.appendChild(tabla);
-
-    var metodoEjemplo = document.createElement("div");
-    metodoEjemplo.className = "leaflet-sidebar-pane";
-
-    var header = document.createElement("h1");
-    header.className = "leaflet-sidebar-header";
-    metodoEjemplo.appendChild(header);
-    header.innerHTML =
-      'Metodología de cálculo de Ejemplo <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
-
-    var explicacion = document.createElement("explicacion");
-    explicacion.innerHTML =
-      "<br/><a href='https://catarrojavanza.es/'><h1>Más información</h1></a><br/>";
-
-    metodoEjemplo.appendChild(explicacion);
-
-    var tablaContent = {
-      id: "tabla", // UID, used to access the panel
-      tab: '<i class="fa fa-table"></i>', // content can be passed as HTML string,
-      pane: tablaEjemplo, // DOM elements can be passed, too
-      title: "Info ", // an optional pane header
-      position: "top", // optional vertical alignment, defaults to 'top'
-    };
-
-    sidebar.addPanel(tablaContent);
-
-    var metodoContent = {
-      id: "metodologia", // UID, used to access the panel
-      tab: '<i class="fa fa-info"></i>', // content can be passed as HTML string,
-      pane: metodoEjemplo, // DOM elements can be passed, too
-      title: "Info ", // an optional pane header
-      position: "top", // optional vertical alignment, defaults to 'top'
-    };
-
-    sidebar.addPanel(metodoContent);
-    sidebar.open("tabla");
-  });
 }
 
-function estiloFinalizado(feature, layer) {
+function estiloContenedorFinalizado(feature, layer) {
   return {
     radius: getRadius(),
     fillColor: "#00A34F",
@@ -115,12 +52,12 @@ function estiloFinalizado(feature, layer) {
   };
 }
 
-var finalizado = L.geoJson(contenedores, {
+var contenedoresFinalizado = L.geoJson(contenedores, {
   pointToLayer: function (feature, latlng) {
-    return L.circleMarker(latlng, estiloFinalizado);
+    return L.circleMarker(latlng, estiloContenedorFinalizado);
   },
-  style: estiloFinalizado,
-  onEachFeature: popupFinalizado,
+  style: estiloContenedorFinalizado,
+  onEachFeature: popupContenedoresFinalizado,
   filter: function (feature, layer) {
     return feature.properties.estado == "Finalizado";
   },
@@ -128,7 +65,7 @@ var finalizado = L.geoJson(contenedores, {
 
 // Estado En ejecución
 
-function popupEjecucion(feature, layer) {
+function popupContenedoresEjecucion(feature, layer) {
   layer.bindPopup(
     "<h1 style='color: #F5B800'>" +
       feature.properties.estado.toUpperCase() +
@@ -165,12 +102,12 @@ function estiloEjecucion(feature, layer) {
   };
 }
 
-var ejecucion = L.geoJson(contenedores, {
+var contenedoresEjecucion = L.geoJson(contenedores, {
   pointToLayer: function (feature, latlng) {
     return L.circleMarker(latlng, estiloEjecucion);
   },
   style: estiloEjecucion,
-  onEachFeature: popupEjecucion,
+  onEachFeature: popupContenedoresEjecucion,
   filter: function (feature, layer) {
     return feature.properties.estado == "En ejecución";
   },
@@ -178,9 +115,12 @@ var ejecucion = L.geoJson(contenedores, {
 
 // Contenedores agrupados
 
-var contenedores = L.layerGroup([finalizado, ejecucion]);
+var contenedores = L.layerGroup([
+  contenedoresFinalizado,
+  contenedoresEjecucion,
+]);
 
-// EJEMPLO CON FICHA
+/* EJEMPLO CON FICHA
 
 function popupEjemplo(feature, layer) {
   function highlightFeature(e) {
@@ -282,68 +222,4 @@ function estiloEjemplo(feature) {
 var ejemplo_poli = L.geoJson(ejemplos, {
   style: estiloEjemplo,
   onEachFeature: popupEjemplo,
-});
-
-/* Zonas verdes
-
-// Formales
-
-function getColorFFamilia(d) {
-  return d == "A"
-    ? "#84ddb8"
-    : d == "B"
-    ? "#239684"
-    : d == "C"
-    ? "#68bba5"
-    : d == "D"
-    ? "#68bba5"
-    : d == "E"
-    ? "#176659"
-    : d == "F"
-    ? "#9fffcb"
-    : "#e8e8e8";
-}
-
-function estiloFFamilia(feature) {
-  return {
-    fillColor: getColorFFamilia(feature.properties.familia),
-    weight: 0,
-    color: "black",
-    fillOpacity: 0.8,
-  };
-}
-
-function popupZVF(feature, layer) {
-  layer.bindPopup(
-    "Familia: <b>" +
-      feature.properties.familia +
-      "</b>" +
-      "<br/>Nombre: <b>" +
-      feature.properties.especie +
-      "</b>"
-  );
-
-  function highlightFeature(e) {
-    var layer = e.target;
-    layer.setStyle({
-      fillOpacity: 1,
-    });
-  }
-
-  function resetHighlight(e) {
-    zonasverdesF.resetStyle(e.target);
-  }
-
-  layer.on({
-    mouseover: highlightFeature,
-    mouseout: resetHighlight,
-  });
-}
-
-var zonasverdesF = L.geoJson(zonasverdes, {
-  style: estiloFFamilia,
-  onEachFeature: popupZVF,
-  filter: function (feature, layer) {
-    return feature.properties.orden == "F";
-  },
 });*/

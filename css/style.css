@@ -32,36 +32,37 @@ h3 {
   padding: 5px;
 }
 
-table.indicadores {
+table.detalle {
   border: 0px solid #656361;
   background-color: #ffffff;
   width: 100%;
   text-align: left;
   border-collapse: collapse;
 }
-table.indicadores td,
-table.indicadores th {
+table.detalle td,
+table.detalle th {
   border-bottom: 1px solid #aaaaaa;
   padding: 3px 2px;
 }
-table.indicadores tbody td {
+table.detalle tbody td {
   font-size: 10px;
+  padding: 5px;
   color: #333333;
 }
-table.indicadores thead {
+table.detalle thead {
   background: #fff;
 }
-table.indicadores thead th {
+table.detalle thead th {
   font-size: 12px;
   font-weight: bold;
   color: #ac2c2d;
   border-bottom: 2px solid #ac2c2d;
 }
-table.indicadores thead th:first-child {
+table.detalle thead th:first-child {
   border-left: 2px solid #fff;
 }
 
-table.indicadores tfoot {
+table.detalle tfoot {
   font-size: 11px;
   font-weight: bold;
   color: #ffffff;
@@ -76,13 +77,13 @@ table.indicadores tfoot {
   background: linear-gradient(to bottom, #c7e5d9 0%, #bbe0d2 66%, #b4ddcd 100%);
   border-top: 3px solid #f9ffff;
 }
-table.indicadores tfoot td {
+table.detalle tfoot td {
   font-size: 11px;
 }
-table.indicadores tfoot .links {
+table.detalle tfoot .links {
   text-align: right;
 }
-table.indicadores tfoot .links a {
+table.detalle tfoot .links a {
   display: inline-block;
   background: #ac2c2d;
   color: #ffffff;
@@ -169,4 +170,62 @@ table.indicadores tfoot .links a {
   background: #00a34f;
   color: #333;
   box-shadow: 0 3px 140px rgba(0, 0, 0, 0.4);
+}
+
+table.detalle {
+  border: 0px solid #656361;
+  background-color: #ffffff;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.detalle td,
+table.detalle th {
+  border-bottom: 1px solid #aaaaaa;
+  padding: 3px 2px;
+}
+table.detalle tbody td {
+  font-size: 10px;
+  color: #333333;
+}
+table.detalle thead {
+  background: #fff;
+}
+table.detalle thead th {
+  font-size: 12px;
+  font-weight: bold;
+  color: #239684;
+  border-bottom: 2px solid #239684;
+}
+table.detalle thead th:first-child {
+  border-left: 2px solid #fff;
+}
+
+table.detalle tfoot {
+  font-size: 11px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #b4ddcd;
+  background: -moz-linear-gradient(top, #c7e5d9 0%, #bbe0d2 66%, #b4ddcd 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #c7e5d9 0%,
+    #bbe0d2 66%,
+    #b4ddcd 100%
+  );
+  background: linear-gradient(to bottom, #c7e5d9 0%, #bbe0d2 66%, #b4ddcd 100%);
+  border-top: 3px solid #f9ffff;
+}
+table.detalle tfoot td {
+  font-size: 11px;
+}
+table.detalle tfoot .links {
+  text-align: right;
+}
+table.detalle tfoot .links a {
+  display: inline-block;
+  background: #239684;
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 5px;
 }
