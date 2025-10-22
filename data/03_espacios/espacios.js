@@ -6,16 +6,21 @@ var espacios = {
     {
       type: "Feature",
       properties: {
-        id: 1,
+        grupo: "03. Espacios públicos",
+        capa: "Villa Romana",
+        titulo: "Vil·la Romana l'Hort de Pepica",
         direccion: "C. Sant Vicent Ferrer, 1C, 46470 València",
-        tipologia: "Villa Romana",
-        nom: "Vil·la Romana l'Hort de Pepica",
+        actuacion: "Obras necesarias para restituir el estado previo a la DANA",
+        objeto:
+          "Proyecto 07: Restitución del yacimiento arqueológico Hort de Pepica. Incluido en la Orden TDM/101/2025 Ministerio",
+        val_dany: "460.090,12 €",
+        subv_apro: "Pendiente",
         estado: "Prevista",
-        actuacion:
-          "Pdte Encargo   TRAGASET: Asistencias técnicas    TRAGSA: Obra",
-        comentario: null,
+        estado_d:
+          "Prevista: Memoria presentada al Ministerio pendiente de su validación",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/memoria_TMD_Hort_de_Pepica.pdf",
+        id: null,
       },
       geometry: {
         type: "Point",

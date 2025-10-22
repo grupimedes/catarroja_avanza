@@ -1,0 +1,1538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Catarroja_contenedores.kmz</name>
+	<visibility>0</visibility>
+	<gx:CascadingStyle kml:id="__managed_style_21F64420D7388A9A0F26">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1379126837388A9A0F26">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0FA4980618388A9A0F26">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1379126837388A9A0F26</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_21F64420D7388A9A0F26</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="08DD766308388A931C17">
+		<name>Catarroja_contenedores</name>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	</Folder>
+	<Placemark id="0A9FF8B311388A9A0F1B">
+		<name>Carrer Sèquia Benàger
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>p1PlN6TaxgISjatjwjJAUg</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4157196101144755</longitude>
+			<latitude>39.40348757557977</latitude>
+			<altitude>15.43893814086914</altitude>
+			<heading>317.8789493723274</heading>
+			<tilt>60.12257630692534</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99948594831206</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4157196101144755,39.40348757557977,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CD7A8D4FA388A9AF35E">
+		<name>40 Av. Diputació
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>NZcV0WJbZtF9unN3oKHw1w</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4136953492588002</longitude>
+			<latitude>39.40410507372507</latitude>
+			<altitude>14.66760042249305</altitude>
+			<heading>41.53518105620444</heading>
+			<tilt>60.55502333878221</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4136953492588002,39.40410507372507,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DE7F4ABB6388A9DD188">
+		<name>1 Av. Rei Jaume I
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>tnWOOwhvJ7ASo_Ty-cZQfA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4116186878075401</longitude>
+			<latitude>39.40403714864776</latitude>
+			<altitude>13.6824856245418</altitude>
+			<heading>279.946225190784</heading>
+			<tilt>73.14954104401528</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99938313021431</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4116186878075401,39.40403714864776,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0827CB9521388A9EC160">
+		<name>10 Av. Rei Jaume I
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>9zTUOw0xe37NPfZFD04hZw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4111664816746291</longitude>
+			<latitude>39.40478115587007</latitude>
+			<altitude>14.1514778137207</altitude>
+			<heading>307.5949354761194</heading>
+			<tilt>77.97187033978101</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4111664816746291,39.40478115587007,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03C41BD8FD388A9F0CD7">
+		<name>14 Av. Rei Jaume I
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>o6vd-Mwz8fA5kDBKRMjEyw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4109079089325529</longitude>
+			<latitude>39.40524815169056</latitude>
+			<altitude>14.30140876787587</altitude>
+			<heading>329.6739057820788</heading>
+			<tilt>73.88203922358959</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.7706088022988</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4109079089325529,39.40524815169056,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0504226659388A9FBDF4">
+		<name>24 Av. Rei Jaume I
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>nfbM42od9txuC660vRqsMg</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4100807176533752</longitude>
+			<latitude>39.40655283919392</latitude>
+			<altitude>14.38978385925293</altitude>
+			<heading>236.1869844214413</heading>
+			<tilt>83.36479617693371</tilt>
+			<roll>0</roll>
+			<gx:fovy>15</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4100807176533752,39.40655283919392,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="074C70BF64388AA061D0">
+		<name>21 Av. Rei Jaume I
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>RJ-O5CxKaQe5ZYywsUfeFw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4095622219642259</longitude>
+			<latitude>39.40740876661206</latitude>
+			<altitude>14.7576980807133</altitude>
+			<heading>305.2853738842269</heading>
+			<tilt>81.14045022592197</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999411736776</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4095622219642259,39.40740876661206,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04AF838025388AA1E090">
+		<name>12 Carrer Francesc Larrode Mestre
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>wZ3RXOfK5T6IQI_4o_vF7g</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4074349582703147</longitude>
+			<latitude>39.40898034114439</latitude>
+			<altitude>14.28878879547119</altitude>
+			<heading>182.063188493362</heading>
+			<tilt>65.28764962530782</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99993019466312</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4078397693439517,39.40976334903967,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07D0E82514388AA22E38">
+		<name>10 Carrer Francesc Larrode Mestre
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>5r_LFL8Nv7UvZITVRf_fpA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.406732438599791</longitude>
+			<latitude>39.40886230251152</latitude>
+			<altitude>13.73695850372314</altitude>
+			<heading>170.4945764124399</heading>
+			<tilt>67.15602539303445</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.406732438599791,39.40886230251152,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CDCA7B426388AA3330C">
+		<name>5 Av. Generalitat Valenciana
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>ACuDLkvK8i64i01pukcqjA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4058596808722086</longitude>
+			<latitude>39.40995018708354</latitude>
+			<altitude>15.02736282348633</altitude>
+			<heading>230.7601261302072</heading>
+			<tilt>77.71407407073687</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999915827</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4058596808722086,39.40995018708354,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="094EEC0942388AA375B6">
+		<name>20 C. San Vicente Ferrer
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>SVk9Tq2KJhSoisUxmpeUqg</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4060679647343823</longitude>
+			<latitude>39.41028490708174</latitude>
+			<altitude>14.98056214017531</altitude>
+			<heading>290.8658744224772</heading>
+			<tilt>69.40715999392413</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4060679647343823,39.41028490708174,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="064F6EB1CB388AA43F90">
+		<name>111 Ronda Nord
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>Lkf1NBVkgb7NPyc2s2bPow</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4069874728748413</longitude>
+			<latitude>39.41155543665354</latitude>
+			<altitude>16.9876516291147</altitude>
+			<heading>254.5187855852497</heading>
+			<tilt>61.61036322916807</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.9977997084001</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4069874728748413,39.41155543665354,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0174BFF505388AA4EDDE">
+		<name>3 C. Príncipe de Asturias
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>RsW4ILQ4-ctbkJcx_sCG2w</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4056639079859625</longitude>
+			<latitude>39.41104091488365</latitude>
+			<altitude>16.00471196846689</altitude>
+			<heading>10.31998211548721</heading>
+			<tilt>66.4649519072173</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4056639079859625,39.41104091488365,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0950B3B3F0388AA55AF7">
+		<name>81 Avinguda la Rambleta
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>IFRy7PJg9Yk28gYhDF81yA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4049169171901834</longitude>
+			<latitude>39.41026779446149</latitude>
+			<altitude>14.76129057089244</altitude>
+			<heading>99.20016019581423</heading>
+			<tilt>79.70240115903329</tilt>
+			<roll>0</roll>
+			<gx:fovy>36.26429369198949</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4049169171901834,39.41026779446149,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05911B0FDD388AA59BBE">
+		<name>40 Av Blasco Ibáñez
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>qTpHblx1yR1x02POlKIAlA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4037853142382009</longitude>
+			<latitude>39.4099250414395</latitude>
+			<altitude>14.64526403273392</altitude>
+			<heading>101.8652804656122</heading>
+			<tilt>73.55890744171764</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99639050371616</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4037853142382009,39.4099250414395,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D61BFCF9D388AA83291">
+		<name>4 Carrer Francesc de Vinatea
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>gyG6fAFTDWA8iPp5yP1qHw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4020630251846269</longitude>
+			<latitude>39.40835058406165</latitude>
+			<altitude>15.47280811930269</altitude>
+			<heading>191.3281669998064</heading>
+			<tilt>64.637765825613</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4020630251846269,39.40835058406165,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E39774382388AA8AE84">
+		<name>13 Av Blasco Ibáñez
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>YDazRUg7AHY1WQVEY0NwqA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4032567647101359</longitude>
+			<latitude>39.40890542387368</latitude>
+			<altitude>14.12124508112029</altitude>
+			<heading>259.3772850279838</heading>
+			<tilt>65.41738543126286</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99984267990236</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4032567647101359,39.40890542387368,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DBFC0D588388AA8E0FE">
+		<name>28 Av Blasco Ibáñez
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>aztdYAvt7Ph7YpX_MZSTZw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4032053623516054</longitude>
+			<latitude>39.40882179793759</latitude>
+			<altitude>14.28269290924072</altitude>
+			<heading>239.9690179572034</heading>
+			<tilt>59.85267478881327</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99997852617417</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4032053623516054,39.40882179793759,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00D488EC5C388AA95204">
+		<name>1 C. Cristòfol Aguado Medín
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>6wTyEQJAf7B0bC1JHLw6YA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4030945779201778</longitude>
+			<latitude>39.40809427203627</latitude>
+			<altitude>15.06783432895191</altitude>
+			<heading>4.505100591052609</heading>
+			<tilt>68.64931809213843</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4030945779201778,39.40809427203627,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="047FAB6592388AA9CFB9">
+		<name>2 C. Cristòfol Aguado Medín
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>HPysuRqVRZC9-glQKi_WyA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4051610716231746</longitude>
+			<latitude>39.40858196182357</latitude>
+			<altitude>13.72300714092555</altitude>
+			<heading>66.04191155933677</heading>
+			<tilt>76.85473303225319</tilt>
+			<roll>0</roll>
+			<gx:fovy>40.74675072389583</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4051610716231746,39.40858196182357,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08FD3997F5388AAA2EA4">
+		<name>62 Avinguda la Rambleta
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>1-qUSFbTau9Nn41X2VtllA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4051049217215875</longitude>
+			<latitude>39.40957719955636</latitude>
+			<altitude>14.34006881713867</altitude>
+			<heading>140.7228167834075</heading>
+			<tilt>80.21168747642746</tilt>
+			<roll>0</roll>
+			<gx:fovy>34.63290229522776</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4051049217215875,39.40957719955636,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01E74C9672388AAABED9">
+		<name>2 C. Amalio Monforte Sanroq
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>2jkCQOM7IBHkOwBwF2HzPg</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4057212125429022</longitude>
+			<latitude>39.40797180829309</latitude>
+			<altitude>13.27922943919553</altitude>
+			<heading>221.6313561300595</heading>
+			<tilt>73.90632525030574</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99969045884668</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4057212125429022,39.40797180829309,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0914AFD633388AAB0560">
+		<name>6 C. de Asturias
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>wWH-d567CzEvzqQFSHZHfw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4043270992435799</longitude>
+			<latitude>39.40783772877777</latitude>
+			<altitude>14.09679067173151</altitude>
+			<heading>299.8166858302587</heading>
+			<tilt>69.00629704065757</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999907801</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4043270992435799,39.40783772877777,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="055B92A488388AABA4AB">
+		<name>5 C. de Asturias
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>vAsIedSoO7rKIuAcrVmltA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4046817745134035</longitude>
+			<latitude>39.40699338687865</latitude>
+			<altitude>13.44119534240809</altitude>
+			<heading>145.1755861455211</heading>
+			<tilt>67.39273942670674</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99783108989892</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4046817745134035,39.40699338687865,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="084AB9DB0C388AACAA59">
+		<name>18 Carrer Joan Giner
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>2qz8m892SyaZr06PMmLGtw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4059723423898998</longitude>
+			<latitude>39.40739512915481</latitude>
+			<altitude>13.62703800241444</altitude>
+			<heading>19.0304310478797</heading>
+			<tilt>68.92195663624885</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4059723423898998,39.40739512915481,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0223017ACC388AAD3550">
+		<name>11 C. Milagros Mir
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>7wCT8yXqUELhd5aEI5OyGg</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4080248227604821</longitude>
+			<latitude>39.40752056386245</latitude>
+			<altitude>14.12478275786588</altitude>
+			<heading>123.3248785394936</heading>
+			<tilt>68.06321033488084</tilt>
+			<roll>0</roll>
+			<gx:fovy>80.79072394943995</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4089216542915008,39.40765717229952,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D0566E48B388AAD8BBC">
+		<name>1 Carrer Joan Giner
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>FkoLQP3NH6tbI9M5iUoZWw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4090320849658957</longitude>
+			<latitude>39.40790602222627</latitude>
+			<altitude>14.63849926023597</altitude>
+			<heading>23.02543266039244</heading>
+			<tilt>68.63015412891009</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4090320849658957,39.40790602222627,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06A071CF4E388AADF436">
+		<name>11 C. Milagros Mir
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>7wCT8yXqUELhd5aEI5OyGg</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4080248227624805</longitude>
+			<latitude>39.40752056386201</latitude>
+			<altitude>14.12360827978551</altitude>
+			<heading>130.5686493740053</heading>
+			<tilt>64.67350192848605</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99859905691923</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4080248227624805,39.40752056386201,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0867452D47388AAE91D3">
+		<name>12 Carrer Francesc Larrode Mestre
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>wZ3RXOfK5T6IQI_4o_vF7g</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.407434958581081</longitude>
+			<latitude>39.40898034132059</latitude>
+			<altitude>14.2887912401246</altitude>
+			<heading>174.2648077599261</heading>
+			<tilt>65.64619925131355</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99997624006178</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.407434958581081,39.40898034132059,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00AA4A4E54388AAF6D71">
+		<name>8 C. Filibert Rodrigo
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>-f5YbEgz64beAT2vEVZ72g</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4032793386344657</longitude>
+			<latitude>39.40680674887262</latitude>
+			<altitude>13.59622158565614</altitude>
+			<heading>189.7195817379947</heading>
+			<tilt>66.04730453319499</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4032793386344657,39.40680674887262,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09DCE917A8388AAFB958">
+		<name>5 C. Filibert Rodrigo
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>cd1_Tsy56by2GsFBG5dRWQ</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4030009036978788</longitude>
+			<latitude>39.40674129806185</latitude>
+			<altitude>13.67104544782266</altitude>
+			<heading>171.2301009986293</heading>
+			<tilt>65.93028507094292</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99996113475994</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4030009036978788,39.40674129806185,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F6A386360388AB00B81">
+		<name>2 C. Filibert Rodrigo
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>aODakWeizwzlKMZNEK50hQ</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4023121279971942</longitude>
+			<latitude>39.40657774778683</latitude>
+			<altitude>14.63375714943649</altitude>
+			<heading>209.7220950993094</heading>
+			<tilt>64.65965202024472</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99890911502201</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4023121279971942,39.40657774778683,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="072233BA7F388AB06CC4">
+		<name>20 C. Torero Antonio Carpio
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>1cAIi0jSd-pzaLC-ZFUfyw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4024795538543424</longitude>
+			<latitude>39.40766954224984</latitude>
+			<altitude>15.18617956466607</altitude>
+			<heading>300.6792396045262</heading>
+			<tilt>60.54175478626701</tilt>
+			<roll>0</roll>
+			<gx:fovy>80.41469948813504</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4024795538543424,39.40766954224984,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04E0CA50EC388AB21BB9">
+		<name>12 C. Huelva
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>SYpdHl1V0eMmvEuJFl5hcw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4040316903319974</longitude>
+			<latitude>39.40674113621276</latitude>
+			<altitude>14.03378772705445</altitude>
+			<heading>309.7762442051583</heading>
+			<tilt>67.81527930098629</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4040316903319974,39.40674113621276,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07F41265CF388AB29040">
+		<name>1 C. Torero Antonio Carpio
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>3AbcbdNk324kFkaQSQQCNw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4032709273276747</longitude>
+			<latitude>39.40558841443143</latitude>
+			<altitude>13.62676334701324</altitude>
+			<heading>302.0521907397165</heading>
+			<tilt>55.79808889529062</tilt>
+			<roll>0</roll>
+			<gx:fovy>90</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4032709273276747,39.40558841443143,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01F8554CC2388AB30E30">
+		<name>1 C. Huelva
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>UG09bJISSZYxO1QzvHwCNg</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4044473052076425</longitude>
+			<latitude>39.4057872249608</latitude>
+			<altitude>13.43362929015267</altitude>
+			<heading>264.2535362336115</heading>
+			<tilt>63.78325615280764</tilt>
+			<roll>0</roll>
+			<gx:fovy>79.51984234512463</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4044473052076425,39.4057872249608,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E35B547C0388AB38C3B">
+		<name>16 C. Almería
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>_cf-z7u8g0E8wkhfng6dkQ</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4057760260858267</longitude>
+			<latitude>39.40630214501056</latitude>
+			<altitude>13.55204999898563</altitude>
+			<heading>168.5354050107469</heading>
+			<tilt>61.29130212919527</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99930695210198</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4057760260858267,39.40630214501056,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07B74DB104388AB41207">
+		<name>1 Carrer Francesc Ferrer Pastor
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>9G_PnWPohrhTLIRTpW_pgA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4060935599290261</longitude>
+			<latitude>39.40664591053248</latitude>
+			<altitude>13.38444738367513</altitude>
+			<heading>225.4031636718969</heading>
+			<tilt>68.31169923015003</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4060935599290261,39.40664591053248,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CC58CA7ED388AB4E659">
+		<name>5 C. Milagros Mir
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>jeNLOgM0y9CE7ayS5DXV6w</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4082121950200301</longitude>
+			<latitude>39.40679625540716</latitude>
+			<altitude>13.84481963268941</altitude>
+			<heading>107.3628345885355</heading>
+			<tilt>56.31964818060556</tilt>
+			<roll>0</roll>
+			<gx:fovy>90</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4082121950200301,39.40679625540716,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07A69A95A4388AB65C48">
+		<name>9 Av. Murcia
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>BRYR-w9Rex-Eb3xfXAj78g</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4075409376604887</longitude>
+			<latitude>39.4061887091148</latitude>
+			<altitude>13.76840972900391</altitude>
+			<heading>13.76573400275451</heading>
+			<tilt>68.18117854667138</tilt>
+			<roll>0</roll>
+			<gx:fovy>79.28269490664169</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4075409376604887,39.4061887091148,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B7F8ED0D6388AB6ECF4">
+		<name>7 Av. Murcia
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>lw-DgcZR0-VoHRA5ayfLlA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4067269024695686</longitude>
+			<latitude>39.40605642731608</latitude>
+			<altitude>13.66911220488251</altitude>
+			<heading>181.3810020748802</heading>
+			<tilt>75.35610721723275</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4067269024695686,39.40605642731608,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DC4E7CF77388AB7B4D8">
+		<name>17 C. de El Charco
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>lrsJR0BevKxdqNbrw9TncA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4000374531554396</longitude>
+			<latitude>39.40500449470518</latitude>
+			<altitude>13.36712435938055</altitude>
+			<heading>73.7352126821735</heading>
+			<tilt>79.60076440241778</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4000374531554396,39.40500449470518,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="003401FD1B388AB822A8">
+		<name>11 Pl. dels Furs
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>Y8t6bOUR7YwkDPhAB4GMSw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.3991774234969583</longitude>
+			<latitude>39.40520501924568</latitude>
+			<altitude>13.35352325439453</altitude>
+			<heading>102.3307957612552</heading>
+			<tilt>63.52379442214458</tilt>
+			<roll>0</roll>
+			<gx:fovy>90</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.3991774234969583,39.40520501924568,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="054E7A5B32388AB8FB46">
+		<name>4 Av. Dr. del Marañón
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>cJ_1D8-QJQQGPY5dBRkGYg</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4008316530290656</longitude>
+			<latitude>39.40562574763884</latitude>
+			<altitude>13.72105321584269</altitude>
+			<heading>238.117328469089</heading>
+			<tilt>68.8785630725457</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4008316530290656,39.40562574763884,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09B44AD346388AB9A67E">
+		<name>5 Av. Dr. Gómez Ferrer
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>Iz8HBno8uQVdzVr5ZF5CXg</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4023788360408531</longitude>
+			<latitude>39.40416729575949</latitude>
+			<altitude>13.65627687777726</altitude>
+			<heading>216.9365475123301</heading>
+			<tilt>55.16514505663246</tilt>
+			<roll>0</roll>
+			<gx:fovy>90</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4023788360408531,39.40416729575949,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0831E2FEB0388AB9E763">
+		<name>32 Av. Dr. Gómez Ferrer
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>UrC-t9n4wYWpBnDW3a7D4A</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4010733379611731</longitude>
+			<latitude>39.40399278039344</latitude>
+			<altitude>12.88121937115411</altitude>
+			<heading>329.3835089275733</heading>
+			<tilt>60.67694891029641</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99998048436235</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4010733379611731,39.40399278039344,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D73698038388ABA44A1">
+		<name>2 C. Carmen Herrero Penella
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>H36v9KrNWlT3BwzmQLwijw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.399921645659167</longitude>
+			<latitude>39.40432793558637</latitude>
+			<altitude>12.79708098352535</altitude>
+			<heading>193.1704226660125</heading>
+			<tilt>66.40490462808646</tilt>
+			<roll>0</roll>
+			<gx:fovy>90</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.399921645659167,39.40432793558637,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01AA4AFA61388ABAEDC4">
+		<name>1 Carrer Rda. de l&apos;Est
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>_4Q8j_qud-gSjnyPw27dxQ</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.3975755928676916</longitude>
+			<latitude>39.4040396847522</latitude>
+			<altitude>12.4706449313872</altitude>
+			<heading>311.0941896748008</heading>
+			<tilt>66.83229519670959</tilt>
+			<roll>0</roll>
+			<gx:fovy>90</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.3975755928676916,39.4040396847522,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B797EBE84388ABBB3AE">
+		<name>18 Plaça Corts Valencianes
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>valjWJNj6P_FaMHA4c7sbA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.3990110123715885</longitude>
+			<latitude>39.4030072409851</latitude>
+			<altitude>11.51268577575684</altitude>
+			<heading>140.4787043240152</heading>
+			<tilt>78.61873590851881</tilt>
+			<roll>0</roll>
+			<gx:fovy>36.15416563932254</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.3990110123715885,39.4030072409851,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0165E41929388ABE63EE">
+		<name>17 Carrer Rda. de l&apos;Est
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>dGZP_PNp2Bezd7DcCL16VQ</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.3987112584702501</longitude>
+			<latitude>39.40134031879958</latitude>
+			<altitude>10.68001016030923</altitude>
+			<heading>322.6306980129235</heading>
+			<tilt>82.32313560778574</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99997098523026</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.3987112584702501,39.40134031879958,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F474D7159388ABF39F4">
+		<name>41 C. del Casalet
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>MkpAgeR-SoYLFgurTu0dqQ</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.3997323719453449</longitude>
+			<latitude>39.39887898895208</latitude>
+			<altitude>9.488483971716612</altitude>
+			<heading>116.0704223896309</heading>
+			<tilt>67.02789927716999</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.3997323719453449,39.39887898895208,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EF40E9DFE388ABFBCAC">
+		<name>100 Carrer Rda. de l&apos;Est
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>osCqt-ZWHTS-cyTRUvekPw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4002237810138513</longitude>
+			<latitude>39.39768891500943</latitude>
+			<altitude>8.578337669372559</altitude>
+			<heading>121.8397791068548</heading>
+			<tilt>42.81896043068741</tilt>
+			<roll>0</roll>
+			<gx:fovy>90</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4002237810138513,39.39768891500943,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F237DBE40388AC198E8">
+		<name>C. del Músico Don Miguel Gimeno Puchalt
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>T_X9GEOToChMBpqF0ddbOg</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4029598541171042</longitude>
+			<latitude>39.39710882952296</latitude>
+			<altitude>8.660180751091529</altitude>
+			<heading>185.2229076083893</heading>
+			<tilt>71.52936299614117</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4029598541171042,39.39710882952296,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05BC42840E388AC3D059">
+		<name>3 C. del Musico Jose Manuel Izquierdo
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>x-eakYF5Kb9XI6p2sGZFyw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4011711764150017</longitude>
+			<latitude>39.4010710462618</latitude>
+			<altitude>10.85990191435132</altitude>
+			<heading>168.7008549885838</heading>
+			<tilt>76.36945152373688</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99994149165025</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4011711764150017,39.4010710462618,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="021A6BBFDF388ACA71E0">
+		<name>2 Plaça de la Regió
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>RJ1U7wf1j5TObJUjpf-vFg</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4071902864524268</longitude>
+			<latitude>39.4049175556346</latitude>
+			<altitude>13.05175495147705</altitude>
+			<heading>290.6376893831272</heading>
+			<tilt>75.57302875516572</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4071902864524268,39.4049175556346,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02ABAECCF6388ACBD656">
+		<name>1 Carrer Victoria Costa Mayo
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>NBtZSBWwqLogHei_BaUV7w</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4092244951879609</longitude>
+			<latitude>39.40519476310634</latitude>
+			<altitude>13.52838506881373</altitude>
+			<heading>187.7753173488671</heading>
+			<tilt>77.83977755833043</tilt>
+			<roll>0</roll>
+			<gx:fovy>90</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4092244951879609,39.40519476310634,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="083DF1FCDF388ACC5EDE">
+		<name>5 C. Azorín
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>qyjTXkc6ysp_sV9RPes3vw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.407543956880777</longitude>
+			<latitude>39.40430697020082</latitude>
+			<altitude>13.06801393693263</altitude>
+			<heading>25.99937394242074</heading>
+			<tilt>58.12639156855611</tilt>
+			<roll>0</roll>
+			<gx:fovy>80.12068102636779</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.407543956880777,39.40430697020082,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04D6E02C6A388ACD37D0">
+		<name>19 Carrer Manfredo Monforte
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>IKSQG_g0DH6FFBTZgpj8zA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4084297665379522</longitude>
+			<latitude>39.40336251181767</latitude>
+			<altitude>12.03046846206376</altitude>
+			<heading>136.0349471535492</heading>
+			<tilt>63.99880537568999</tilt>
+			<roll>0</roll>
+			<gx:fovy>81.76377957639876</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4084297665379522,39.40336251181767,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CB04C9339388ACD9B54">
+		<name>19 C. Joaquín Escriba Peiró
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>_Ra-ftSn1Cjq_6LzwQvDfw</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4090879528575903</longitude>
+			<latitude>39.40340899277902</latitude>
+			<altitude>12.07333087921143</altitude>
+			<heading>301.5493748548657</heading>
+			<tilt>67.81554059163928</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4090879528575903,39.40340899277902,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="074654159D388ACE0FCC">
+		<name>10 Plaça Mestre Iturbi
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>GVtuIjLdZyai2Fv6Zk4zvA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4078619692356966</longitude>
+			<latitude>39.40370116096663</latitude>
+			<altitude>12.75379112160877</altitude>
+			<heading>156.3166105194561</heading>
+			<tilt>67.54916909220211</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4078619692356966,39.40370116096663,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DD7D44353388ACEE760">
+		<name>2 Av. Diputació
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>Gt4_zy1SOFAr7InprCahxA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4069681202939669</longitude>
+			<latitude>39.40288048124737</latitude>
+			<altitude>12.00461006164551</altitude>
+			<heading>184.8018086461156</heading>
+			<tilt>69.06378055114408</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4069681202939669,39.40288048124737,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C72A853AC388ACFB963">
+		<name>26 Carrer Josep Serra Carsí
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>roYRmJNh_m5-kkhrjE7MoA</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4098261067302644</longitude>
+			<latitude>39.40383091283208</latitude>
+			<altitude>13.10975256242954</altitude>
+			<heading>80.26313933780246</heading>
+			<tilt>68.63868495377517</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4098261067302644,39.40383091283208,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="057D161243388AD04D66">
+		<name>1 Carrer Miguel Chirivella Lucas
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>zVrnGCfYrKrRTIqxsrNJ-w</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4090770237399806</longitude>
+			<latitude>39.40458260656941</latitude>
+			<altitude>12.72858619689941</altitude>
+			<heading>45.88824494787264</heading>
+			<tilt>68.29676323566001</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4090770237399806,39.40458260656941,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="047E6617C4388AD280E8">
+		<name>2 Avinguda la Rambleta
+Catarroja, Comunidad Valenciana</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>5pgkeLJy9tP1-ASfrEhVBQ</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-0.4069313084159676</longitude>
+			<latitude>39.4017884426269</latitude>
+			<altitude>11.34679786175714</altitude>
+			<heading>287.4232968985822</heading>
+			<tilt>66.18013219945117</tilt>
+			<roll>0</roll>
+			<gx:fovy>81.08419649489686</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0FA4980618388A9A0F26</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-0.4069313084159676,39.4017884426269,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,7 +1,7 @@
 // 03. ESPACIOS PÚBLICOS
 
-// tipos de espacios y sus iconos FontAwesome
-const tiposEspacios = {
+//  capas que forman el grupo y sus iconos FontAwesome
+const capasEspacios = {
   "Villa Romana": "fa-building-columns",
   "Parques, jardines y zonas verdes": "fa-book",
   Plazas: "fa-people-group",
@@ -15,7 +15,7 @@ const coloresEspacios = {
 };
 
 // Función para crear icono personalizado
-function crearIcono(tipo, estado) {
+function crearIcono(capa, estado) {
   return L.divIcon({
     html: `
       <div style="
@@ -28,7 +28,7 @@ function crearIcono(tipo, estado) {
         align-items: center;
         justify-content: center;
         box-shadow: 0 0 4px rgba(0,0,0,0.4);">
-        <i class="fa-solid ${tiposEspacios[tipo]} fa-lg"></i>
+        <i class="fa-solid ${capasEspacios[capa]} fa-lg"></i>
       </div>`,
     className: "icono-personalizado",
   });
@@ -47,7 +47,7 @@ function popupEdificios(feature, layer) {
 
   layer.on("mouseover", (e) => {
     tooltipPopup = L.popup({ offset: L.point(8, -5), className: estadoPopUp });
-    tooltipPopup.setContent("<b>" + feature.properties.nom + "</b>");
+    tooltipPopup.setContent("<b>" + feature.properties.titulo + "</b>");
     tooltipPopup.setLatLng(e.target.getLatLng());
     tooltipPopup.openOn(map);
   });
@@ -64,26 +64,34 @@ function popupEdificios(feature, layer) {
     const header = document.createElement("h1");
     header.className = "leaflet-sidebar-header";
     header.innerHTML =
-      feature.properties.tipologia.toUpperCase() +
+      feature.properties.capa.toUpperCase() +
       '<span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
     panel.appendChild(header);
 
     const tabla = document.createElement("div");
     tabla.innerHTML = `
-      <br/><h2>${feature.properties.nom}</h2>
+      <br/><h2>${feature.properties.titulo || infoTitulo(feature)}</h2>
       <table class='detalle'>
         <tbody>
-          <tr><td>DIRECCIÓN</td><td>${feature.properties.direccion}</td></tr>
+          <tr><td>DIRECCIÓN</td><td>${
+            feature.properties.direccion || infoDireccion(feature)
+          }</td></tr>
           <tr><td>ACTUACIÓN</td><td>${
             feature.properties.actuacion || infoActuacion(feature)
           }</td></tr>
-          <tr><td>COMENTARIO</td><td>${
-            feature.properties.comentario || infoComentario(feature)
+          <tr><td>OBJETO</td><td>${
+            feature.properties.objeto || infoObjeto(feature)
           }</td></tr>
-          <tr><td>ESTADO</td><td>${feature.properties.estado}</td></tr>
-          <tr><td>ENLACE</td><td><a href="${
-            feature.properties.enlace || infoEnlace(feature)
-          }">Memoria técnica</a></td></tr>
+          <tr><td>VALORACIÓN DE DAÑOS</td><td>${
+            feature.properties.val_dany || infoValoracion(feature)
+          }</td></tr>
+          <tr><td>SUBVENCIÓN APROBADA</td><td>${
+            feature.properties.subv_apro || infoSubvencion(feature)
+          }</td></tr>
+          <tr><td>ESTADO</td><td>${
+            feature.properties.estado_d || infoEstado(feature)
+          }</td></tr>
+          <tr><td>ENLACE</td><td>${infoEnlace(feature)}</td></tr>
         </tbody>
       </table>`;
     panel.appendChild(tabla);
@@ -100,18 +108,17 @@ function popupEdificios(feature, layer) {
 }
 
 // Función para crear layer de un tipo y estado
-function crearLayer(tipo, estado) {
+function crearLayer(capa, estado) {
   return L.geoJson(espacios, {
     pointToLayer: (feature, latlng) =>
-      L.marker(latlng, { icon: crearIcono(tipo, estado) }),
+      L.marker(latlng, { icon: crearIcono(capa, estado) }),
     onEachFeature: popupEdificios,
     filter: (feature) =>
-      feature.properties.tipologia === tipo &&
-      feature.properties.estado === estado,
+      feature.properties.capa === capa && feature.properties.estado === estado,
   });
 }
 
-// Crear layers por tipo y estado
+// Crear layers por capa y estado
 const estadosEspacios = ["Prevista", "En ejecución", "Finalizado"];
 const villaRomanaLayer = L.layerGroup(
   estadosEspacios.map((e) => crearLayer("Villa Romana", e))

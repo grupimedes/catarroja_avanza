@@ -35,7 +35,9 @@ function popupContenedores(feature, layer) {
     tooltipPopup = L.popup({
       className: `${feature.properties.estado
         .toLowerCase()
-        .replace(" ", "-")}-pophover`,
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/\s+/g, "")}-pophover`,
     });
     tooltipPopup.setContent("<b>" + feature.properties.direccion + "</b>");
     tooltipPopup.setLatLng(e.target.getLatLng());
