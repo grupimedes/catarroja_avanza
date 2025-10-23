@@ -38,6 +38,42 @@ var leyenda = L.control.htmllegend({
       ],
     },
     {
+      name: "Deportivas",
+      layer: deportivasLayer,
+      elements: [
+        {
+          label: "Prevista",
+          html: "",
+          style: {
+            "background-color": "#14688F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "En ejecución",
+          html: "",
+          style: {
+            "background-color": "#F5B800",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "Finalizado",
+          html: "",
+          style: {
+            "background-color": "#00A34F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+      ],
+    },
+    {
       name: "Villa Romana",
       layer: villaRomanaLayer,
       elements: [

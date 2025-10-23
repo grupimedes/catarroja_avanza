@@ -40,7 +40,7 @@ function popupEdificios(feature, layer) {
     feature.properties.estado === "Prevista"
       ? "prevision-pophover"
       : feature.properties.estado === "En ejecución"
-      ? "ejecucion-pophover"
+      ? "enejecucion-pophover"
       : feature.properties.estado === "Finalizado"
       ? "finalizado-pophover"
       : "prevision-pophover";
@@ -73,25 +73,14 @@ function popupEdificios(feature, layer) {
       <br/><h2>${feature.properties.titulo || infoTitulo(feature)}</h2>
       <table class='detalle'>
         <tbody>
-          <tr><td>DIRECCIÓN</td><td>${
-            feature.properties.direccion || infoDireccion(feature)
-          }</td></tr>
-          <tr><td>ACTUACIÓN</td><td>${
-            feature.properties.actuacion || infoActuacion(feature)
-          }</td></tr>
-          <tr><td>OBJETO</td><td>${
-            feature.properties.objeto || infoObjeto(feature)
-          }</td></tr>
-          <tr><td>VALORACIÓN DE DAÑOS</td><td>${
-            feature.properties.val_dany || infoValoracion(feature)
-          }</td></tr>
-          <tr><td>SUBVENCIÓN APROBADA</td><td>${
-            feature.properties.subv_apro || infoSubvencion(feature)
-          }</td></tr>
-          <tr><td>ESTADO</td><td>${
-            feature.properties.estado_d || infoEstado(feature)
-          }</td></tr>
-          <tr><td>ENLACE</td><td>${infoEnlace(feature)}</td></tr>
+          ${getProp(feature, "direccion", "DIRECCIÓN")}
+          ${getProp(feature, "actuacion", "ACTUACIÓN")}
+          ${getProp(feature, "masinfo", "MÁS INFORMACIÓN")}
+          ${getProp(feature, "val_dany", "VALORACIÓN DE DAÑOS")}
+          ${getProp(feature, "subv_apro", "SUBVENCIÓN APROBADA")}
+          ${getProp(feature, "estado_d", "ESTADO")}
+          ${getProp(feature, "fecha_prev", "FECHA PREVISTA")}
+          ${getProp(feature, "enlace", "ENLACE")}
         </tbody>
       </table>`;
     panel.appendChild(tabla);

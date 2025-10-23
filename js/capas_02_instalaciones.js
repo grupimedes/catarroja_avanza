@@ -1,14 +1,12 @@
-// 03. ESPACIOS PÚBLICOS
+// 02. INSTALACIONES PÚBLICAS
 
 //  capas que forman el grupo y sus iconos FontAwesome
-const capasEspacios = {
-  "Villa Romana": "fa-building-columns",
-  "Parques, jardines y zonas verdes": "fa-book",
-  Plazas: "fa-people-group",
+const capasInstalaciones = {
+  Deportivas: "fa-volleyball",
 };
 
 // Colores por estado
-const coloresEspacios = {
+const coloresInstalaciones = {
   Prevista: "#14688F",
   "En ejecución": "#f5b800",
   Finalizado: "#00a34f",
@@ -19,7 +17,7 @@ function crearIcono(capa, estado) {
   return L.divIcon({
     html: `
       <div style="
-        background-color: ${coloresEspacios[estado]};
+        background-color: ${coloresInstalaciones[estado]};
         color: white;
         width: 28px;
         height: 28px;
@@ -28,14 +26,14 @@ function crearIcono(capa, estado) {
         align-items: center;
         justify-content: center;
         box-shadow: 0 0 4px rgba(0,0,0,0.4);">
-        <i class="fa-solid ${capasEspacios[capa]} fa-lg"></i>
+        <i class="fa-solid ${capasInstalaciones[capa]} fa-lg"></i>
       </div>`,
     className: "icono-personalizado",
   });
 }
 
 // Función genérica para popups y sidebar
-function popupEdificios(feature, layer) {
+function popupInstalaciones(feature, layer) {
   const estadoPopUp =
     feature.properties.estado === "Prevista"
       ? "prevision-pophover"
@@ -98,17 +96,17 @@ function popupEdificios(feature, layer) {
 
 // Función para crear layer de un tipo y estado
 function crearLayer(capa, estado) {
-  return L.geoJson(espacios, {
+  return L.geoJson(instalaciones, {
     pointToLayer: (feature, latlng) =>
       L.marker(latlng, { icon: crearIcono(capa, estado) }),
-    onEachFeature: popupEdificios,
+    onEachFeature: popupInstalaciones,
     filter: (feature) =>
       feature.properties.capa === capa && feature.properties.estado === estado,
   });
 }
 
 // Crear layers por capa y estado
-const estadosEspacios = ["Prevista", "En ejecución", "Finalizado"];
-const villaRomanaLayer = L.layerGroup(
-  estadosEspacios.map((e) => crearLayer("Villa Romana", e))
+const estadosInstalaciones = ["Prevista", "En ejecución", "Finalizado"];
+const deportivasLayer = L.layerGroup(
+  estadosInstalaciones.map((e) => crearLayer("Deportivas", e))
 );

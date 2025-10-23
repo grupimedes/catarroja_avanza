@@ -38,7 +38,7 @@ var overlayMaps = {
       children: [
         {
           label: "Deportivas",
-          layer: contenedoresLayer,
+          layer: deportivasLayer,
         },
         {
           label: "Eléctricas",

@@ -1,3 +1,4 @@
+/*
 // BUSCADOR DE ELEMENTOS EN CAPAS ACTIVAS
 
 var capasBuscables = [
@@ -62,3 +63,4 @@ map.on("overlayadd overlayremove layeradd layerremove", function () {
 
 // comprobación inicial
 actualizarControlBusqueda();
+*/
