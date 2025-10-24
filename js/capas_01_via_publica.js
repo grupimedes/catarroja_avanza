@@ -1,4 +1,4 @@
-// 03. ESPACIOS PÚBLICOS
+// 01. VÍA PÚBLICA
 
 //  capas que forman el grupo y sus iconos FontAwesome
 const capasViapublica = {

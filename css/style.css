@@ -50,6 +50,7 @@ table.detalle tbody td {
   color: #333333;
 }
 table.detalle thead {
+  font-size: 10px;
   background: #fff;
 }
 table.detalle thead th {

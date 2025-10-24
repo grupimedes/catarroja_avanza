@@ -3,6 +3,9 @@
 //  capas que forman el grupo y sus iconos FontAwesome
 const capasInstalaciones = {
   Deportivas: "fa-volleyball",
+  Eléctricas: "fa-bolt",
+  "Parking Plaça Major": "fa-square-parking",
+  "Red de riegos": "fa-droplet",
 };
 
 // Colores por estado
@@ -109,4 +112,13 @@ function crearLayer(capa, estado) {
 const estadosInstalaciones = ["Prevista", "En ejecución", "Finalizado"];
 const deportivasLayer = L.layerGroup(
   estadosInstalaciones.map((e) => crearLayer("Deportivas", e))
+);
+const electricasLayer = L.layerGroup(
+  estadosInstalaciones.map((e) => crearLayer("Eléctricas", e))
+);
+const riegoLayer = L.layerGroup(
+  estadosInstalaciones.map((e) => crearLayer("Red de riegos", e))
+);
+const parkingLayer = L.layerGroup(
+  estadosInstalaciones.map((e) => crearLayer("Parking Plaça Major", e))
 );

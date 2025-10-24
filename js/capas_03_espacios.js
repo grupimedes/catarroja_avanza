@@ -2,9 +2,8 @@
 
 //  capas que forman el grupo y sus iconos FontAwesome
 const capasEspacios = {
+  "Plazas, parques y jardines": "fa-leaf",
   "Villa Romana": "fa-building-columns",
-  "Parques, jardines y zonas verdes": "fa-book",
-  Plazas: "fa-people-group",
 };
 
 // Colores por estado
@@ -109,6 +108,9 @@ function crearLayer(capa, estado) {
 
 // Crear layers por capa y estado
 const estadosEspacios = ["Prevista", "En ejecución", "Finalizado"];
+const plazasParquesJardinesLayer = L.layerGroup(
+  estadosEspacios.map((e) => crearLayer("Plazas, parques y jardines", e))
+);
 const villaRomanaLayer = L.layerGroup(
   estadosEspacios.map((e) => crearLayer("Villa Romana", e))
 );

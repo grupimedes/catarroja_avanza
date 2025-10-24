@@ -74,6 +74,150 @@ var leyenda = L.control.htmllegend({
       ],
     },
     {
+      name: "Red de riegos",
+      layer: riegoLayer,
+      elements: [
+        {
+          label: "Prevista",
+          html: "",
+          style: {
+            "background-color": "#14688F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "En ejecución",
+          html: "",
+          style: {
+            "background-color": "#F5B800",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "Finalizado",
+          html: "",
+          style: {
+            "background-color": "#00A34F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+      ],
+    },
+    {
+      name: "Eléctricas",
+      layer: electricasLayer,
+      elements: [
+        {
+          label: "Prevista",
+          html: "",
+          style: {
+            "background-color": "#14688F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "En ejecución",
+          html: "",
+          style: {
+            "background-color": "#F5B800",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "Finalizado",
+          html: "",
+          style: {
+            "background-color": "#00A34F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+      ],
+    },
+    {
+      name: "Parking Plaça Major",
+      layer: parkingLayer,
+      elements: [
+        {
+          label: "Prevista",
+          html: "",
+          style: {
+            "background-color": "#14688F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "En ejecución",
+          html: "",
+          style: {
+            "background-color": "#F5B800",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "Finalizado",
+          html: "",
+          style: {
+            "background-color": "#00A34F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+      ],
+    },
+    {
+      name: "Plazas, parques y jardines",
+      layer: plazasParquesJardinesLayer,
+      elements: [
+        {
+          label: "Prevista",
+          html: "",
+          style: {
+            "background-color": "#14688F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "En ejecución",
+          html: "",
+          style: {
+            "background-color": "#F5B800",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "Finalizado",
+          html: "",
+          style: {
+            "background-color": "#00A34F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+      ],
+    },
+    {
       name: "Villa Romana",
       layer: villaRomanaLayer,
       elements: [

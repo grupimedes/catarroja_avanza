@@ -42,11 +42,11 @@ var overlayMaps = {
         },
         {
           label: "Eléctricas",
-          layer: contenedoresLayer,
+          layer: electricasLayer,
         },
         {
           label: "Red de riegos",
-          layer: contenedoresLayer,
+          layer: riegoLayer,
         },
         {
           label: "Port Cararroja",
@@ -54,7 +54,7 @@ var overlayMaps = {
         },
         {
           label: "Parking Plaça Major",
-          layer: contenedoresLayer,
+          layer: parkingLayer,
         },
         {
           label: "Cementerio",
@@ -68,12 +68,8 @@ var overlayMaps = {
       collapsed: true,
       children: [
         {
-          label: "Plazas",
-          layer: contenedoresLayer,
-        },
-        {
-          label: "Parques, jardines y<br/>zonas verdes",
-          layer: contenedoresLayer,
+          label: "Plazas, parques y jardines",
+          layer: plazasParquesJardinesLayer,
         },
         {
           label: "Villa romana",
