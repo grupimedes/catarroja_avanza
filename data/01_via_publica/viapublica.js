@@ -12,11 +12,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Filiberto Rodrigo, esquina con calle Santander",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -35,11 +35,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Filiberto Rodrigo, esquina con calle Torero Carpio",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -58,11 +58,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Filiberto Rodrigo, esquina con Ramón y Cajal",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -81,11 +81,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Crecensi Chapa esquina Con Torero Carpio",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -104,11 +104,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Cuenca con PL región",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -127,11 +127,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Joan Giner esquina con Rambleta",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -150,11 +150,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Almeria esquina con Rambleta",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -173,11 +173,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Torero Carpio n20",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -196,11 +196,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Francesc de Vinatea esquina con torero carpio",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -219,11 +219,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "40 Av Blasco Ibáñez",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -242,11 +242,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "13 Av Blasco Ibáñez",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -265,11 +265,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Cristofol Aguado esquina con Av Blasco Ibáñez",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -288,11 +288,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "3 C. de Asturias",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -311,11 +311,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Cristofol Aguado con Rambleta",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -334,11 +334,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Av Rambleta 73",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -357,11 +357,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Av Rambleta con Amalio Monforte",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -380,11 +380,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Francesc Larrode con Sant Vicente Ferrer",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -403,11 +403,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Francesc Larrode con Clara Campoamor",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -426,11 +426,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Av Generalitat",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -449,11 +449,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Av Rambleta 75",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -472,11 +472,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Príncipe de Asturias con San Vicente",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -495,11 +495,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Sant Vicente con Av Generalitat",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -518,11 +518,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Parque 8 de març",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -541,11 +541,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Francesc Ferrer Pastor, esquina con Rambleta",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -564,11 +564,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "21 Av. Rei Jaume I",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -587,11 +587,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Joan Giner, esquina con Av Jaime I",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -610,11 +610,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Milagros Mir, esquina con Joan Giner",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -633,11 +633,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Milagros Mir, esquina con Francesc Ferrer Pastor",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -656,11 +656,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "24 Av. Rei Jaume I",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -679,11 +679,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "14 Av. Rei Jaume I",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -702,11 +702,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "1 Av. Rei Jaume I",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -725,11 +725,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "10 Av. Rei Jaume I",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -748,11 +748,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Carrer Chirivella Lucas, esquina con Joaquín Escriba",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -771,11 +771,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Joaquín Escriba, esquina con Av Diputación",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -794,11 +794,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "22 Carrer Josep Serra Carsí",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -817,11 +817,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Victoria Costa Mayo, esquina con Josep Serra Carsí",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -840,11 +840,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Plaza Iturbi",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -863,11 +863,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Mestre Monforte, esquina Av Diputación",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -886,11 +886,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Av Murcia, esquina con Alicante",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -909,11 +909,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Av Murcia, esquina con Monforte",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -932,11 +932,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Plaza Región con Azorín",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -955,11 +955,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Gómez Ferrer 31",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -978,11 +978,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Gómez Ferrer 2",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1001,11 +1001,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Plaza del Port",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1024,11 +1024,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Calle Charco 8",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1047,11 +1047,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Dr Marañón 4",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1070,11 +1070,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Plaza Furs 11",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1093,11 +1093,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Plaza Furs 3",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1116,11 +1116,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Ronda de L'Estación 1",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1139,11 +1139,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Herrero Penella 2",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1162,11 +1162,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Ronda de L'Estación 5",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1185,11 +1185,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Cortes Valencianas 18",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1208,11 +1208,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Ronde de L'Estación con Alquería",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1231,11 +1231,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Casalet con Barcelona",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1254,11 +1254,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Ronda de L'Estació 100",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1277,11 +1277,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Pelayo con Musico Gimeno",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1300,11 +1300,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Rambleta 1",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1323,11 +1323,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Diputación con CV400",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1346,11 +1346,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Villa Carmen",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
@@ -1369,11 +1369,11 @@ var viapublica = {
         titulo: "Eliminación de contenedores soterrados",
         direccion: "Diputación con Rambleta",
         actuacion:
-          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA\r\n",
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
         masinfo:
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "720.291,96 €",
-        subv_apro: "720.291,96 €",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
         estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",

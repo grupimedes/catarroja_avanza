@@ -77,6 +77,7 @@ function popupInstalaciones(feature, layer) {
           ${getProp(feature, "direccion", "DIRECCIÓN")}
           ${getProp(feature, "actuacion", "ACTUACIÓN")}
           ${getProp(feature, "masinfo", "MÁS INFORMACIÓN")}
+          ${getProp(feature, "intervencion", "INTERVENCIÓN")}
           ${getProp(feature, "val_dany", "VALORACIÓN DE DAÑOS")}
           ${getProp(feature, "subv_apro", "SUBVENCIÓN APROBADA")}
           ${getProp(feature, "estado_d", "ESTADO")}

@@ -61,45 +61,23 @@ var instalaciones = {
         id: null,
         grupo: "02. Instalaciones públicas",
         capa: "Eléctricas",
-        titulo: "Instalaciones eléctricas fotovoltaicas y de enlace",
-        direccion: "",
+        titulo:
+          "Instalaciones eléctricas fotovoltaicas y de enlace (CEIP Esteban Paluzié)",
+        direccion:
+          "Av de la, Avinguda la Rambleta, 1, 46470 Catarroja, Valencia",
         actuacion:
           "Trabajos de restitución de varias instalaciones eléctricas fotovoltaicas y de enlace a la red eléctrica de distintos edificios públicos del municipio de Catarroja afectados por la DANA. Reparación  hornacinas dañadas, inversores, equipos y cuadros de protección",
         masinfo:
           "Proyecto 09:  Obras de restitución de instalaciones eléctricas fotovoltaicas y de enlace . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "171.181,19 €",
-        subv_apro: "171.181,19 €",
+        val_dany: "171.181,19 € (Total Proyecto)",
+        subv_apro: "171.181,19 € (Total Proyecto)",
         estado: "En ejecución",
         estado_d:
           "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
         fecha_prev: "04/2026",
-      },
-      geometry: {
-        type: "Point",
-        coordinates: [-0.402498601454933, 39.40536346351977],
-      },
-    },
-    {
-      type: "Feature",
-      properties: {
-        id: null,
-        grupo: "02. Instalaciones públicas",
-        capa: "Eléctricas",
-        titulo: "CEIP Esteban Paluzié",
-        direccion: null,
-        actuacion: "Instalación de enlace. Placas: 70 kw",
-        masinfo:
-          "Proyecto 09:  Obras de restitución de instalaciones eléctricas fotovoltaicas y de enlace . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: null,
-        subv_apro: null,
-        estado: "En ejecución",
-        estado_d:
-          "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
-        enlace:
-          "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
-        fecha_prev: "04/2026",
+        intervencion: "Instalación de enlace. Placas: 70 kw",
       },
       geometry: {
         type: "Point",
@@ -112,19 +90,22 @@ var instalaciones = {
         id: null,
         grupo: "02. Instalaciones públicas",
         capa: "Eléctricas",
-        titulo: "CEIP Vil·la Romana",
-        direccion: null,
-        actuacion: "Instalación de enlace. Placas: 70 kw",
+        titulo:
+          "Instalaciones eléctricas fotovoltaicas y de enlace (CEIP Vil·la Romana)",
+        direccion: "C. Sant Vicent Ferrer, 1C, 46470 València",
+        actuacion:
+          "Trabajos de restitución de varias instalaciones eléctricas fotovoltaicas y de enlace a la red eléctrica de distintos edificios públicos del municipio de Catarroja afectados por la DANA. Reparación  hornacinas dañadas, inversores, equipos y cuadros de protección",
         masinfo:
           "Proyecto 09:  Obras de restitución de instalaciones eléctricas fotovoltaicas y de enlace . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: null,
-        subv_apro: null,
+        val_dany: "171.181,19 € (Total Proyecto)",
+        subv_apro: "171.181,19 € (Total Proyecto)",
         estado: "En ejecución",
         estado_d:
           "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
         fecha_prev: "04/2026",
+        intervencion: "Instalación de enlace. Placas: 70 kw",
       },
       geometry: {
         type: "Point",
@@ -137,19 +118,23 @@ var instalaciones = {
         id: null,
         grupo: "02. Instalaciones públicas",
         capa: "Eléctricas",
-        titulo: "CEIP Joan XXIII",
-        direccion: null,
-        actuacion: "Instalación de enlace. Placas: 50 kw ",
+        titulo:
+          "Instalaciones eléctricas fotovoltaicas y de enlace (CEIP Joan XXIII)",
+        direccion:
+          "C. del Músico Don Miguel Gimeno Puchalt, 2, 46470 Catarroja, Valencia",
+        actuacion:
+          "Trabajos de restitución de varias instalaciones eléctricas fotovoltaicas y de enlace a la red eléctrica de distintos edificios públicos del municipio de Catarroja afectados por la DANA. Reparación  hornacinas dañadas, inversores, equipos y cuadros de protección",
         masinfo:
           "Proyecto 09:  Obras de restitución de instalaciones eléctricas fotovoltaicas y de enlace . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: null,
-        subv_apro: null,
+        val_dany: "171.181,19 € (Total Proyecto)",
+        subv_apro: "171.181,19 € (Total Proyecto)",
         estado: "En ejecución",
         estado_d:
           "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
         fecha_prev: "04/2026",
+        intervencion: "Instalación de enlace. Placas: 50 kw",
       },
       geometry: {
         type: "Point",
@@ -162,19 +147,22 @@ var instalaciones = {
         id: null,
         grupo: "02. Instalaciones públicas",
         capa: "Eléctricas",
-        titulo: "TAC Teatro Auditorio Catarroja",
-        direccion: null,
-        actuacion: "Instalación de enlace. Placas: 35 kw",
+        titulo:
+          "Instalaciones eléctricas fotovoltaicas y de enlace (TAC Teatro Auditorio Catarroja)",
+        direccion: "Av. Diputació, 16, 46470 Catarroja, Valencia",
+        actuacion:
+          "Trabajos de restitución de varias instalaciones eléctricas fotovoltaicas y de enlace a la red eléctrica de distintos edificios públicos del municipio de Catarroja afectados por la DANA. Reparación  hornacinas dañadas, inversores, equipos y cuadros de protección",
         masinfo:
           "Proyecto 09:  Obras de restitución de instalaciones eléctricas fotovoltaicas y de enlace . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: null,
-        subv_apro: null,
+        val_dany: "171.181,19 € (Total Proyecto)",
+        subv_apro: "171.181,19 € (Total Proyecto)",
         estado: "En ejecución",
         estado_d:
           "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
         fecha_prev: "04/2026",
+        intervencion: "Instalación de enlace. Placas: 35 kw",
       },
       geometry: {
         type: "Point",
@@ -187,19 +175,22 @@ var instalaciones = {
         id: null,
         grupo: "02. Instalaciones públicas",
         capa: "Eléctricas",
-        titulo: "EPA Esteban Paluzié",
-        direccion: null,
-        actuacion: "Instalación de enlace. Placas: 20 kw",
+        titulo:
+          "Instalaciones eléctricas fotovoltaicas y de enlace (EPA Esteban Paluzié)",
+        direccion: "Avinguda la Rambleta, 9, 46470 Catarroja, Valencia",
+        actuacion:
+          "Trabajos de restitución de varias instalaciones eléctricas fotovoltaicas y de enlace a la red eléctrica de distintos edificios públicos del municipio de Catarroja afectados por la DANA. Reparación  hornacinas dañadas, inversores, equipos y cuadros de protección",
         masinfo:
           "Proyecto 09:  Obras de restitución de instalaciones eléctricas fotovoltaicas y de enlace . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: null,
-        subv_apro: null,
+        val_dany: "171.181,19 € (Total Proyecto)",
+        subv_apro: "171.181,19 € (Total Proyecto)",
         estado: "En ejecución",
         estado_d:
           "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
         fecha_prev: "04/2026",
+        intervencion: "Instalación de enlace. Placas: 20 kw",
       },
       geometry: {
         type: "Point",
@@ -212,19 +203,22 @@ var instalaciones = {
         id: null,
         grupo: "02. Instalaciones públicas",
         capa: "Eléctricas",
-        titulo: "Pabellón polideportivo",
-        direccion: null,
-        actuacion: "Instalación de enlace. Placas: 100 kw",
+        titulo:
+          "Instalaciones eléctricas fotovoltaicas y de enlace (Pabellón polideportivo)",
+        direccion: "Cam. Vereda de Animales, 4, 46470 Catarroja, Valencia",
+        actuacion:
+          "Trabajos de restitución de varias instalaciones eléctricas fotovoltaicas y de enlace a la red eléctrica de distintos edificios públicos del municipio de Catarroja afectados por la DANA. Reparación  hornacinas dañadas, inversores, equipos y cuadros de protección",
         masinfo:
           "Proyecto 09:  Obras de restitución de instalaciones eléctricas fotovoltaicas y de enlace . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: null,
-        subv_apro: null,
+        val_dany: "171.181,19 € (Total Proyecto)",
+        subv_apro: "171.181,19 € (Total Proyecto)",
         estado: "En ejecución",
         estado_d:
           "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
         fecha_prev: "04/2026",
+        intervencion: "Instalación de enlace. Placas: 100 kw",
       },
       geometry: {
         type: "Point",
@@ -237,19 +231,22 @@ var instalaciones = {
         id: null,
         grupo: "02. Instalaciones públicas",
         capa: "Eléctricas",
-        titulo: "Casa Cultura",
-        direccion: null,
-        actuacion: "Instalación de enlace",
+        titulo:
+          "Instalaciones eléctricas fotovoltaicas y de enlace (Casa Cultura)",
+        direccion: "Carrer Esteve Paluzié, 2, 46470 Catarroja, Valencia",
+        actuacion:
+          "Trabajos de restitución de varias instalaciones eléctricas fotovoltaicas y de enlace a la red eléctrica de distintos edificios públicos del municipio de Catarroja afectados por la DANA. Reparación  hornacinas dañadas, inversores, equipos y cuadros de protección",
         masinfo:
           "Proyecto 09:  Obras de restitución de instalaciones eléctricas fotovoltaicas y de enlace . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: null,
-        subv_apro: null,
+        val_dany: "171.181,19 € (Total Proyecto)",
+        subv_apro: "171.181,19 € (Total Proyecto)",
         estado: "En ejecución",
         estado_d:
           "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
         fecha_prev: "04/2026",
+        intervencion: "Instalación de enlace",
       },
       geometry: {
         type: "Point",
@@ -262,19 +259,22 @@ var instalaciones = {
         id: null,
         grupo: "02. Instalaciones públicas",
         capa: "Eléctricas",
-        titulo: "Parque Secanet (Kiosco)",
+        titulo:
+          "Instalaciones eléctricas fotovoltaicas y de enlace (Parque Secanet - Kiosco)",
         direccion: null,
-        actuacion: "Instalación de enlace",
+        actuacion:
+          "Trabajos de restitución de varias instalaciones eléctricas fotovoltaicas y de enlace a la red eléctrica de distintos edificios públicos del municipio de Catarroja afectados por la DANA. Reparación  hornacinas dañadas, inversores, equipos y cuadros de protección",
         masinfo:
           "Proyecto 09:  Obras de restitución de instalaciones eléctricas fotovoltaicas y de enlace . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: null,
-        subv_apro: null,
+        val_dany: "171.181,19 € (Total Proyecto)",
+        subv_apro: "171.181,19 € (Total Proyecto)",
         estado: "En ejecución",
         estado_d:
           "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
         fecha_prev: "04/2026",
+        intervencion: "Instalación de enlace",
       },
       geometry: {
         type: "Point",
@@ -288,7 +288,7 @@ var instalaciones = {
         grupo: "02. Instalaciones públicas",
         capa: "Red de riegos",
         titulo: "Restitución de instalación de riego de zonas verdes municipio",
-        direccion: null,
+        direccion: "GENERAL",
         actuacion:
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
