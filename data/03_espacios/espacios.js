@@ -9,9 +9,10 @@ var espacios = {
         id: null,
         grupo: "03. Espacios públicos",
         capa: "Plazas, parques y jardines",
-        titulo: "Reconstrucción parque Principe de Asturias",
+        titulo:
+          "Obras del proyecto de recuperación de las zona verdes, espacios ajardinados y parques municipales",
         direccion: "Parc Príncep d'Astúries",
-        actuacion: "Reconstrucción Parc",
+        actuacion: "Reconstrucción Parc Príncep d'Astúries",
         masinfo:
           "Proyecto 02: Recosntrucción del parque Príncipe de Asturias. Incluido en la Orden TMD/101/2025 Ministerio. ",
         val_dany: "",
@@ -21,6 +22,7 @@ var espacios = {
           "En previsión : Memoria validada por el Ministerio. Encargada la memoria de valoración de daños a TRAGSATEC",
         enlace: "",
         fecha_prev: null,
+        equip: "Reconstrucción parque Príncipe de Asturias",
       },
       geometry: {
         type: "Point",
@@ -35,41 +37,18 @@ var espacios = {
         capa: "Plazas, parques y jardines",
         titulo:
           "Obras del proyecto de recuperación de las zona verdes, espacios ajardinados y parques municipales",
-        direccion: "Casco urbano",
-        actuacion: "Reconstrucción parque Princep Asturies",
-        masinfo:
-          "Proyecto 14: Reconstrucción del parque Príncipe de Asturias. Incluido en la Orden TMD/101/2025 Ministerio. ",
-        val_dany: "",
-        subv_apro: "Pendiente",
-        estado: "Prevista",
-        estado_d:
-          "En previsión : Memoria validada por el Ministerio. Encargada la memoria de valoración de daños a TRAGSATEC",
-        enlace: "",
-        fecha_prev: null,
-      },
-      geometry: {
-        type: "Point",
-        coordinates: [-0.403472339498542, 39.403566848256204],
-      },
-    },
-    {
-      type: "Feature",
-      properties: {
-        id: null,
-        grupo: "03. Espacios públicos",
-        capa: "Plazas, parques y jardines",
-        titulo: "Plaza Major",
         direccion: "Plaza Major Catarroja",
         actuacion: "Reconstrucción de la Plaza sin incluir la zona de parking",
         masinfo:
           "Proyecto 23: Obras de reconstrucción de la Plaza Major(no incluye el parking).  Incluido en la Orden TMD/101/2025 Ministerio. ",
-        val_dany: "",
+        val_dany: "1.000.000,00 €",
         subv_apro: "Pendiente",
         estado: "Prevista",
         estado_d:
           "En previsión : Memoria validada por el Ministerio. Encargada la memoria de valoración de daños a TRAGSATEC",
         enlace: "",
         fecha_prev: null,
+        equip: "Plaza Major",
       },
       geometry: {
         type: "Point",
@@ -82,11 +61,12 @@ var espacios = {
         id: null,
         grupo: "03. Espacios públicos",
         capa: "Plazas, parques y jardines",
-        titulo: "Parque l´Horteta",
+        titulo:
+          "Obras del proyecto de recuperación de las zona verdes, espacios ajardinados y parques municipales",
         direccion: "Carrer Victoria Costa Mayo, 1A, 46470 Catarroja, Valencia",
         actuacion:
           "Labores de limpieza y retirada del lodo. Reconstrucción y reacondicionamiento de los Parques, con la finalidad de devolverlos al estado de seguridad y salubridad existente en el estadio previo a la DANA . Obra civil, instalaciones,\r\nmobiliario urbano y equipamientos",
-        masinfo: "Actuación incluida en Projecte Alcem-se FINOP. ",
+        masinfo: "Actuación incluida en Projecte Alcem-se FINOP",
         val_dany: "",
         subv_apro:
           "Importe global donado Projecte Alcem-se. FINOP para reconstrucción parques 500.000 €",
@@ -95,6 +75,7 @@ var espacios = {
         enlace:
           "https://www.catarroja.es/es/noticia/catarroja-inaugura-parque-barracas-gracias-al-convenio-empresa-finop-juan-roig",
         fecha_prev: null,
+        equip: "Parque l'Horteta",
       },
       geometry: {
         type: "Point",
@@ -107,11 +88,12 @@ var espacios = {
         id: null,
         grupo: "03. Espacios públicos",
         capa: "Plazas, parques y jardines",
-        titulo: "Plaza de la Región",
+        titulo:
+          "Obras del proyecto de recuperación de las zona verdes, espacios ajardinados y parques municipales",
         direccion: "Plaça Región Catarroja",
         actuacion:
           "Labores de limpieza y retirada del lodo. Reconstrucción y reacondicionamiento de los Parques, con la finalidad de devolverlos al estado de seguridad y salubridad existente en el estadio previo a la DANA . Obra civil, instalaciones,\r\nmobiliario urbano y equipamientos",
-        masinfo: "Actuación incluida en Projecte Alcem-se FINOP. ",
+        masinfo: "Actuación incluida en Projecte Alcem-se FINOP",
         val_dany: "",
         subv_apro:
           "Importe global donado Projecte Alcem-se. FINOP para reconstrucción parques 500.000 €",
@@ -119,6 +101,7 @@ var espacios = {
         estado_d: "Finalizado",
         enlace: "",
         fecha_prev: null,
+        equip: "Plaza de la Región",
       },
       geometry: { type: "Point", coordinates: [-0.407548499, 39.40485703] },
     },
@@ -128,11 +111,12 @@ var espacios = {
         id: null,
         grupo: "03. Espacios públicos",
         capa: "Plazas, parques y jardines",
-        titulo: "Plaza del Port",
+        titulo:
+          "Obras del proyecto de recuperación de las zona verdes, espacios ajardinados y parques municipales",
         direccion: "Plaça Port",
         actuacion:
           "Labores de limpieza y retirada del lodo. Reconstrucción y reacondicionamiento de los Parques, con la finalidad de devolverlos al estado de seguridad y salubridad existente en el estadio previo a la DANA . Obra civil, instalaciones,\r\nmobiliario urbano y equipamientos",
-        masinfo: "Actuación incluida en Projecte Alcem-se FINOP. ",
+        masinfo: "Actuación incluida en Projecte Alcem-se FINOP",
         val_dany: "",
         subv_apro:
           "Importe global donado Projecte Alcem-se. FINOP para reconstrucción parques 500.000 €",
@@ -140,6 +124,7 @@ var espacios = {
         estado_d: "Finalizado",
         enlace: "",
         fecha_prev: null,
+        equip: "Plaza del Port",
       },
       geometry: { type: "Point", coordinates: [-0.40117713, 39.40101258] },
     },
@@ -149,11 +134,12 @@ var espacios = {
         id: null,
         grupo: "03. Espacios públicos",
         capa: "Plazas, parques y jardines",
-        titulo: "Parque de les Barraques",
+        titulo:
+          "Obras del proyecto de recuperación de las zona verdes, espacios ajardinados y parques municipales",
         direccion: "C. de Pelayo, 20, 46470 Catarroja, Valencia",
         actuacion:
           "Labores de limpieza y retirada del lodo. Reconstrucción y reacondicionamiento de los Parques, con la finalidad de devolverlos al estado de seguridad y salubridad existente en el estadio previo a la DANA . Obra civil, instalaciones,\r\nmobiliario urbano y equipamientos",
-        masinfo: "Actuación incluida en Projecte Alcem-se FINOP. ",
+        masinfo: "Actuación incluida en Projecte Alcem-se FINOP",
         val_dany: "",
         subv_apro:
           "Importe global donado Projecte Alcem-se. FINOP para reconstrucción parques 500.000 €",
@@ -161,6 +147,7 @@ var espacios = {
         estado_d: "Finalizado",
         enlace: "",
         fecha_prev: null,
+        equip: "Parque de les Barraques",
       },
       geometry: { type: "Point", coordinates: [-0.402068861, 39.39667351] },
     },
@@ -170,7 +157,8 @@ var espacios = {
         id: null,
         grupo: "03. Espacios públicos",
         capa: "Plazas, parques y jardines",
-        titulo: "Parque Institut",
+        titulo:
+          "Obras del proyecto de recuperación de las zona verdes, espacios ajardinados y parques municipales",
         direccion: "Cristofol Aguado i Medina",
         actuacion:
           "Labores de limpieza y retirada del lodo. Reconstrucción y reacondicionamiento de los Parques, con la finalidad de devolverlos al estado de seguridad y salubridad existente en el estadio previo a la DANA . Obra civil, instalaciones,\r\nmobiliario urbano y equipamientos",
@@ -182,6 +170,7 @@ var espacios = {
         estado_d: "Finalizado",
         enlace: "",
         fecha_prev: null,
+        equip: "Parque Institut",
       },
       geometry: { type: "Point", coordinates: [-0.40395672, 39.40855766] },
     },
@@ -191,7 +180,8 @@ var espacios = {
         id: null,
         grupo: "03. Espacios públicos",
         capa: "Plazas, parques y jardines",
-        titulo: "Plaça Fumeral",
+        titulo:
+          "Obras del proyecto de recuperación de las zona verdes, espacios ajardinados y parques municipales",
         direccion: "Plaça fumeral",
         actuacion:
           "Labores de limpieza y retirada del lodo. Reconstrucción y reacondicionamiento de los Parques, con la finalidad de devolverlos al estado de seguridad y salubridad existente en el estadio previo a la DANA . Obra civil, instalaciones,\r\nmobiliario urbano y equipamientos",
@@ -204,6 +194,7 @@ var espacios = {
         enlace:
           "https://www.catarroja.es/va/noticia/catarroja-recupera-placa-del-fumeral-despres-dana-gracies-al-conveni-fundacion-hortensia-herrero",
         fecha_prev: null,
+        equip: "Plaça Fumeral",
       },
       geometry: {
         type: "Point",
@@ -229,6 +220,7 @@ var espacios = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/memoria_TMD_Hort_de_Pepica.pdf",
         fecha_prev: null,
+        equip: "Vil·la Romana l'Hort de Pepica",
       },
       geometry: {
         type: "Point",

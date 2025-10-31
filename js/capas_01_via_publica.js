@@ -1,18 +1,21 @@
 // 01. VÍA PÚBLICA
 
-//  capas que forman el grupo y sus iconos FontAwesome
+// Capas de puntos y sus iconos FontAwesome
+
 const capasViapublica = {
-  Contenedores: "fa-trash",
+  Contenedores: "fa-trash", // puntos
 };
 
 // Colores por estado
+
 const coloresViapublica = {
   Prevista: "#14688F",
   "En ejecución": "#f5b800",
   Finalizado: "#00a34f",
 };
 
-// Función para crear icono personalizado
+// Función para crear icono personalizado (para puntos)
+
 function crearIcono(capa, estado) {
   return L.divIcon({
     html: `
@@ -33,6 +36,7 @@ function crearIcono(capa, estado) {
 }
 
 // Función genérica para popups y sidebar
+
 function popupViapublica(feature, layer) {
   const estadoPopUp =
     feature.properties.estado === "Prevista"
@@ -44,15 +48,37 @@ function popupViapublica(feature, layer) {
       : "prevision-pophover";
 
   layer.on("mouseover", (e) => {
-    tooltipPopup = L.popup({ offset: L.point(8, -5), className: estadoPopUp });
-    tooltipPopup.setContent("<b>" + feature.properties.titulo + "</b>");
-    tooltipPopup.setLatLng(e.target.getLatLng());
-    tooltipPopup.openOn(map);
+    const tooltipPopup = L.popup({
+      offset: L.point(8, -5),
+      className: estadoPopUp,
+    });
+
+    let latlng;
+
+    if (feature.geometry.type === "Point") {
+      latlng = e.target.getLatLng();
+    } else if (feature.geometry.type === "LineString") {
+      // Toma el punto medio de la línea
+      const coords = feature.geometry.coordinates;
+      const middle = coords[Math.floor(coords.length / 2)];
+      latlng = L.latLng(middle[1], middle[0]);
+    } else if (feature.geometry.type === "MultiLineString") {
+      // Aplana todos los subarrays en una sola lista de coordenadas
+      const allCoords = feature.geometry.coordinates.flat();
+      const middle = allCoords[Math.floor(allCoords.length / 2)];
+      latlng = L.latLng(middle[1], middle[0]);
+    }
+
+    if (latlng) {
+      tooltipPopup.setContent("<b>" + feature.properties.titulo + "</b>");
+      tooltipPopup.setLatLng(latlng);
+      tooltipPopup.openOn(map);
+    }
   });
 
-  layer.on("mouseout", (e) => map.closePopup(tooltipPopup));
+  layer.on("mouseout", () => map.closePopup());
 
-  layer.on("click", (e) => {
+  layer.on("click", () => {
     const sidebar = L.control
       .sidebar({ autopan: true, container: "sidebar", position: "left" })
       .addTo(map);
@@ -71,6 +97,7 @@ function popupViapublica(feature, layer) {
       <br/><h2>${feature.properties.titulo || infoTitulo(feature)}</h2>
       <table class='detalle'>
         <tbody>
+          ${getProp(feature, "equip", "EQUIPAMIENTO")}
           ${getProp(feature, "direccion", "DIRECCIÓN")}
           ${getProp(feature, "actuacion", "ACTUACIÓN")}
           ${getProp(feature, "masinfo", "MÁS INFORMACIÓN")}
@@ -95,10 +122,25 @@ function popupViapublica(feature, layer) {
 }
 
 // Función para crear layer de un tipo y estado
+
 function crearLayer(capa, estado) {
-  return L.geoJson(viapublica, {
+  // Selecciona el GeoJSON correcto
+  const fuenteGeoJSON = capa === "Alcantarillado" ? viapublica_l : viapublica;
+
+  return L.geoJson(fuenteGeoJSON, {
     pointToLayer: (feature, latlng) =>
-      L.marker(latlng, { icon: crearIcono(capa, estado) }),
+      feature.geometry.type === "Point"
+        ? L.marker(latlng, { icon: crearIcono(capa, estado) })
+        : null,
+    style: (feature) => {
+      if (feature.geometry.type === "MultiLineString") {
+        return {
+          color: coloresViapublica[estado],
+          weight: 6,
+          opacity: 0.8,
+        };
+      }
+    },
     onEachFeature: popupViapublica,
     filter: (feature) =>
       feature.properties.capa === capa && feature.properties.estado === estado,
@@ -106,7 +148,13 @@ function crearLayer(capa, estado) {
 }
 
 // Crear layers por capa y estado
+
 const estadosViapublica = ["Prevista", "En ejecución", "Finalizado"];
+
+const alcantarilladoLayer = L.layerGroup(
+  estadosViapublica.map((e) => crearLayer("Alcantarillado", e))
+);
+
 const contenedoresLayer = L.layerGroup(
   estadosViapublica.map((e) => crearLayer("Contenedores", e))
 );

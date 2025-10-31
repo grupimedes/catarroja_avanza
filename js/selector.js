@@ -11,7 +11,7 @@ var overlayMaps = {
       children: [
         {
           label: "Alcantarillado",
-          layer: contenedoresLayer,
+          layer: alcantarilladoLayer,
         },
         {
           label: "Señalizaciones",
@@ -103,7 +103,7 @@ var overlayMaps = {
       children: [
         {
           label: "Megafonía",
-          layer: contenedoresLayer,
+          layer: megafoniaLayer,
         },
         {
           label: "Barreras automáticas",

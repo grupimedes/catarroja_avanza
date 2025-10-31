@@ -1,13 +1,12 @@
-// 03. ESPACIOS PÚBLICOS
+// 05. SEGURIDAD
 
 //  capas que forman el grupo y sus iconos FontAwesome
-const capasEspacios = {
-  "Plazas, parques y jardines": "fa-leaf",
-  "Villa Romana": "fa-building-columns",
+const capasSeguridad = {
+  Megafonía: "fa-bullhorn",
 };
 
 // Colores por estado
-const coloresEspacios = {
+const coloresSeguridad = {
   Prevista: "#14688F",
   "En ejecución": "#f5b800",
   Finalizado: "#00a34f",
@@ -18,7 +17,7 @@ function crearIcono(capa, estado) {
   return L.divIcon({
     html: `
       <div style="
-        background-color: ${coloresEspacios[estado]};
+        background-color: ${coloresSeguridad[estado]};
         color: white;
         width: 28px;
         height: 28px;
@@ -27,14 +26,14 @@ function crearIcono(capa, estado) {
         align-items: center;
         justify-content: center;
         box-shadow: 0 0 4px rgba(0,0,0,0.4);">
-        <i class="fa-solid ${capasEspacios[capa]} fa-lg"></i>
+        <i class="fa-solid ${capasSeguridad[capa]} fa-lg"></i>
       </div>`,
     className: "icono-personalizado",
   });
 }
 
 // Función genérica para popups y sidebar
-function popupEdificios(feature, layer) {
+function popupSeguridad(feature, layer) {
   const estadoPopUp =
     feature.properties.estado === "Prevista"
       ? "prevision-pophover"
@@ -76,7 +75,7 @@ function popupEdificios(feature, layer) {
           ${getProp(feature, "direccion", "DIRECCIÓN")}
           ${getProp(feature, "actuacion", "ACTUACIÓN")}
           ${getProp(feature, "masinfo", "MÁS INFORMACIÓN")}
-          ${getProp(feature, "val_dany", "VALORACIÓN DE DAÑOS")}
+          ${getProp(feature, "val_dany", "INVERSIÓN")}
           ${getProp(feature, "subv_apro", "SUBVENCIÓN APROBADA")}
           ${getProp(feature, "estado_d", "ESTADO")}
           ${getProp(feature, "fecha_prev", "FECHA PREVISTA")}
@@ -98,20 +97,17 @@ function popupEdificios(feature, layer) {
 
 // Función para crear layer de un tipo y estado
 function crearLayer(capa, estado) {
-  return L.geoJson(espacios, {
+  return L.geoJson(seguridad, {
     pointToLayer: (feature, latlng) =>
       L.marker(latlng, { icon: crearIcono(capa, estado) }),
-    onEachFeature: popupEdificios,
+    onEachFeature: popupSeguridad,
     filter: (feature) =>
       feature.properties.capa === capa && feature.properties.estado === estado,
   });
 }
 
-// Crear layers por capa y estado
-const estadosEspacios = ["Prevista", "En ejecución", "Finalizado"];
-const plazasParquesJardinesLayer = L.layerGroup(
-  estadosEspacios.map((e) => crearLayer("Plazas, parques y jardines", e))
-);
-const villaRomanaLayer = L.layerGroup(
-  estadosEspacios.map((e) => crearLayer("Villa Romana", e))
+// Crear layers por tipo y estado
+const estadosSeguridad = ["Prevista", "En ejecución", "Finalizado"];
+const megafoniaLayer = L.layerGroup(
+  estadosEdificios.map((e) => crearLayer("Megafonía", e))
 );

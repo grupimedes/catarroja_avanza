@@ -74,6 +74,7 @@ function popupInstalaciones(feature, layer) {
       <br/><h2>${feature.properties.titulo || infoTitulo(feature)}</h2>
       <table class='detalle'>
         <tbody>
+          ${getProp(feature, "equip", "EQUIPAMIENTO")}
           ${getProp(feature, "direccion", "DIRECCIÓN")}
           ${getProp(feature, "actuacion", "ACTUACIÓN")}
           ${getProp(feature, "masinfo", "MÁS INFORMACIÓN")}

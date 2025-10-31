@@ -10,6 +10,7 @@ var instalaciones = {
         grupo: "02. Instalaciones públicas",
         capa: "Deportivas",
         titulo: "Piscina de verano. Polideportivo Municipal",
+        equip: "",
         direccion: "Cam. Vereda de Animales, 4, 46470 Catarroja, Valencia",
         actuacion:
           "Restitución de las instalaciones de la piscina de verano para recuperar su situación preexisente a la DANA",
@@ -23,10 +24,11 @@ var instalaciones = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV3_TMD_INSTALACIONES_PISCINA_VERANO.PDF",
         fecha_prev: "07/2025",
+        intervencion: null,
       },
       geometry: {
         type: "Point",
-        coordinates: [-0.414190965431093, 39.402154496834321],
+        coordinates: [-0.414021264496359, 39.402217263882484],
       },
     },
     {
@@ -36,6 +38,7 @@ var instalaciones = {
         grupo: "02. Instalaciones públicas",
         capa: "Parking Plaça Major",
         titulo: "Parking subterráneo Plaça Major",
+        equip: "",
         direccion: "Av. Diputació, 16a, 46470 Catarroja, Valencia",
         actuacion:
           "Reconstrucción del garaje subterráneo. Restitución de instalaciones, fontanería, ascensores y equipamiento del garaje. Reparacion estrucutura dañada",
@@ -49,6 +52,7 @@ var instalaciones = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV4_TMD_Reconstruccion_garaje_Plaza_Mayor.pdf",
         fecha_prev: "26/02/2026",
+        intervencion: null,
       },
       geometry: {
         type: "Point",
@@ -61,8 +65,8 @@ var instalaciones = {
         id: null,
         grupo: "02. Instalaciones públicas",
         capa: "Eléctricas",
-        titulo:
-          "Instalaciones eléctricas fotovoltaicas y de enlace (CEIP Esteban Paluzié)",
+        titulo: "Instalaciones eléctricas fotovoltaicas y de enlace",
+        equip: "CEIP Esteban Paluzié",
         direccion:
           "Av de la, Avinguda la Rambleta, 1, 46470 Catarroja, Valencia",
         actuacion:
@@ -90,8 +94,8 @@ var instalaciones = {
         id: null,
         grupo: "02. Instalaciones públicas",
         capa: "Eléctricas",
-        titulo:
-          "Instalaciones eléctricas fotovoltaicas y de enlace (CEIP Vil·la Romana)",
+        titulo: "Instalaciones eléctricas fotovoltaicas y de enlace",
+        equip: "CEIP Vil·la Romana",
         direccion: "C. Sant Vicent Ferrer, 1C, 46470 València",
         actuacion:
           "Trabajos de restitución de varias instalaciones eléctricas fotovoltaicas y de enlace a la red eléctrica de distintos edificios públicos del municipio de Catarroja afectados por la DANA. Reparación  hornacinas dañadas, inversores, equipos y cuadros de protección",
@@ -118,8 +122,8 @@ var instalaciones = {
         id: null,
         grupo: "02. Instalaciones públicas",
         capa: "Eléctricas",
-        titulo:
-          "Instalaciones eléctricas fotovoltaicas y de enlace (CEIP Joan XXIII)",
+        titulo: "Instalaciones eléctricas fotovoltaicas y de enlace",
+        equip: "CEIP Joan XXIII",
         direccion:
           "C. del Músico Don Miguel Gimeno Puchalt, 2, 46470 Catarroja, Valencia",
         actuacion:
@@ -147,8 +151,8 @@ var instalaciones = {
         id: null,
         grupo: "02. Instalaciones públicas",
         capa: "Eléctricas",
-        titulo:
-          "Instalaciones eléctricas fotovoltaicas y de enlace (TAC Teatro Auditorio Catarroja)",
+        titulo: "Instalaciones eléctricas fotovoltaicas y de enlace",
+        equip: "TAC Teatro Auditorio Catarroja",
         direccion: "Av. Diputació, 16, 46470 Catarroja, Valencia",
         actuacion:
           "Trabajos de restitución de varias instalaciones eléctricas fotovoltaicas y de enlace a la red eléctrica de distintos edificios públicos del municipio de Catarroja afectados por la DANA. Reparación  hornacinas dañadas, inversores, equipos y cuadros de protección",
@@ -175,8 +179,8 @@ var instalaciones = {
         id: null,
         grupo: "02. Instalaciones públicas",
         capa: "Eléctricas",
-        titulo:
-          "Instalaciones eléctricas fotovoltaicas y de enlace (EPA Esteban Paluzié)",
+        titulo: "Instalaciones eléctricas fotovoltaicas y de enlace",
+        equip: "EPA Esteban Paluzié",
         direccion: "Avinguda la Rambleta, 9, 46470 Catarroja, Valencia",
         actuacion:
           "Trabajos de restitución de varias instalaciones eléctricas fotovoltaicas y de enlace a la red eléctrica de distintos edificios públicos del municipio de Catarroja afectados por la DANA. Reparación  hornacinas dañadas, inversores, equipos y cuadros de protección",
@@ -203,8 +207,8 @@ var instalaciones = {
         id: null,
         grupo: "02. Instalaciones públicas",
         capa: "Eléctricas",
-        titulo:
-          "Instalaciones eléctricas fotovoltaicas y de enlace (Pabellón polideportivo)",
+        titulo: "Instalaciones eléctricas fotovoltaicas y de enlace",
+        equip: "Pabellón polideportivo",
         direccion: "Cam. Vereda de Animales, 4, 46470 Catarroja, Valencia",
         actuacion:
           "Trabajos de restitución de varias instalaciones eléctricas fotovoltaicas y de enlace a la red eléctrica de distintos edificios públicos del municipio de Catarroja afectados por la DANA. Reparación  hornacinas dañadas, inversores, equipos y cuadros de protección",
@@ -231,8 +235,8 @@ var instalaciones = {
         id: null,
         grupo: "02. Instalaciones públicas",
         capa: "Eléctricas",
-        titulo:
-          "Instalaciones eléctricas fotovoltaicas y de enlace (Casa Cultura)",
+        titulo: "Instalaciones eléctricas fotovoltaicas y de enlace",
+        equip: "Casa Cultura",
         direccion: "Carrer Esteve Paluzié, 2, 46470 Catarroja, Valencia",
         actuacion:
           "Trabajos de restitución de varias instalaciones eléctricas fotovoltaicas y de enlace a la red eléctrica de distintos edificios públicos del municipio de Catarroja afectados por la DANA. Reparación  hornacinas dañadas, inversores, equipos y cuadros de protección",
@@ -259,8 +263,8 @@ var instalaciones = {
         id: null,
         grupo: "02. Instalaciones públicas",
         capa: "Eléctricas",
-        titulo:
-          "Instalaciones eléctricas fotovoltaicas y de enlace (Parque Secanet - Kiosco)",
+        titulo: "Instalaciones eléctricas fotovoltaicas y de enlace",
+        equip: "Parque Secanet - Kiosco",
         direccion: null,
         actuacion:
           "Trabajos de restitución de varias instalaciones eléctricas fotovoltaicas y de enlace a la red eléctrica de distintos edificios públicos del municipio de Catarroja afectados por la DANA. Reparación  hornacinas dañadas, inversores, equipos y cuadros de protección",
@@ -288,7 +292,8 @@ var instalaciones = {
         grupo: "02. Instalaciones públicas",
         capa: "Red de riegos",
         titulo: "Restitución de instalación de riego de zonas verdes municipio",
-        direccion: "GENERAL",
+        equip: "",
+        direccion: "",
         actuacion:
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
@@ -300,10 +305,119 @@ var instalaciones = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV10_TMD_OBRA_RIEGO.pdf",
         fecha_prev: "23/07/2026",
+        intervencion: null,
       },
       geometry: {
         type: "Point",
         coordinates: [-0.401939779263765, 39.405345520993158],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "02. Instalaciones públicas",
+        capa: "Deportivas",
+        titulo: "Piscina cubierta",
+        equip: "",
+        direccion:
+          "Calle Músico Gimeno Puchalt, s/n, 46470 Catarroja, Valencia",
+        actuacion:
+          "Reubicación de la instalación de la piscina cubierta a la zona del polideportivo. Nuevos usos edificio polifuncional parque Barraques",
+        masinfo:
+          "Proyecto 19:  Obras del proyecto de la reubicación  piscina cubierta . Incluido en la Orden TMD/101/2025 Ministerio",
+        val_dany: "7.500.000,00 €",
+        subv_apro: "Pendiente",
+        estado: "Prevista",
+        estado_d:
+          "Pendiente: A falta redacción memoria a remitir al ministerio",
+        enlace: null,
+        fecha_prev: null,
+        intervencion: null,
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [-0.400612481406078, 39.3972207362931],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "02. Instalaciones públicas",
+        capa: "Deportivas",
+        titulo: "Polideportivo municipal",
+        equip: "",
+        direccion: "Cam. Vereda de Animales, 4, 46470 Catarroja, Valencia",
+        actuacion: "Obras de reparación de las instalaciones del polideportivo",
+        masinfo:
+          "Proyecto 20:  Obras del proyecto de reparación del polideportivo . Incluido en la Orden TMD/101/2025 Ministerio",
+        val_dany: "1.800.000,00 €",
+        subv_apro: "Pendiente",
+        estado: "Prevista",
+        estado_d:
+          "Pendiente : A falta redacción memoria a remitir al ministerio",
+        enlace: null,
+        fecha_prev: null,
+        intervencion: null,
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [-0.415185853626122, 39.402597456210067],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "02. Instalaciones públicas",
+        capa: "Deportivas",
+        titulo: "Campo de fútbol Mundial 82",
+        equip: "",
+        direccion: "Av. Rei Jaume I, 7, 46470 Catarroja, Valencia",
+        actuacion:
+          "Obras de proyecto reparación de infraestructuras campo del Futbol",
+        masinfo:
+          "Proyecto 21:  Obras de reparación del Muindial 82. Incluido en la Orden TMD/101/2025 Ministerio",
+        val_dany: "715.000,00 €",
+        subv_apro: "Pendiente",
+        estado: "Prevista",
+        estado_d:
+          "Pendiente: A falta redacción memoria a remitir al ministerio",
+        enlace: null,
+        fecha_prev: null,
+        intervencion: null,
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [-0.41199423908665, 39.405104724559877],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "02. Instalaciones públicas",
+        capa: "Deportivas",
+        titulo: "Pabellón multideportivo municipal",
+        equip: "",
+        direccion: "Av. Diputació, 7, 46470 Catarroja, Valencia",
+        actuacion:
+          "Obras de reparación infrestructuras pabellón multideportivo",
+        masinfo:
+          "Proyecto 22:  Obras de reparación del pabellón deportivo. Incluido en la Orden TMD/101/2025 Ministerio",
+        val_dany: "500.000,00 €",
+        subv_apro: "Pendiente",
+        estado: "Prevista",
+        estado_d:
+          "Pendiente: A falta redacción memoria a remitir al ministerio",
+        enlace: null,
+        fecha_prev: null,
+        intervencion: null,
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [-0.413468060538281, 39.403616907388738],
       },
     },
   ],
