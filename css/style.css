@@ -26,10 +26,11 @@ h2 {
 h3 {
   font-size: 12px;
   font-family: Tahoma, Helvetica, sans-serif;
-  color: #ac2c2d;
+  color: #ffffff;
+  background-color: #ac2c2d;
   border: solid;
-  border-radius: 5px;
-  padding: 5px;
+  border-radius: 25px;
+  padding: 7px;
 }
 
 table.detalle {
@@ -45,12 +46,11 @@ table.detalle th {
   padding: 3px 2px;
 }
 table.detalle tbody td {
-  font-size: 10px;
-  padding: 5px;
+  padding: 8px;
   color: #333333;
 }
 table.detalle thead {
-  font-size: 10px;
+  font-size: 20px;
   background: #fff;
 }
 table.detalle thead th {
@@ -186,7 +186,8 @@ table.detalle th {
   padding: 3px 2px;
 }
 table.detalle tbody td {
-  font-size: 10px;
+  font-size: 12px;
+  line-height: 1.5;
   color: #333333;
 }
 table.detalle thead {

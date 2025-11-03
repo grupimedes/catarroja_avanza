@@ -15,7 +15,7 @@ var overlayMaps = {
         },
         {
           label: "Señalizaciones",
-          layer: contenedoresLayer,
+          layer: sinDatos,
         },
         {
           label: "Contenedores",
@@ -23,11 +23,11 @@ var overlayMaps = {
         },
         {
           label: "Alumbrado",
-          layer: contenedoresLayer,
+          layer: sinDatos,
         },
         {
           label: "Reurbanización",
-          layer: contenedoresLayer,
+          layer: sinDatos,
         },
       ],
     },
@@ -50,7 +50,7 @@ var overlayMaps = {
         },
         {
           label: "Port Cararroja",
-          layer: contenedoresLayer,
+          layer: sinDatos,
         },
         {
           label: "Parking Plaça Major",
@@ -58,7 +58,7 @@ var overlayMaps = {
         },
         {
           label: "Cementerio",
-          layer: contenedoresLayer,
+          layer: sinDatos,
         },
       ],
     },
@@ -107,11 +107,11 @@ var overlayMaps = {
         },
         {
           label: "Barreras automáticas",
-          layer: contenedoresLayer,
+          layer: sinDatos,
         },
         {
           label: "Centro de emergencias<br/>Jaume I",
-          layer: contenedoresLayer,
+          layer: sinDatos,
         },
       ],
     },

@@ -41,21 +41,20 @@
 .control-window {
   background-color: #ffffff;
   color: #353535;
-  font: 14px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 .leaflet-control-window .titlebar {
-  min-height: 38px;
   cursor: grab;
   cursor: -webkit-grab;
   cursor: -moz-grab;
-  padding: 10px 45px 10px 10px;
+  padding-top: 20px;
 }
 
 .leaflet-control-window .close {
   position: absolute;
-  top: 4px;
-  right: 6px;
+  top: 15px;
+  right: 15px;
   width: 28px;
   height: 28px;
   border-radius: 100%;
@@ -79,8 +78,9 @@
 }
 
 .leaflet-control-window .content {
-  padding: 8px;
-  margin-top: -10px;
+  text-align: center;
+  width: fit-content;
+  padding: 10px;
   z-index: 29;
   overflow: auto;
 }

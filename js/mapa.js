@@ -1,14 +1,14 @@
 // Mapa base
 
-//var esquinaizq = L.latLng(39.42306103861917, -0.44337715525542226);
-//var esquinader = L.latLng(39.375194493221365, -0.3347599860737488);
+var esquinaizq = L.latLng(39.45242591061197, -0.4809699258979035);
+var esquinader = L.latLng(39.34377947502236, -0.239906378932543);
 
-//var bounds = L.latLngBounds(esquinaizq, esquinader);
+var bounds = L.latLngBounds(esquinaizq, esquinader);
 
 var map = L.map("map", {
   attributionControl: true,
   fullscreenControl: true,
-  //maxBounds: bounds,
+  maxBounds: bounds,
 }).setView([39.400412463222494, -0.39934490710677306], 15);
 
 var simple = L.tileLayer(

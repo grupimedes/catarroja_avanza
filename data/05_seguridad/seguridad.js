@@ -21,6 +21,7 @@ var seguridad = {
         estado_d: "Prevista",
         enlace: "",
         fecha_prev: "2025",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -45,6 +46,7 @@ var seguridad = {
         estado_d: "Prevista",
         enlace: "",
         fecha_prev: "2025",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -69,6 +71,7 @@ var seguridad = {
         estado_d: "Prevista",
         enlace: "",
         fecha_prev: "2025",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -93,6 +96,7 @@ var seguridad = {
         estado_d: "Prevista",
         enlace: "",
         fecha_prev: "2025",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -117,6 +121,7 @@ var seguridad = {
         estado_d: "Finalizado",
         enlace: "",
         fecha_prev: "2025",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -141,6 +146,7 @@ var seguridad = {
         estado_d: "Finalizado",
         enlace: "",
         fecha_prev: "2025",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -165,6 +171,7 @@ var seguridad = {
         estado_d: "Finalizado",
         enlace: "",
         fecha_prev: "2025",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -189,6 +196,7 @@ var seguridad = {
         estado_d: "Prevista",
         enlace: "",
         fecha_prev: "2025",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -213,6 +221,7 @@ var seguridad = {
         estado_d: "Prevista",
         enlace: "",
         fecha_prev: "2025",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -237,10 +246,36 @@ var seguridad = {
         estado_d: "Prevista",
         enlace: "",
         fecha_prev: "2025",
+        general: 0,
       },
       geometry: {
         type: "Point",
         coordinates: [-0.401036696003173, 39.395291760483623],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "05. Seguridad",
+        capa: "Megafonía",
+        titulo: "Instalación de altavoces de megafonía",
+        equip: null,
+        direccion: null,
+        actuacion:
+          "Instalación de altavoces de megafonía profesional diseñados para aplicaciones de aviso público, control de acceso, emergencias que ofrecen transmisiosnes eficaces tanto en difusión norma como en emergencias con capacidades inteligentes integradas",
+        masinfo: null,
+        val_dany: "13.986,36 € (Total proyecto)",
+        subv_apro: "Financiación Propia",
+        estado: "Prevista",
+        estado_d: "Prevista",
+        enlace: null,
+        fecha_prev: "2025",
+        general: 1,
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [0.102141567125998, 39.406143764999221],
       },
     },
   ],

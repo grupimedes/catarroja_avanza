@@ -23,6 +23,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.403284088, 39.40677254] },
     },
@@ -46,6 +47,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.402987808, 39.40670354] },
     },
@@ -69,6 +71,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.402344327, 39.40655083] },
     },
@@ -92,6 +95,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.403295783, 39.40561125] },
     },
@@ -115,6 +119,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.407269928, 39.40496709] },
     },
@@ -138,6 +143,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.405949103, 39.40744571] },
     },
@@ -161,6 +167,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.405748672, 39.40627419] },
     },
@@ -184,6 +191,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.402505877, 39.40770165] },
     },
@@ -207,6 +215,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.40207961, 39.40831451] },
     },
@@ -230,6 +239,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.40370321, 39.40989172] },
     },
@@ -253,6 +263,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.403262806, 39.40880734] },
     },
@@ -276,6 +287,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.40310192, 39.40814187] },
     },
@@ -299,6 +311,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.404653635, 39.40693401] },
     },
@@ -322,6 +335,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -348,6 +362,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.405022502, 39.40949273] },
     },
@@ -371,6 +386,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.405798585, 39.40794088] },
     },
@@ -394,6 +410,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.406685156, 39.40881715] },
     },
@@ -417,6 +434,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.407407151, 39.40893538] },
     },
@@ -440,6 +458,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.405946525, 39.40991196] },
     },
@@ -463,6 +482,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -489,6 +509,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -515,6 +536,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.406118157, 39.41032279] },
     },
@@ -538,6 +560,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.407087371, 39.41146883] },
     },
@@ -561,6 +584,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.406072181, 39.40662257] },
     },
@@ -584,6 +608,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.409638113, 39.40744614] },
     },
@@ -607,6 +632,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.409006349, 39.40794651] },
     },
@@ -630,6 +656,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.407999189, 39.40747821] },
     },
@@ -653,6 +680,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.408175388, 39.40679502] },
     },
@@ -676,6 +704,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.410228156, 39.40647518] },
     },
@@ -699,6 +728,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.410944473, 39.40530303] },
     },
@@ -722,6 +752,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -748,6 +779,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.411230562, 39.40483433] },
     },
@@ -771,6 +803,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.408998272, 39.4046171] },
     },
@@ -794,6 +827,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.409132598, 39.40345457] },
     },
@@ -817,6 +851,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.409761065, 39.40385502] },
     },
@@ -840,6 +875,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.409261796, 39.40515664] },
     },
@@ -863,6 +899,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.407803839, 39.40367055] },
     },
@@ -886,6 +923,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -912,6 +950,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.406712564, 39.40600211] },
     },
@@ -935,6 +974,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.40751897, 39.40622183] },
     },
@@ -958,6 +998,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.407519254, 39.4043325] },
     },
@@ -981,6 +1022,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.401129849, 39.40403062] },
     },
@@ -1004,6 +1046,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.402446226, 39.40415751] },
     },
@@ -1027,6 +1070,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.401144145, 39.40102849] },
     },
@@ -1050,6 +1094,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.399962285, 39.40503955] },
     },
@@ -1073,6 +1118,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.400887855, 39.40560361] },
     },
@@ -1096,6 +1142,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.399099639, 39.40525631] },
     },
@@ -1119,6 +1166,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -1145,6 +1193,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.397597827, 39.4040861] },
     },
@@ -1168,6 +1217,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.399922116, 39.40430277] },
     },
@@ -1191,6 +1241,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.397778372, 39.40335035] },
     },
@@ -1214,6 +1265,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.398966545, 39.40295629] },
     },
@@ -1237,6 +1289,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.398749307, 39.40141631] },
     },
@@ -1260,6 +1313,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.399713345, 39.39881234] },
     },
@@ -1283,6 +1337,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.400171472, 39.39770832] },
     },
@@ -1306,6 +1361,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.402937002, 39.39706126] },
     },
@@ -1329,6 +1385,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.406977628, 39.4018101] },
     },
@@ -1352,6 +1409,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.413648044, 39.4041318] },
     },
@@ -1375,6 +1433,7 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.415742322, 39.40352792] },
     },
@@ -1398,10 +1457,38 @@ var viapublica = {
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
         fecha_prev: "05/02/2026",
+        general: 0,
       },
       geometry: {
         type: "Point",
         coordinates: [-0.406957935, 39.402825129999989],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Contenedores",
+        titulo: "Eliminación de contenedores soterrados",
+        direccion: null,
+        actuacion:
+          "Eliminación de las 65 islas de contenedores soterrados que al estar bajo el nivel del suelo quedaron destrozados e inutilizados por la DANA",
+        masinfo:
+          "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
+        val_dany: "720.291,96 € (Total proyecto)",
+        subv_apro: "720.291,96 € (Total proyecto)",
+        estado: "En ejecución",
+        estado_d:
+          "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
+        enlace:
+          "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        fecha_prev: "05/02/2026",
+        general: 1,
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [0.102141567125998, 39.406143764999221],
       },
     },
   ],
