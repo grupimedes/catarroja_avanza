@@ -312,7 +312,7 @@ var instalaciones = {
       },
       geometry: {
         type: "Point",
-        coordinates: [-0.401939779263765, 39.405345520993158],
+        coordinates: [0.102197402913363, 39.40616274765712],
       },
     },
     {

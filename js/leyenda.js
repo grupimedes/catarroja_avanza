@@ -74,6 +74,39 @@ var leyenda = L.control.htmllegend({
       ],
     },
     {
+      name: "Reurbanización",
+      layer: reurbanizacionLayer,
+      elements: [
+        {
+          label: "Prevista",
+          html: "",
+          style: {
+            "background-color": "#14688F",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "En ejecución",
+          html: "",
+          style: {
+            "background-color": "#F5B800",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "Finalizado",
+          html: "",
+          style: {
+            "background-color": "#00A34F",
+            width: "20px",
+            height: "20px",
+          },
+        },
+      ],
+    },
+    {
       name: "Deportivas",
       layer: deportivasLayer,
       elements: [
@@ -400,6 +433,42 @@ var leyenda = L.control.htmllegend({
     {
       name: "Megafonía",
       layer: megafoniaLayer,
+      elements: [
+        {
+          label: "Prevista",
+          html: "",
+          style: {
+            "background-color": "#14688F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "En ejecución",
+          html: "",
+          style: {
+            "background-color": "#F5B800",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "Finalizado",
+          html: "",
+          style: {
+            "background-color": "#00A34F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+      ],
+    },
+    {
+      name: "Centro de emergencias",
+      layer: centroEmergenciasLayer,
       elements: [
         {
           label: "Prevista",

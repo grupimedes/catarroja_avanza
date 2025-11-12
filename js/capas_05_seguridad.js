@@ -3,6 +3,7 @@
 //  capas que forman el grupo y sus iconos FontAwesome
 const capasSeguridad = {
   Megafonía: "fa-bullhorn",
+  "Centro de emergencias": "fa-tower-broadcast",
 };
 
 // Colores por estado
@@ -110,4 +111,8 @@ function crearLayer(capa, estado) {
 const estadosSeguridad = ["Prevista", "En ejecución", "Finalizado"];
 const megafoniaLayer = L.layerGroup(
   estadosEdificios.map((e) => crearLayer("Megafonía", e))
+);
+
+const centroEmergenciasLayer = L.layerGroup(
+  estadosEdificios.map((e) => crearLayer("Centro de emergencias", e))
 );

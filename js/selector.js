@@ -27,7 +27,7 @@ var overlayMaps = {
         },
         {
           label: "Reurbanización",
-          layer: sinDatos,
+          layer: reurbanizacionLayer,
         },
       ],
     },
@@ -110,8 +110,8 @@ var overlayMaps = {
           layer: sinDatos,
         },
         {
-          label: "Centro de emergencias<br/>Jaume I",
-          layer: sinDatos,
+          label: "Centro de emergencias",
+          layer: centroEmergenciasLayer,
         },
       ],
     },

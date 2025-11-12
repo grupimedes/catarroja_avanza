@@ -1,6 +1,7 @@
 // Crear la ventana (leaflet-control-window)
 var win = L.control.window(map, {
   modal: false,
+  position: "bottomRight",
 });
 
 // Tabla reutilizable
@@ -45,6 +46,7 @@ function tablaResumenCapa(layerGroup, nombreCapa) {
         ${row("SUBVENCIÓN", p.subv_apro)}
         ${row("FECHA PREVISTA", p.fecha_prev)}
         ${row("ENLACE", '<a href="' + p.enlace + '">Ver enlace</a>')}
+        ${row("ENLACE_2", '<a href="' + p.enlace_2 + '">Ver enlace</a>')}
       </tbody>
     </table>
     <br/>
@@ -57,6 +59,7 @@ function detectarCapaActiva() {
   const capas = [
     { nombre: "Alcantarillado", layer: alcantarilladoLayer },
     { nombre: "Contenedores", layer: contenedoresLayer },
+    { nombre: "Reurbanización", layer: reurbanizacionLayer },
     { nombre: "Deportivas", layer: deportivasLayer },
     { nombre: "Eléctricas", layer: electricasLayer },
     { nombre: "Red de riegos", layer: riegoLayer },
@@ -67,6 +70,7 @@ function detectarCapaActiva() {
     { nombre: "Centos culturales", layer: centroCulturalLayer },
     { nombre: "Centros sociosanitarios", layer: centroSocioLayer },
     { nombre: "Megafonía", layer: megafoniaLayer },
+    { nombre: "Centro de emergencias", layer: centroEmergenciasLayer },
   ];
 
   return capas.find((c) => map.hasLayer(c.layer));
@@ -74,6 +78,7 @@ function detectarCapaActiva() {
 
 // Capas excluidas del wincontrol
 const capasExcluidas = [
+  "Reurbanización",
   "Deportivas",
   "Parking Plaça Major",
   "Plazas, parques y jardines",

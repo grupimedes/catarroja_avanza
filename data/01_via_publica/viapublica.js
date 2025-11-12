@@ -1,6 +1,6 @@
 var viapublica = {
   type: "FeatureCollection",
-  name: "viapublica_",
+  name: "viapublica",
   crs: { type: "name", properties: { name: "urn:ogc:def:crs:OGC:1.3:CRS84" } },
   features: [
     {
@@ -22,6 +22,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -46,6 +48,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -70,6 +74,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -94,6 +100,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -118,6 +126,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -142,6 +152,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -166,6 +178,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -190,6 +204,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -214,6 +230,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -238,6 +256,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -262,6 +282,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -286,6 +308,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -310,6 +334,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -334,6 +360,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -361,6 +389,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -385,6 +415,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -409,6 +441,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -433,6 +467,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -457,6 +493,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -481,6 +519,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -503,11 +543,13 @@ var viapublica = {
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
         val_dany: "720.291,96 € (Total proyecto)",
         subv_apro: "720.291,96 € (Total proyecto)",
-        estado: "En ejecución",
+        estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -535,6 +577,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -554,11 +598,13 @@ var viapublica = {
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
         val_dany: "720.291,96 € (Total proyecto)",
         subv_apro: "720.291,96 € (Total proyecto)",
-        estado: "En ejecución",
+        estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -583,6 +629,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -607,6 +655,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -631,6 +681,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -655,6 +707,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -679,6 +733,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -703,6 +759,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -727,6 +785,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -751,6 +811,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -778,6 +840,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -802,6 +866,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -826,6 +892,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -850,6 +918,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -874,6 +944,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -898,6 +970,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -922,6 +996,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -949,6 +1025,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -973,6 +1051,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -997,6 +1077,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1016,11 +1098,13 @@ var viapublica = {
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
         val_dany: "720.291,96 € (Total proyecto)",
         subv_apro: "720.291,96 € (Total proyecto)",
-        estado: "En ejecución",
+        estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1040,11 +1124,13 @@ var viapublica = {
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
         val_dany: "720.291,96 € (Total proyecto)",
         subv_apro: "720.291,96 € (Total proyecto)",
-        estado: "En ejecución",
+        estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1064,11 +1150,13 @@ var viapublica = {
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
         val_dany: "720.291,96 € (Total proyecto)",
         subv_apro: "720.291,96 € (Total proyecto)",
-        estado: "En ejecución",
+        estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1093,6 +1181,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1117,6 +1207,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1141,6 +1233,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1165,6 +1259,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1192,6 +1288,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1216,6 +1314,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1240,6 +1340,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1259,11 +1361,13 @@ var viapublica = {
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
         val_dany: "720.291,96 € (Total proyecto)",
         subv_apro: "720.291,96 € (Total proyecto)",
-        estado: "En ejecución",
+        estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1288,6 +1392,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1307,11 +1413,13 @@ var viapublica = {
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
         val_dany: "720.291,96 € (Total proyecto)",
         subv_apro: "720.291,96 € (Total proyecto)",
-        estado: "En ejecución",
+        estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1331,11 +1439,13 @@ var viapublica = {
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
         val_dany: "720.291,96 € (Total proyecto)",
         subv_apro: "720.291,96 € (Total proyecto)",
-        estado: "En ejecución",
+        estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1360,6 +1470,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1384,6 +1496,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1408,6 +1522,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1432,6 +1548,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1456,6 +1574,8 @@ var viapublica = {
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 0,
       },
@@ -1478,11 +1598,13 @@ var viapublica = {
           "Proyecto 05:  Eliminación contenedores soterrados. Incluido en la Orden TMD/101/2025 Ministerio",
         val_dany: "720.291,96 € (Total proyecto)",
         subv_apro: "720.291,96 € (Total proyecto)",
-        estado: "En ejecución",
+        estado: "Finalizado",
         estado_d:
           "En ejecución : Memoria validada por el Ministerio. Contrato de adjudicación aprobado por Resolución 1769 de 26/05: Guerola, Áridos y Hormigones, SL",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV5_TMD_Eliminacion_contenedores_soterrados.pdf",
+        enlace_2:
+          "https://www.catarroja.es/va/noticia/catarroja-finalitza-obres-substitucio-dels-contenidors-soterrats-danyats-dana",
         fecha_prev: "05/02/2026",
         general: 1,
       },

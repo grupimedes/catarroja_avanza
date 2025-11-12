@@ -1,13 +1,11 @@
 // 01. VÍA PÚBLICA
 
-// Capas de puntos y sus iconos FontAwesome
-
+// Capas y sus iconos FontAwesome
 const capasViapublica = {
-  Contenedores: "fa-trash", // puntos
+  Contenedores: "fa-trash",
 };
 
 // Colores por estado
-
 const coloresViapublica = {
   Prevista: "#14688F",
   "En ejecución": "#f5b800",
@@ -15,7 +13,6 @@ const coloresViapublica = {
 };
 
 // Función para crear icono personalizado (para puntos)
-
 function crearIcono(capa, estado) {
   return L.divIcon({
     html: `
@@ -35,8 +32,18 @@ function crearIcono(capa, estado) {
   });
 }
 
-// Función genérica para popups y sidebar
+// Función para el estilo de polígonos
+function estiloPoligono(feature) {
+  const estado = feature.properties.estado;
+  return {
+    color: coloresViapublica[estado],
+    weight: 2,
+    fillColor: coloresViapublica[estado],
+    fillOpacity: 0.4,
+  };
+}
 
+// Función genérica para popups y sidebar
 function popupViapublica(feature, layer) {
   const estadoPopUp =
     feature.properties.estado === "Prevista"
@@ -58,13 +65,19 @@ function popupViapublica(feature, layer) {
     if (feature.geometry.type === "Point") {
       latlng = e.target.getLatLng();
     } else if (feature.geometry.type === "LineString") {
-      // Toma el punto medio de la línea
       const coords = feature.geometry.coordinates;
       const middle = coords[Math.floor(coords.length / 2)];
       latlng = L.latLng(middle[1], middle[0]);
     } else if (feature.geometry.type === "MultiLineString") {
-      // Aplana todos los subarrays en una sola lista de coordenadas
       const allCoords = feature.geometry.coordinates.flat();
+      const middle = allCoords[Math.floor(allCoords.length / 2)];
+      latlng = L.latLng(middle[1], middle[0]);
+    } else if (feature.geometry.type === "Polygon") {
+      const coords = feature.geometry.coordinates[0];
+      const middle = coords[Math.floor(coords.length / 2)];
+      latlng = L.latLng(middle[1], middle[0]);
+    } else if (feature.geometry.type === "MultiPolygon") {
+      const allCoords = feature.geometry.coordinates.flat(2);
       const middle = allCoords[Math.floor(allCoords.length / 2)];
       latlng = L.latLng(middle[1], middle[0]);
     }
@@ -106,6 +119,7 @@ function popupViapublica(feature, layer) {
           ${getProp(feature, "estado_d", "ESTADO")}
           ${getProp(feature, "fecha_prev", "FECHA PREVISTA")}
           ${getProp(feature, "enlace", "ENLACE")}
+          ${getProp(feature, "enlace_2", "ENLACE 2")}
         </tbody>
       </table>`;
     panel.appendChild(tabla);
@@ -121,17 +135,20 @@ function popupViapublica(feature, layer) {
   });
 }
 
-// Función para crear layer de un tipo y estado
-
+// Función para crear layer según tipo y estado
 function crearLayer(capa, estado) {
-  // Selecciona el GeoJSON correcto
-  const fuenteGeoJSON = capa === "Alcantarillado" ? viapublica_l : viapublica;
+  let fuenteGeoJSON;
+
+  if (capa === "Alcantarillado") fuenteGeoJSON = viapublica_l;
+  else if (capa === "Reurbanización") fuenteGeoJSON = viapublica_p;
+  else fuenteGeoJSON = viapublica;
 
   return L.geoJson(fuenteGeoJSON, {
     pointToLayer: (feature, latlng) =>
       feature.geometry.type === "Point"
         ? L.marker(latlng, { icon: crearIcono(capa, estado) })
         : null,
+
     style: (feature) => {
       if (feature.geometry.type === "MultiLineString") {
         return {
@@ -139,22 +156,32 @@ function crearLayer(capa, estado) {
           weight: 6,
           opacity: 0.8,
         };
+      } else if (
+        feature.geometry.type === "Polygon" ||
+        feature.geometry.type === "MultiPolygon"
+      ) {
+        return estiloPoligono(feature);
       }
     },
+
     onEachFeature: popupViapublica,
+
     filter: (feature) =>
       feature.properties.capa === capa && feature.properties.estado === estado,
   });
 }
 
 // Crear layers por capa y estado
-
 const estadosViapublica = ["Prevista", "En ejecución", "Finalizado"];
+
+const contenedoresLayer = L.layerGroup(
+  estadosViapublica.map((e) => crearLayer("Contenedores", e))
+);
 
 const alcantarilladoLayer = L.layerGroup(
   estadosViapublica.map((e) => crearLayer("Alcantarillado", e))
 );
 
-const contenedoresLayer = L.layerGroup(
-  estadosViapublica.map((e) => crearLayer("Contenedores", e))
+const reurbanizacionLayer = L.layerGroup(
+  estadosViapublica.map((e) => crearLayer("Reurbanización", e))
 );
