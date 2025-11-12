@@ -39,7 +39,7 @@ function estiloPoligono(feature) {
     color: coloresViapublica[estado],
     weight: 2,
     fillColor: coloresViapublica[estado],
-    fillOpacity: 0.4,
+    fillOpacity: 0.3,
   };
 }
 

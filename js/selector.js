@@ -13,18 +13,20 @@ var overlayMaps = {
           label: "Alcantarillado",
           layer: alcantarilladoLayer,
         },
+        /*
         {
           label: "Señalizaciones",
           layer: sinDatos,
-        },
+        },*/
         {
           label: "Contenedores",
           layer: contenedoresLayer,
         },
+        /*
         {
           label: "Alumbrado",
           layer: sinDatos,
-        },
+        },*/
         {
           label: "Reurbanización",
           layer: reurbanizacionLayer,
@@ -48,18 +50,20 @@ var overlayMaps = {
           label: "Red de riegos",
           layer: riegoLayer,
         },
+        /*
         {
           label: "Port Cararroja",
           layer: sinDatos,
-        },
+        },*/
         {
           label: "Parking Plaça Major",
           layer: parkingLayer,
         },
+        /*
         {
           label: "Cementerio",
           layer: sinDatos,
-        },
+        },*/
       ],
     },
     {
@@ -105,10 +109,11 @@ var overlayMaps = {
           label: "Megafonía",
           layer: megafoniaLayer,
         },
+        /*
         {
           label: "Barreras automáticas",
           layer: sinDatos,
-        },
+        },*/
         {
           label: "Centro de emergencias",
           layer: centroEmergenciasLayer,

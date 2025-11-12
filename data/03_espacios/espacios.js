@@ -23,6 +23,7 @@ var espacios = {
         enlace: "",
         fecha_prev: null,
         equip: "Reconstrucción parque Príncipe de Asturias",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -49,6 +50,7 @@ var espacios = {
         enlace: "",
         fecha_prev: null,
         equip: "Plaza Major",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -76,6 +78,7 @@ var espacios = {
           "https://www.catarroja.es/es/noticia/catarroja-inaugura-parque-barracas-gracias-al-convenio-empresa-finop-juan-roig",
         fecha_prev: null,
         equip: "Parque l'Horteta",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -102,6 +105,7 @@ var espacios = {
         enlace: "",
         fecha_prev: null,
         equip: "Plaza de la Región",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.407548499, 39.40485703] },
     },
@@ -125,6 +129,7 @@ var espacios = {
         enlace: "",
         fecha_prev: null,
         equip: "Plaza del Port",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.40117713, 39.40101258] },
     },
@@ -148,6 +153,7 @@ var espacios = {
         enlace: "",
         fecha_prev: null,
         equip: "Parque de les Barraques",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.402068861, 39.39667351] },
     },
@@ -171,6 +177,7 @@ var espacios = {
         enlace: "",
         fecha_prev: null,
         equip: "Parque Institut",
+        general: 0,
       },
       geometry: { type: "Point", coordinates: [-0.40395672, 39.40855766] },
     },
@@ -195,6 +202,7 @@ var espacios = {
           "https://www.catarroja.es/va/noticia/catarroja-recupera-placa-del-fumeral-despres-dana-gracies-al-conveni-fundacion-hortensia-herrero",
         fecha_prev: null,
         equip: "Plaça Fumeral",
+        general: 0,
       },
       geometry: {
         type: "Point",
@@ -221,10 +229,65 @@ var espacios = {
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/memoria_TMD_Hort_de_Pepica.pdf",
         fecha_prev: null,
         equip: "Vil·la Romana l'Hort de Pepica",
+        general: 0,
       },
       geometry: {
         type: "Point",
         coordinates: [-0.408293129099696, 39.408432706798742],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "03. Espacios públicos",
+        capa: "Plazas, parques y jardines",
+        titulo:
+          "Obras del proyecto de recuperación de las zona verdes, espacios ajardinados y parques municipales",
+        direccion: "Casco urbano",
+        actuacion: null,
+        masinfo:
+          "Proyecto 14:Obras del proyecto recuperacion de zonas verdes, espacios ajardinados y parques municipales Incluido en la Orden TMD/101/2025 Ministerio",
+        val_dany: null,
+        subv_apro: "Pendiente",
+        estado: "Prevista",
+        estado_d:
+          "En previsión : Memoria validada por el Ministerio. Encargada la memoria de valoración de daños a TRAGSATEC",
+        enlace: null,
+        fecha_prev: null,
+        equip: null,
+        general: 1,
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [0.102080906378904, 39.406139180670593],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "03. Espacios públicos",
+        capa: "Villa Romana",
+        titulo: "Vil·la Romana l'Hort de Pepica",
+        direccion: "C. Sant Vicent Ferrer, 1C, 46470 València",
+        actuacion: "Obras necesarias para restituir el estado previo a la DANA",
+        masinfo:
+          "Proyecto 07: Restitución del yacimiento arqueológico Hort de Pepica. Incluido en la Orden TDM/101/2025 Ministerio",
+        val_dany: "460.090,12 €",
+        subv_apro: "Pendiente",
+        estado: "Prevista",
+        estado_d:
+          "Prevista: Memoria presentada al Ministerio pendiente de su validación",
+        enlace:
+          "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/memoria_TMD_Hort_de_Pepica.pdf",
+        fecha_prev: null,
+        equip: "Vil·la Romana l'Hort de Pepica",
+        general: 1,
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [0.102159981278747, 39.40620049547028],
       },
     },
   ],
