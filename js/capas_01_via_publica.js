@@ -55,82 +55,37 @@ function popupViapublica(feature, layer) {
       : "prevision-pophover";
 
   layer.on("mouseover", (e) => {
-    const tooltipPopup = L.popup({
-      offset: L.point(8, -5),
-      className: estadoPopUp,
-    });
-
-    let latlng;
-
-    if (feature.geometry.type === "Point") {
-      latlng = e.target.getLatLng();
-    } else if (feature.geometry.type === "LineString") {
-      const coords = feature.geometry.coordinates;
-      const middle = coords[Math.floor(coords.length / 2)];
-      latlng = L.latLng(middle[1], middle[0]);
-    } else if (feature.geometry.type === "MultiLineString") {
-      const allCoords = feature.geometry.coordinates.flat();
-      const middle = allCoords[Math.floor(allCoords.length / 2)];
-      latlng = L.latLng(middle[1], middle[0]);
-    } else if (feature.geometry.type === "Polygon") {
-      const coords = feature.geometry.coordinates[0];
-      const middle = coords[Math.floor(coords.length / 2)];
-      latlng = L.latLng(middle[1], middle[0]);
-    } else if (feature.geometry.type === "MultiPolygon") {
-      const allCoords = feature.geometry.coordinates.flat(2);
-      const middle = allCoords[Math.floor(allCoords.length / 2)];
-      latlng = L.latLng(middle[1], middle[0]);
-    }
-
-    if (latlng) {
-      tooltipPopup.setContent("<b>" + feature.properties.titulo + "</b>");
-      tooltipPopup.setLatLng(latlng);
-      tooltipPopup.openOn(map);
-    }
+    const tooltip = L.popup({ offset: L.point(8, -5), className: estadoPopUp });
+    tooltip.setContent("<b>" + feature.properties.titulo + "</b>");
+    tooltip.setLatLng(e.target.getLatLng());
+    tooltip.openOn(map);
   });
 
   layer.on("mouseout", () => map.closePopup());
 
   layer.on("click", () => {
-    const sidebar = L.control
-      .sidebar({ autopan: true, container: "sidebar", position: "left" })
-      .addTo(map);
-    const panel = document.createElement("div");
-    panel.className = "leaflet-sidebar-pane";
+    const panel = document.getElementById("tabla");
 
-    const header = document.createElement("h1");
-    header.className = "leaflet-sidebar-header";
-    header.innerHTML =
-      feature.properties.capa.toUpperCase() +
-      '<span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
-    panel.appendChild(header);
+    panel.innerHTML = `
+            <h1 class="leaflet-sidebar-header">
+                ${feature.properties.capa.toUpperCase()}
+                <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>
+            </h1>
+            <br/><h2>${feature.properties.titulo}</h2>
+            <table class="detalle"><tbody>
+                ${getProp(feature, "equip", "EQUIPAMIENTO")}
+                ${getProp(feature, "direccion", "DIRECCIÓN")}
+                ${getProp(feature, "actuacion", "ACTUACIÓN")}
+                ${getProp(feature, "masinfo", "MÁS INFORMACIÓN")}
+                ${getProp(feature, "val_dany", "VALORACIÓN DE DAÑOS")}
+                ${getProp(feature, "subv_apro", "SUBVENCIÓN APROBADA")}
+                ${getProp(feature, "estado_d", "ESTADO")}
+                ${getProp(feature, "fecha_prev", "FECHA PREVISTA")}
+                ${getProp(feature, "enlace", "ENLACE")}
+                ${getProp(feature, "enlace_2", "ENLACE 2")}
+            </tbody></table>
+        `;
 
-    const tabla = document.createElement("div");
-    tabla.innerHTML = `
-      <br/><h2>${feature.properties.titulo || infoTitulo(feature)}</h2>
-      <table class='detalle'>
-        <tbody>
-          ${getProp(feature, "equip", "EQUIPAMIENTO")}
-          ${getProp(feature, "direccion", "DIRECCIÓN")}
-          ${getProp(feature, "actuacion", "ACTUACIÓN")}
-          ${getProp(feature, "masinfo", "MÁS INFORMACIÓN")}
-          ${getProp(feature, "val_dany", "VALORACIÓN DE DAÑOS")}
-          ${getProp(feature, "subv_apro", "SUBVENCIÓN APROBADA")}
-          ${getProp(feature, "estado_d", "ESTADO")}
-          ${getProp(feature, "fecha_prev", "FECHA PREVISTA")}
-          ${getProp(feature, "enlace", "ENLACE")}
-          ${getProp(feature, "enlace_2", "ENLACE 2")}
-        </tbody>
-      </table>`;
-    panel.appendChild(tabla);
-
-    sidebar.addPanel({
-      id: "tabla",
-      tab: '<i class="fa fa-info"></i>',
-      pane: panel,
-      title: "Info ",
-      position: "top",
-    });
     sidebar.open("tabla");
   });
 }

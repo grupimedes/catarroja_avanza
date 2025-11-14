@@ -43,18 +43,21 @@ var overlayMaps = {
           layer: deportivasLayer,
         },
         {
-          label: "Eléctricas",
+          label: "Instalaciones eléctricas",
           layer: electricasLayer,
+        },
+        {
+          label: "Alumbrado",
+          layer: alumbradoLayer,
         },
         {
           label: "Red de riegos",
           layer: riegoLayer,
         },
-        /*
         {
-          label: "Port Cararroja",
-          layer: sinDatos,
-        },*/
+          label: "Port de Catarroja",
+          layer: portLayer,
+        },
         {
           label: "Parking Plaça Major",
           layer: parkingLayer,

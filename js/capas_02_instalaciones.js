@@ -3,9 +3,11 @@
 //  capas que forman el grupo y sus iconos FontAwesome
 const capasInstalaciones = {
   Deportivas: "fa-volleyball",
-  Eléctricas: "fa-bolt",
+  "Instalaciones eléctricas": "fa-bolt",
+  Alumbrado: "fa-lightbulb",
   "Parking Plaça Major": "fa-square-parking",
   "Red de riegos": "fa-droplet",
+  "Port de Catarroja": "fa-sailboat",
 };
 
 // Colores por estado
@@ -53,48 +55,31 @@ function popupInstalaciones(feature, layer) {
     tooltipPopup.openOn(map);
   });
 
-  layer.on("mouseout", (e) => map.closePopup(tooltipPopup));
+  layer.on("mouseout", () => map.closePopup());
 
-  layer.on("click", (e) => {
-    const sidebar = L.control
-      .sidebar({ autopan: true, container: "sidebar", position: "left" })
-      .addTo(map);
-    const panel = document.createElement("div");
-    panel.className = "leaflet-sidebar-pane";
+  layer.on("click", () => {
+    const panel = document.getElementById("tabla");
 
-    const header = document.createElement("h1");
-    header.className = "leaflet-sidebar-header";
-    header.innerHTML =
-      feature.properties.capa.toUpperCase() +
-      '<span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>';
-    panel.appendChild(header);
+    panel.innerHTML = `
+            <h1 class="leaflet-sidebar-header">
+                ${feature.properties.capa.toUpperCase()}
+                <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>
+            </h1>
+            <br/><h2>${feature.properties.titulo}</h2>
+            <table class="detalle"><tbody>
+                ${getProp(feature, "equip", "EQUIPAMIENTO")}
+                ${getProp(feature, "direccion", "DIRECCIÓN")}
+                ${getProp(feature, "actuacion", "ACTUACIÓN")}
+                ${getProp(feature, "masinfo", "MÁS INFORMACIÓN")}
+                ${getProp(feature, "intervencion", "INTERVENCIÓN")}
+                ${getProp(feature, "val_dany", "VALORACIÓN DE DAÑOS")}
+                ${getProp(feature, "subv_apro", "SUBVENCIÓN APROBADA")}
+                ${getProp(feature, "estado_d", "ESTADO")}
+                ${getProp(feature, "fecha_prev", "FECHA PREVISTA")}
+                ${getProp(feature, "enlace", "ENLACE")}
+            </tbody></table>
+        `;
 
-    const tabla = document.createElement("div");
-    tabla.innerHTML = `
-      <br/><h2>${feature.properties.titulo || infoTitulo(feature)}</h2>
-      <table class='detalle'>
-        <tbody>
-          ${getProp(feature, "equip", "EQUIPAMIENTO")}
-          ${getProp(feature, "direccion", "DIRECCIÓN")}
-          ${getProp(feature, "actuacion", "ACTUACIÓN")}
-          ${getProp(feature, "masinfo", "MÁS INFORMACIÓN")}
-          ${getProp(feature, "intervencion", "INTERVENCIÓN")}
-          ${getProp(feature, "val_dany", "VALORACIÓN DE DAÑOS")}
-          ${getProp(feature, "subv_apro", "SUBVENCIÓN APROBADA")}
-          ${getProp(feature, "estado_d", "ESTADO")}
-          ${getProp(feature, "fecha_prev", "FECHA PREVISTA")}
-          ${getProp(feature, "enlace", "ENLACE")}
-        </tbody>
-      </table>`;
-    panel.appendChild(tabla);
-
-    sidebar.addPanel({
-      id: "tabla",
-      tab: '<i class="fa fa-info"></i>',
-      pane: panel,
-      title: "Info ",
-      position: "top",
-    });
     sidebar.open("tabla");
   });
 }
@@ -116,10 +101,16 @@ const deportivasLayer = L.layerGroup(
   estadosInstalaciones.map((e) => crearLayer("Deportivas", e))
 );
 const electricasLayer = L.layerGroup(
-  estadosInstalaciones.map((e) => crearLayer("Eléctricas", e))
+  estadosInstalaciones.map((e) => crearLayer("Instalaciones eléctricas", e))
+);
+const alumbradoLayer = L.layerGroup(
+  estadosInstalaciones.map((e) => crearLayer("Alumbrado", e))
 );
 const riegoLayer = L.layerGroup(
   estadosInstalaciones.map((e) => crearLayer("Red de riegos", e))
+);
+const portLayer = L.layerGroup(
+  estadosInstalaciones.map((e) => crearLayer("Port de Catarroja", e))
 );
 const parkingLayer = L.layerGroup(
   estadosInstalaciones.map((e) => crearLayer("Parking Plaça Major", e))

@@ -143,6 +143,78 @@ var leyenda = L.control.htmllegend({
       ],
     },
     {
+      name: "Eléctricas",
+      layer: electricasLayer,
+      elements: [
+        {
+          label: "Prevista",
+          html: "",
+          style: {
+            "background-color": "#14688F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "En ejecución",
+          html: "",
+          style: {
+            "background-color": "#F5B800",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "Finalizado",
+          html: "",
+          style: {
+            "background-color": "#00A34F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+      ],
+    },
+    {
+      name: "Alumbrado",
+      layer: alumbradoLayer,
+      elements: [
+        {
+          label: "Prevista",
+          html: "",
+          style: {
+            "background-color": "#14688F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "En ejecución",
+          html: "",
+          style: {
+            "background-color": "#F5B800",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "Finalizado",
+          html: "",
+          style: {
+            "background-color": "#00A34F",
+            "border-radius": "50%",
+            width: "20px",
+            height: "20px",
+          },
+        },
+      ],
+    },
+    {
       name: "Red de riegos",
       layer: riegoLayer,
       elements: [
@@ -179,8 +251,8 @@ var leyenda = L.control.htmllegend({
       ],
     },
     {
-      name: "Eléctricas",
-      layer: electricasLayer,
+      name: "Port de Catarroja",
+      layer: portLayer,
       elements: [
         {
           label: "Prevista",
