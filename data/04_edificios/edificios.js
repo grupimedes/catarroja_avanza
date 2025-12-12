@@ -42,7 +42,7 @@ var edificios = {
         subv_apro: null,
         estado: "Prevista",
         estado_d:
-          "Pendiente: Redacción de memoria por TRAGASEC para remitirla al Ministerio para su validación",
+          "Pendiente: Memoria remitida al  Ministerio para su validación (24/11/2025)",
         enlace: null,
         fecha_prev: null,
       },
@@ -85,7 +85,7 @@ var edificios = {
         actuacion:
           "Actuaciones urgentes de sustitución de pavimentos, carpinterías, instalaciones eléctricas, reposición de vallados, tabiquería, drenaje",
         masinfo: "Informe de actuaciones DANA Grupo TRAGSA",
-        val_dany: null,
+        val_dany: "",
         subv_apro: null,
         estado: "Finalizada",
         estado_d: null,
@@ -245,7 +245,7 @@ var edificios = {
           "Reconstrucción del edificio de la Escuela Permanente de Personas Adultas",
         masinfo:
           "Proyecto 24:  Obras reconstrucción EPA. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: null,
+        val_dany: "1.750.000,00 €",
         subv_apro: null,
         estado: "Prevista",
         estado_d:
@@ -273,7 +273,7 @@ var edificios = {
         subv_apro: null,
         estado: "Prevista",
         estado_d:
-          "Pendiente: Redacción de memoria por TRAGASEC para remitirla al Ministerio para su validación",
+          "Pendiente: Memoria remitida al  Ministerio para su validación (27/11/2025)",
         enlace: null,
         fecha_prev: null,
       },
@@ -343,7 +343,7 @@ var edificios = {
         subv_apro: null,
         estado: "Prevista",
         estado_d:
-          "Pendiente: Redacción de memoria por TRAGASEC para remitirla al Ministerio para su validación",
+          "Pendiente: Memoria remitida al  Ministerio para su validación (5/12/2025)",
         enlace: null,
         fecha_prev: null,
       },
@@ -452,9 +452,9 @@ var edificios = {
     {
       type: "Feature",
       properties: {
-        id: null,
-        grupo: null,
-        capa: "Centros sociosanitarios\n",
+        id: "20",
+        grupo: "04. Edificios públicos",
+        capa: "Centros sociosanitarios",
         titulo:
           "Residencia Francisco Ramón Pastor y M.M.D.D. y San José de la Montaña",
         direccion: "Camí Real, 22, 46470 Catarroja, Valencia",
@@ -462,10 +462,11 @@ var edificios = {
           "Obras de reparación residencia. Pendiente de valoración viabilidad de actuaciones y usos",
         masinfo:
           "Proyecto 25:  Obras Obra reparación residencia. Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: null,
+        val_dany: "1.827.760,00 €",
         subv_apro: null,
         estado: "Prevista",
-        estado_d: "Pendiente",
+        estado_d:
+          "Pendiente: Redacción de memoria por TRAGASEC para remitirla al Ministerio para su validación",
         enlace: null,
         fecha_prev: null,
       },

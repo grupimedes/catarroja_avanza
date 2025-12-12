@@ -11,12 +11,11 @@ var viapublica_l = {
         capa: "Alcantarillado",
         titulo: "Obras en alcantarillado",
         direccion: null,
-        actuacion:
-          "Ejectuada la primera fase de obras urgentes en alcantarillado",
+        actuacion: "Fase 1",
         masinfo:
           "Primera fase puntos más críticos del municipio asumido por fondos propios por un total de 960.000 €. Solicitada subvención al Minsterio MITECO para ejecución segunda fase. Redes separativas de aguas fecales que aumentarán un tercio la capacidad del colector ",
         val_dany: "66.000.000,00 € (Total Proyecto)",
-        subv_apro: "58.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 €\n (Total Proyecto)",
         estado: "En ejecución",
         estado_d:
           "Primera fase: Finalizada. Segunda Fase en fase de preparación de memorias y el plan de trabajo que se realizará por etapas para evitar parar el día a día del municipio.",
@@ -403,12 +402,11 @@ var viapublica_l = {
         capa: "Alcantarillado",
         titulo: "Obras en alcantarillado",
         direccion: "Carrer de Santander",
-        actuacion:
-          "Ejectuada la primera fase de obras urgentes en alcantarillado",
+        actuacion: "Fase 1",
         masinfo:
           "Primera fase puntos más críticos del municipio asumido por fondos propios por un total de 960.000 €. Solicitada subvención al Minsterio MITECO para ejecución segunda fase. Redes separativas de aguas fecales que aumentarán un tercio la capacidad del colector ",
         val_dany: "66.000.000,00 € (Total Proyecto)",
-        subv_apro: "58.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 €\n (Total Proyecto)",
         estado: "Finalizado",
         estado_d:
           "Primera fase: Finalizada. Segunda Fase en fase de preparación de memorias y el plan de trabajo que se realizará por etapas para evitar parar el día a día del municipio.",
@@ -434,12 +432,11 @@ var viapublica_l = {
         capa: "Alcantarillado",
         titulo: "Obras en alcantarillado",
         direccion: "Carrer 27",
-        actuacion:
-          "Ejectuada la primera fase de obras urgentes en alcantarillado",
+        actuacion: "Fase 1",
         masinfo:
           "Primera fase puntos más críticos del municipio asumido por fondos propios por un total de 960.000 €. Solicitada subvención al Minsterio MITECO para ejecución segunda fase. Redes separativas de aguas fecales que aumentarán un tercio la capacidad del colector ",
         val_dany: "66.000.000,00 € (Total Proyecto)",
-        subv_apro: "58.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 €\n (Total Proyecto)",
         estado: "Finalizado",
         estado_d:
           "Primera fase: Finalizada. Segunda Fase en fase de preparación de memorias y el plan de trabajo que se realizará por etapas para evitar parar el día a día del municipio.",
@@ -467,12 +464,11 @@ var viapublica_l = {
         capa: "Alcantarillado",
         titulo: "Obras en alcantarillado",
         direccion: "Carrer d'Ausiàs March",
-        actuacion:
-          "Ejectuada la primera fase de obras urgentes en alcantarillado",
+        actuacion: "Fase 1",
         masinfo:
           "Primera fase puntos más críticos del municipio asumido por fondos propios por un total de 960.000 €. Solicitada subvención al Minsterio MITECO para ejecución segunda fase. Redes separativas de aguas fecales que aumentarán un tercio la capacidad del colector ",
         val_dany: "66.000.000,00 € (Total Proyecto)",
-        subv_apro: "58.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 €\n (Total Proyecto)",
         estado: "Finalizado",
         estado_d:
           "Primera fase: Finalizada. Segunda Fase en fase de preparación de memorias y el plan de trabajo que se realizará por etapas para evitar parar el día a día del municipio.",
@@ -502,12 +498,11 @@ var viapublica_l = {
         capa: "Alcantarillado",
         titulo: "Obras en alcantarillado",
         direccion: "Carrer d'Alacant",
-        actuacion:
-          "Ejectuada la primera fase de obras urgentes en alcantarillado",
+        actuacion: "Fase 1",
         masinfo:
           "Primera fase puntos más críticos del municipio asumido por fondos propios por un total de 960.000 €. Solicitada subvención al Minsterio MITECO para ejecución segunda fase. Redes separativas de aguas fecales que aumentarán un tercio la capacidad del colector ",
         val_dany: "66.000.000,00 € (Total Proyecto)",
-        subv_apro: "58.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 €\n (Total Proyecto)",
         estado: "Finalizado",
         estado_d:
           "Primera fase: Finalizada. Segunda Fase en fase de preparación de memorias y el plan de trabajo que se realizará por etapas para evitar parar el día a día del municipio.",
@@ -537,12 +532,11 @@ var viapublica_l = {
         capa: "Alcantarillado",
         titulo: "Obras en alcantarillado",
         direccion: "Carrer del Ratat del Sagant",
-        actuacion:
-          "Ejectuada la primera fase de obras urgentes en alcantarillado",
+        actuacion: "Fase 1",
         masinfo:
           "Primera fase puntos más críticos del municipio asumido por fondos propios por un total de 960.000 €. Solicitada subvención al Minsterio MITECO para ejecución segunda fase. Redes separativas de aguas fecales que aumentarán un tercio la capacidad del colector ",
         val_dany: "66.000.000,00 € (Total Proyecto)",
-        subv_apro: "58.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 €\n (Total Proyecto)",
         estado: "Finalizado",
         estado_d:
           "Primera fase: Finalizada. Segunda Fase en fase de preparación de memorias y el plan de trabajo que se realizará por etapas para evitar parar el día a día del municipio.",
@@ -568,12 +562,11 @@ var viapublica_l = {
         capa: "Alcantarillado",
         titulo: "Obras en alcantarillado",
         direccion: "Carrer del Mestre Manfredo Monforte",
-        actuacion:
-          "Ejectuada la primera fase de obras urgentes en alcantarillado",
+        actuacion: "Fase 1",
         masinfo:
           "Primera fase puntos más críticos del municipio asumido por fondos propios por un total de 960.000 €. Solicitada subvención al Minsterio MITECO para ejecución segunda fase. Redes separativas de aguas fecales que aumentarán un tercio la capacidad del colector ",
         val_dany: "66.000.000,00 € (Total Proyecto)",
-        subv_apro: "58.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 €\n (Total Proyecto)",
         estado: "Finalizado",
         estado_d:
           "Primera fase: Finalizada. Segunda Fase en fase de preparación de memorias y el plan de trabajo que se realizará por etapas para evitar parar el día a día del municipio.",
@@ -603,12 +596,11 @@ var viapublica_l = {
         capa: "Alcantarillado",
         titulo: "Obras en alcantarillado",
         direccion: "Carrer de València",
-        actuacion:
-          "Ejectuada la primera fase de obras urgentes en alcantarillado",
+        actuacion: "Fase 1",
         masinfo:
           "Primera fase puntos más críticos del municipio asumido por fondos propios por un total de 960.000 €. Solicitada subvención al Minsterio MITECO para ejecución segunda fase. Redes separativas de aguas fecales que aumentarán un tercio la capacidad del colector ",
         val_dany: "66.000.000,00 € (Total Proyecto)",
-        subv_apro: "58.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 €\n (Total Proyecto)",
         estado: "Finalizado",
         estado_d:
           "Primera fase: Finalizada. Segunda Fase en fase de preparación de memorias y el plan de trabajo que se realizará por etapas para evitar parar el día a día del municipio.",
@@ -635,12 +627,11 @@ var viapublica_l = {
         capa: "Alcantarillado",
         titulo: "Obras en alcantarillado",
         direccion: "Carrer de Màlaga",
-        actuacion:
-          "Ejectuada la primera fase de obras urgentes en alcantarillado",
+        actuacion: "Fase 1",
         masinfo:
           "Primera fase puntos más críticos del municipio asumido por fondos propios por un total de 960.000 €. Solicitada subvención al Minsterio MITECO para ejecución segunda fase. Redes separativas de aguas fecales que aumentarán un tercio la capacidad del colector ",
         val_dany: "66.000.000,00 € (Total Proyecto)",
-        subv_apro: "58.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 €\n (Total Proyecto)",
         estado: "Finalizado",
         estado_d:
           "Primera fase: Finalizada. Segunda Fase en fase de preparación de memorias y el plan de trabajo que se realizará por etapas para evitar parar el día a día del municipio.",
@@ -655,6 +646,612 @@ var viapublica_l = {
             [-0.405481, 39.4045189],
             [-0.4053296, 39.4052608],
             [-0.4052131, 39.4057753],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Avenida Murcia",
+        actuacion: "Fase 1",
+        masinfo:
+          "Primera fase puntos más críticos del municipio asumido por fondos propios por un total de 960.000 €. Solicitada subvención al Minsterio MITECO para ejecución segunda fase. Redes separativas de aguas fecales que aumentarán un tercio la capacidad del colector ",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 €\n (Total Proyecto)",
+        estado: "Finalizado",
+        estado_d:
+          "Primera fase: Finalizada. Segunda Fase en fase de preparación de memorias y el plan de trabajo que se realizará por etapas para evitar parar el día a día del municipio.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.4076863, 39.4062072],
+            [-0.4067891, 39.4060605],
+            [-0.4065471, 39.4060244],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Calle Galicia",
+        actuacion: "Fase 1",
+        masinfo:
+          "Primera fase puntos más críticos del municipio asumido por fondos propios por un total de 960.000 €. Solicitada subvención al Minsterio MITECO para ejecución segunda fase. Redes separativas de aguas fecales que aumentarán un tercio la capacidad del colector ",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 €\n (Total Proyecto)",
+        estado: "Finalizado",
+        estado_d:
+          "Primera fase: Finalizada. Segunda Fase en fase de preparación de memorias y el plan de trabajo que se realizará por etapas para evitar parar el día a día del municipio.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.405481, 39.4045189],
+            [-0.405596, 39.4040131],
+            [-0.4058864, 39.4027327],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Calle Emili Ferrer",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.4055242, 39.4079648],
+            [-0.4044035, 39.4076949],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Calle Francesc Larrode",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.4085436, 39.4091566],
+            [-0.4076591, 39.4090079],
+            [-0.4064671, 39.4088101],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Carrer Almeria",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.4043258, 39.4060364],
+            [-0.4037498, 39.4059418],
+            [-0.4031712, 39.4058426],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Carrer Torero Antonio Carpio",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.4033197, 39.4054607],
+            [-0.4031712, 39.4058426],
+            [-0.4028397, 39.4066989],
+            [-0.4026203, 39.4072654],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Carrer Trinquet",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.4048758, 39.4043302],
+            [-0.4049979, 39.4039148],
+            [-0.405114, 39.4034631],
+            [-0.4053517, 39.4026711],
+            [-0.4054345, 39.402383],
+            [-0.4055493, 39.4019668],
+            [-0.4057756, 39.4011837],
+            [-0.4060614, 39.4001994],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Carrer Gómez Ferrer",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.4003996, 39.4039054],
+            [-0.3999068, 39.403823],
+            [-0.3992251, 39.4037401],
+            [-0.3978922, 39.4034395],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Carrer Colom",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.4064405, 39.4041467],
+            [-0.405596, 39.4040131],
+            [-0.4049979, 39.4039148],
+            [-0.4031668, 39.403606],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Carrer Banda del Empastre",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.406804, 39.4015742],
+            [-0.4062008, 39.4013504],
+            [-0.4057756, 39.4011837],
+            [-0.4051533, 39.4009351],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Carrer de la Pau",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.4041273, 39.4027435],
+            [-0.4035028, 39.4026576],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Carrer Francisco Llorens",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.4042298, 39.4025566],
+            [-0.4044816, 39.4021136],
+            [-0.404725, 39.4016826],
+            [-0.4051533, 39.4009351],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Carrer del Pez",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.4006638, 39.3999891],
+            [-0.4008772, 39.4000388],
+            [-0.4009072, 39.4000514],
+            [-0.4007701, 39.4003259],
+            [-0.4007377, 39.4003474],
+            [-0.4006977, 39.40037],
+            [-0.4006484, 39.4005119],
+            [-0.4003667, 39.4005025],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Carrer de les Placetes",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.4012245, 39.4004569],
+            [-0.4013401, 39.4003367],
+            [-0.4015218, 39.4000226],
+            [-0.4015945, 39.3999016],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Carrer Barcelona",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.4015432, 39.3994522],
+            [-0.40068, 39.3991806],
+            [-0.3999991, 39.3989664],
+            [-0.3997367, 39.3988839],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Carrer 32",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.3897268, 39.4020026],
+            [-0.390022, 39.4014934],
+            [-0.3901551, 39.4012639],
+            [-0.3903789, 39.4008779],
+            [-0.3911247, 39.3995768],
+            [-0.3912237, 39.3994049],
+            [-0.3917885, 39.3984469],
+            [-0.3922071, 39.3977249],
+            [-0.392452, 39.3972916],
+            [-0.3926036, 39.397035],
+            [-0.3926646, 39.3969313],
+            [-0.3934632, 39.3955773],
+            [-0.3935645, 39.3953911],
+            [-0.3942571, 39.3942239],
+            [-0.3947368, 39.3934084],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Carrer Peris i Valero",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.3999068, 39.403823],
+            [-0.4002873, 39.4026062],
+            [-0.4004372, 39.4021194],
+            [-0.4006336, 39.4015228],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Carrer Teruel",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.4019425, 39.3984434],
+            [-0.4015783, 39.3983077],
+            [-0.4012252, 39.3981583],
+            [-0.4005503, 39.3978991],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alcantarillado",
+        titulo: "Obras en alcantarillado",
+        direccion: "Camino Santa Ana",
+        actuacion: "Fase 2",
+        masinfo: "Segunda fase de reparación alcantarillado",
+        val_dany: "66.000.000,00 € (Total Proyecto)",
+        subv_apro: "70.936.091,85 € (Total Proyecto)",
+        estado: "Prevista",
+        estado_d:
+          "FASE 2. Previsión. Pendiente recibir memoria (ya contratada con EGEVASA) con el detalle de los trabajos.",
+        enlace: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "MultiLineString",
+        coordinates: [
+          [
+            [-0.4120382, 39.4017011],
+            [-0.4108232, 39.4021135],
+            [-0.4106891, 39.4021405],
+            [-0.4105603, 39.4021405],
+            [-0.410325270312699, 39.402112520275324],
+            [-0.4097047, 39.4020306],
+            [-0.4085918, 39.4018377],
+            [-0.4073594, 39.4016275],
           ],
         ],
       },

@@ -15,7 +15,7 @@ var espacios = {
         actuacion: "Reconstrucción Parc Príncep d'Astúries",
         masinfo:
           "Proyecto 02: Recosntrucción del parque Príncipe de Asturias. Incluido en la Orden TMD/101/2025 Ministerio. ",
-        val_dany: "",
+        val_dany: "950.000,00 €",
         subv_apro: "Pendiente",
         estado: "Prevista",
         estado_d:
@@ -248,7 +248,7 @@ var espacios = {
         actuacion: null,
         masinfo:
           "Proyecto 14:Obras del proyecto recuperacion de zonas verdes, espacios ajardinados y parques municipales Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: null,
+        val_dany: "3.000.000,00 €",
         subv_apro: "Pendiente",
         estado: "Prevista",
         estado_d:
