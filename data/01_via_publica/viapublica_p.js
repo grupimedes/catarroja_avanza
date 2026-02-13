@@ -24,7 +24,7 @@ var viapublica_p = {
         enlace: null,
         enlace_2: null,
         fecha_prev: null,
-        general: null,
+        general: "0",
       },
       geometry: {
         type: "MultiPolygon",
@@ -574,11 +574,10 @@ var viapublica_p = {
         subv_apro: "9.642.884,99 €",
         estado: "En ejecución",
         estado_d:
-          "En Ejecución : Memoria validada por el  Ministerio. Enviado encargo proyecto de ejecución TRAGSATEC",
+          "En Ejecución : Memoria validada por el Ministerio. Formalizado encargo proyecto de ejecución TRAGSATEC(Redacción del proyecto, Dirección de Obra) 29/12/2025.",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV1_TMD_RECONSTRUCCION_URBANIZACION_INSTITUTO.pdf",
-        enlace_2:
-          "https://www.hortanoticias.com/catarroja-recibe-la-autorizacion-definitiva-para-reconstruir-el-barrio-de-linstitut-con-una-inversion-de-mas-de-9-millones/?utm_source=mailpoet&utm_medium=email&utm_source_platform=mailpoet&utm_campaign=boletin-hortanoticias-5008",
+        enlace_2: null,
         fecha_prev: null,
         general: "0",
       },
@@ -616,7 +615,7 @@ var viapublica_p = {
         enlace: null,
         enlace_2: null,
         fecha_prev: null,
-        general: null,
+        general: "0",
       },
       geometry: {
         type: "MultiPolygon",
@@ -686,7 +685,7 @@ var viapublica_p = {
           "https://www.catarroja.es/va/noticia/catarroja-adjudica-obres-reurbanitzacio-dels-carrers-esglesia-corts-millorar-mobilitat-crear-espai-persones",
         enlace_2: null,
         fecha_prev: "Termini previst d'execució 6 mesos",
-        general: null,
+        general: "0",
       },
       geometry: {
         type: "MultiPolygon",

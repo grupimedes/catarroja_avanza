@@ -66,7 +66,7 @@ function tablaResumenCapa(layerGroup, nombreCapa) {
     p.enlace_2
       ? row(
           "ENLACE 2",
-          `<a href="${p.enlace_2}" target="_blank">Ver enlace</a>`
+          `<a href="${p.enlace_2}" target="_blank">Ver enlace</a>`,
         )
       : "",
   ]
@@ -128,7 +128,7 @@ map.on("baselayerchange", function () {
   // Limpiar siempre el panel
   panel.innerHTML = `
         <h1 class="leaflet-sidebar-header">
-            Información
+            Información general
             <span class="leaflet-sidebar-close"><i class="fa fa-times"></i></span>
         </h1>
     `;

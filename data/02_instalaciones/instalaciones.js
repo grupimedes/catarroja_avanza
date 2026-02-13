@@ -49,10 +49,10 @@ var instalaciones = {
         subv_apro: "4.897.505,14 €",
         estado: "En ejecución",
         estado_d:
-          "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
+          "En ejecución : Memoria validada por el Ministerio. Convenios formalizados con  TRAGSATEC 31/12/2025 (Redacción de proyecto, Dirección de obra, Coordinación de Seguridad y salud)    TRAGSA 04/01/2026 (Ejecución de la obra)",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV4_TMD_Reconstruccion_garaje_Plaza_Mayor.pdf",
-        fecha_prev: "26/02/2026",
+        fecha_prev: "",
         intervencion: null,
         general: 1,
       },
@@ -1773,10 +1773,10 @@ var instalaciones = {
         subv_apro: "4.897.505,14 €",
         estado: "En ejecución",
         estado_d:
-          "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
+          "En ejecución : Memoria validada por el Ministerio. Convenios formalizados con  TRAGSATEC 31/12/2025 (Redacción de proyecto, Dirección de obra, Coordinación de Seguridad y salud)    TRAGSA 04/01/2026 (Ejecución de la obra)",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV4_TMD_Reconstruccion_garaje_Plaza_Mayor.pdf",
-        fecha_prev: "26/02/2026",
+        fecha_prev: "",
         intervencion: null,
         general: 0,
       },
