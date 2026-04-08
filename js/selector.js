@@ -123,6 +123,27 @@ var overlayMaps = {
         },
       ],
     },
+    {
+      label: "<b>06. PAI Convocatoria Europea<br/> EDIL DANA</b>",
+      selectAllCheckbox: false,
+      collapsed: true,
+      children: [
+        {
+          label: "P1. Infraestructura habita-<br/>cional y social resiliente",
+          layer: pai1Layer,
+        },
+        {
+          label:
+            "P3. Catarroja Verde: Resi-<br/>liencia Climática y soluciones<br/>basadas en la naturaleza",
+          layer: pai3Layer,
+        },
+        /*
+        {
+          label: "Centro de emergencias",
+          layer: centroEmergenciasLayer,
+        },*/
+      ],
+    },
   ],
 };
 

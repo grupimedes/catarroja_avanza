@@ -106,6 +106,15 @@ function detectarCapaActiva() {
     { nombre: "Centros sociosanitarios", layer: centroSocioLayer },
     { nombre: "Megafonía", layer: megafoniaLayer },
     { nombre: "Centro de emergencias", layer: centroEmergenciasLayer },
+    {
+      nombre: "P1. Infraestructura habitacional y social resiliente",
+      layer: pai1Layer,
+    },
+    {
+      nombre:
+        "P3. Catarroja Verde: Resiliencia Climática y soluciones basadas en la naturaleza",
+      layer: pai3Layer,
+    },
   ];
 
   return capas.find((c) => map.hasLayer(c.layer));

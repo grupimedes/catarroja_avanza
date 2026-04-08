@@ -574,6 +574,72 @@ var leyenda = L.control.htmllegend({
         },
       ],
     },
+    {
+      name: "P1. Infraestructura habitacional y social resiliente",
+      layer: pai1Layer,
+      elements: [
+        {
+          label: "Prevista",
+          html: "",
+          style: {
+            "background-color": "#14688F",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "En ejecución",
+          html: "",
+          style: {
+            "background-color": "#F5B800",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "Finalizado",
+          html: "",
+          style: {
+            "background-color": "#00A34F",
+            width: "20px",
+            height: "20px",
+          },
+        },
+      ],
+    },
+    {
+      name: "P3. Catarroja Verde: Resiliencia Climática y soluciones basadas en la naturaleza",
+      layer: pai3Layer,
+      elements: [
+        {
+          label: "Prevista",
+          html: "",
+          style: {
+            "background-color": "#14688F",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "En ejecución",
+          html: "",
+          style: {
+            "background-color": "#F5B800",
+            width: "20px",
+            height: "20px",
+          },
+        },
+        {
+          label: "Finalizado",
+          html: "",
+          style: {
+            "background-color": "#00A34F",
+            width: "20px",
+            height: "20px",
+          },
+        },
+      ],
+    },
   ],
   disableVisibilityControls: true,
 });

@@ -10,7 +10,6 @@ body,
 }
 
 h1 {
-  padding: 0px;
   font-size: 16px;
   font-family: Tahoma, Helvetica, sans-serif;
   color: #264653;
@@ -20,7 +19,6 @@ h2 {
   font-size: 18px;
   font-family: Tahoma, Helvetica, sans-serif;
   color: #ac2c2d;
-  padding: -3px;
 }
 
 h3 {
