@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="Santiago Hernández" saveUser="shernandez" saveDateTime="2026-04-08T12:54:28" projectname="" version="3.34.7-Prizren">
+<qgis saveUserFull="Santiago Hernández" saveUser="shernandez" saveDateTime="2026-04-08T12:54:41" projectname="" version="3.34.7-Prizren">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -3610,7 +3610,11 @@
         <selectionColor invalid="1"/>
       </selection>
       <customproperties>
-        <Option/>
+        <Option type="Map">
+          <Option type="List" name="dualview/previewExpressions">
+            <Option type="QString" value="&quot;id&quot;"/>
+          </Option>
+        </Option>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
@@ -3820,7 +3824,24 @@
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
-        <columns/>
+        <columns>
+          <column width="-1" type="field" name="id" hidden="0"/>
+          <column width="-1" type="field" name="grupo" hidden="0"/>
+          <column width="-1" type="field" name="capa" hidden="0"/>
+          <column width="-1" type="field" name="titulo" hidden="0"/>
+          <column width="-1" type="field" name="direccion" hidden="0"/>
+          <column width="-1" type="field" name="actuacion" hidden="0"/>
+          <column width="-1" type="field" name="masinfo" hidden="0"/>
+          <column width="-1" type="field" name="val_dany" hidden="0"/>
+          <column width="-1" type="field" name="subv_apro" hidden="0"/>
+          <column width="-1" type="field" name="estado" hidden="0"/>
+          <column width="-1" type="field" name="estado_d" hidden="0"/>
+          <column width="-1" type="field" name="enlace" hidden="0"/>
+          <column width="-1" type="field" name="enlace_2" hidden="0"/>
+          <column width="-1" type="field" name="fecha_prev" hidden="0"/>
+          <column width="-1" type="field" name="general" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
       </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
@@ -3839,7 +3860,7 @@
       <reuseLastValue/>
       <dataDefinedFieldProperties/>
       <widgets/>
-      <previewExpression></previewExpression>
+      <previewExpression>"id"</previewExpression>
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" symbologyReferenceScale="-1" minScale="100000000" autoRefreshMode="Disabled" labelsEnabled="0" simplifyDrawingHints="1" simplifyLocal="1" simplifyDrawingTol="1" autoRefreshTime="0" geometry="Polygon" maxScale="0" legendPlaceholderImage="" wkbType="MultiPolygon" styleCategories="AllStyleCategories" type="vector" readOnly="0" simplifyAlgorithm="0" simplifyMaxScale="1">

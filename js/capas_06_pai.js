@@ -57,7 +57,7 @@ function popupPAI(feature, layer) {
         ${getProp(feature, "direccion", "DIRECCIÓN")}
         ${getProp(feature, "actuacion", "ACTUACIÓN")}
         ${getProp(feature, "masinfo", "MÁS INFORMACIÓN")}
-        ${getProp(feature, "val_dany", "VALORACIÓN DE DAÑOS")}
+        ${getProp(feature, "val_inv", "VALORACIÓN DE LA INVERSIÓN")}
         ${getProp(feature, "subv_apro", "SUBVENCIÓN APROBADA")}
         ${getProp(feature, "estado_d", "ESTADO")}
         ${getProp(feature, "fecha_prev", "FECHA PREVISTA")}

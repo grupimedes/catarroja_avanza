@@ -127,6 +127,8 @@ const capasExcluidas = [
   "Centros educativos",
   "Centros culturales",
   "Centros sociosanitarios",
+  "P1. Infraestructura habitacional y social resiliente",
+  "P3. Catarroja Verde: Resiliencia Climática y soluciones basadas en la naturaleza",
 ];
 
 // === Evento principal ===
