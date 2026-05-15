@@ -393,10 +393,10 @@ var edificios = {
         subv_apro: "279.836,55 €",
         estado: "En ejecución",
         estado_d:
-          "En Ejecución : Memoria validada por el  Ministerio. Redacción de proyecto adjudicadoAdjudicado JGL 20-06-2025: DAIA ARQUITECTES, SLP. Obra pendiente de ejecución a TRAGSA",
+          "En Ejecución: Obra iniciada en Abril 2026. Memoria validada por el Ministerio. Redacción de proyecto adjudicado JGL 20-06-2025: DAIA ARQUITECTES, SLP. Obra pendiente de ejecución a TRAGSA",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV8_TMD_Reconstruccion_local_Servicios_Sociales.pdf",
-        fecha_prev: "01/04/2026",
+        fecha_prev: "Tiempo previsto de ejecución de la obra: máximo 9 meses",
       },
       geometry: {
         type: "Point",

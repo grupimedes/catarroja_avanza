@@ -1,644 +1,144 @@
+const estadosLeyenda = [
+  {
+    label: "Prevista",
+    color: "#14688F",
+  },
+    {
+    label: "En ejecución",
+    color: "#F5B800",
+  },
+  {
+    label: "Obras iniciadas",
+    color: "#85CC85",
+  },
+  {
+    label: "Finalizado",
+    color: "#00A34F",
+  },
+];
+
+const estilosLeyenda = {
+  linea: {
+    "border-radius": "5px",
+    width: "20px",
+    height: "6px",
+  },
+  punto: {
+    "border-radius": "50%",
+    width: "20px",
+    height: "20px",
+  },
+  poligono: {
+    width: "20px",
+    height: "20px",
+  },
+};
+
+function crearElementosLeyenda(tipo) {
+  return estadosLeyenda.map((estado) => ({
+    label: estado.label,
+    html: "",
+    style: Object.assign(
+      {
+        "background-color": estado.color,
+      },
+      estilosLeyenda[tipo],
+    ),
+  }));
+}
+
 var leyenda = L.control.htmllegend({
   position: "topright",
   legends: [
     {
       name: "Obras en alcantarillado",
       layer: alcantarilladoLayer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            "border-radius": "5px",
-            width: "20px",
-            height: "6px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            "border-radius": "5px",
-            width: "20px",
-            height: "6px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            "border-radius": "5px",
-            width: "20px",
-            height: "6px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("linea"),
     },
     {
       name: "Renovación de contenedores",
       layer: contenedoresLayer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("punto"),
     },
     {
       name: "Reurbanización",
       layer: reurbanizacionLayer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("poligono"),
     },
     {
       name: "Deportivas",
       layer: deportivasLayer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("punto"),
     },
     {
       name: "Eléctricas",
       layer: electricasLayer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("punto"),
     },
     {
       name: "Alumbrado",
       layer: alumbradoLayer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("punto"),
     },
     {
       name: "Red de riegos",
       layer: riegoLayer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("punto"),
     },
     {
       name: "Port de Catarroja",
       layer: portLayer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("punto"),
     },
     {
       name: "Parking Plaça Major",
       layer: parkingLayer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("punto"),
     },
     {
       name: "Plazas, parques y jardines",
       layer: plazasParquesJardinesLayer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("punto"),
     },
     {
       name: "Villa Romana",
       layer: villaRomanaLayer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("punto"),
     },
     {
       name: "Centros educativos",
       layer: centroEducativoLayer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("punto"),
     },
     {
       name: "Centros culturales",
       layer: centroCulturalLayer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("punto"),
     },
     {
       name: "Centros sociosanitarios",
       layer: centroSocioLayer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("punto"),
     },
     {
       name: "Megafonía",
       layer: megafoniaLayer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("punto"),
     },
     {
       name: "Centro de emergencias",
       layer: centroEmergenciasLayer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            "border-radius": "50%",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("punto"),
     },
     {
       name: "P1. Infraestructura habitacional y social resiliente",
       layer: pai1Layer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("poligono"),
     },
     {
       name: "P3. Catarroja Verde: Resiliencia Climática y soluciones basadas en la naturaleza",
       layer: pai3Layer,
-      elements: [
-        {
-          label: "Prevista",
-          html: "",
-          style: {
-            "background-color": "#14688F",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "En ejecución",
-          html: "",
-          style: {
-            "background-color": "#F5B800",
-            width: "20px",
-            height: "20px",
-          },
-        },
-        {
-          label: "Finalizado",
-          html: "",
-          style: {
-            "background-color": "#00A34F",
-            width: "20px",
-            height: "20px",
-          },
-        },
-      ],
+      elements: crearElementosLeyenda("poligono"),
     },
   ],
   disableVisibilityControls: true,

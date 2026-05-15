@@ -8,6 +8,7 @@ const capasViapublica = {
 // Colores por estado
 const coloresViapublica = {
   Prevista: "#14688F",
+  "Obras iniciadas": "#85CC85",
   "En ejecución": "#f5b800",
   Finalizado: "#00a34f",
 };
@@ -48,11 +49,13 @@ function popupViapublica(feature, layer) {
   const estadoPopUp =
     feature.properties.estado === "Prevista"
       ? "prevision-pophover"
+      : feature.properties.estado === "Obras iniciadas"
+        ? "obrasiniciadas-pophover"
       : feature.properties.estado === "En ejecución"
-      ? "enejecucion-pophover"
-      : feature.properties.estado === "Finalizado"
-      ? "finalizado-pophover"
-      : "prevision-pophover";
+        ? "enejecucion-pophover"
+        : feature.properties.estado === "Finalizado"
+          ? "finalizado-pophover"
+          : "prevision-pophover";
 
   layer.on("mouseover", (e) => {
     const tooltip = L.popup({ offset: L.point(8, -5), className: estadoPopUp });
@@ -127,16 +130,21 @@ function crearLayer(capa, estado) {
 }
 
 // Crear layers por capa y estado
-const estadosViapublica = ["Prevista", "En ejecución", "Finalizado"];
+const estadosViapublica = [
+  "Prevista",
+  "Obras iniciadas",
+  "En ejecución",
+  "Finalizado",
+];
 
 const contenedoresLayer = L.layerGroup(
-  estadosViapublica.map((e) => crearLayer("Contenedores", e))
+  estadosViapublica.map((e) => crearLayer("Contenedores", e)),
 );
 
 const alcantarilladoLayer = L.layerGroup(
-  estadosViapublica.map((e) => crearLayer("Alcantarillado", e))
+  estadosViapublica.map((e) => crearLayer("Alcantarillado", e)),
 );
 
 const reurbanizacionLayer = L.layerGroup(
-  estadosViapublica.map((e) => crearLayer("Reurbanización", e))
+  estadosViapublica.map((e) => crearLayer("Reurbanización", e)),
 );

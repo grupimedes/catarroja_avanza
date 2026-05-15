@@ -117,6 +117,33 @@ table.detalle tfoot .links a {
   box-shadow: 0 3px 140px rgba(0, 0, 0, 0.4);
 }
 
+/* popup hover obras iniciadas */
+
+.obrasiniciadas-pophover.leaflet-popup {
+  position: absolute;
+  width: fit-content;
+  margin-bottom: 17px;
+}
+
+.obrasiniciadas-pophover .leaflet-popup-content-wrapper {
+  background: #85CC85;
+  color: #eee;
+  font-size: 12px;
+  line-height: 24px;
+  border-radius: 5px;
+}
+.obrasiniciadas-pophover .leaflet-popup-content-wrapper a {
+  color: rgba(200, 200, 200, 0.1);
+}
+.obrasiniciadas-pophover .leaflet-popup-tip-container {
+  margin-top: -1px;
+}
+.obrasiniciadas-pophover .leaflet-popup-tip {
+  background: #85CC85;
+  color: #333;
+  box-shadow: 0 3px 140px rgba(0, 0, 0, 0.4);
+}
+
 /* popup hover enejecucion */
 
 .enejecucion-pophover.leaflet-popup {

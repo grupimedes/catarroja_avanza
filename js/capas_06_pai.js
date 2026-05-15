@@ -3,6 +3,7 @@
 // Colores por estado
 const coloresPAI = {
   Prevista: "#14688F",
+  "Obras iniciadas": "#85CC85",
   "En ejecución": "#f5b800",
   Finalizado: "#00a34f",
 };
@@ -24,6 +25,8 @@ function popupPAI(feature, layer) {
   const estadoPopUp =
     feature.properties.estado === "Prevista"
       ? "prevision-pophover"
+      : feature.properties.estado === "Obras iniciadas"
+        ? "obrasiniciadas-pophover"
       : feature.properties.estado === "En ejecución"
         ? "enejecucion-pophover"
         : feature.properties.estado === "Finalizado"
@@ -83,7 +86,12 @@ function crearLayer(capa, estado) {
 // Estados
 
 // Crear layers por tipo y estado
-const estadosPAI = ["Prevista", "En ejecución", "Finalizado"];
+const estadosPAI = [
+  "Prevista",
+  "Obras iniciadas",
+  "En ejecución",
+  "Finalizado",
+];
 const pai1Layer = L.layerGroup(
   estadosPAI.map((e) =>
     crearLayer("P1. Infraestructura habitacional y social resiliente", e),

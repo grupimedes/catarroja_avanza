@@ -9,6 +9,7 @@ const capasSeguridad = {
 // Colores por estado
 const coloresSeguridad = {
   Prevista: "#14688F",
+  "Obras iniciadas": "#85CC85",
   "En ejecución": "#f5b800",
   Finalizado: "#00a34f",
 };
@@ -38,6 +39,8 @@ function popupSeguridad(feature, layer) {
   const estadoPopUp =
     feature.properties.estado === "Prevista"
       ? "prevision-pophover"
+      : feature.properties.estado === "Obras iniciadas"
+      ? "obrasiniciadas-pophover"
       : feature.properties.estado === "En ejecución"
       ? "enejecucion-pophover"
       : feature.properties.estado === "Finalizado"
@@ -91,11 +94,16 @@ function crearLayer(capa, estado) {
 }
 
 // Crear layers por tipo y estado
-const estadosSeguridad = ["Prevista", "En ejecución", "Finalizado"];
+const estadosSeguridad = [
+  "Prevista",
+  "Obras iniciadas",
+  "En ejecución",
+  "Finalizado",
+];
 const megafoniaLayer = L.layerGroup(
-  estadosEdificios.map((e) => crearLayer("Megafonía", e))
+  estadosSeguridad.map((e) => crearLayer("Megafonía", e))
 );
 
 const centroEmergenciasLayer = L.layerGroup(
-  estadosEdificios.map((e) => crearLayer("Centro de emergencias", e))
+  estadosSeguridad.map((e) => crearLayer("Centro de emergencias", e))
 );

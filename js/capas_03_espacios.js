@@ -9,6 +9,7 @@ const capasEspacios = {
 // Colores por estado
 const coloresEspacios = {
   Prevista: "#14688F",
+  "Obras iniciadas": "#85CC85",
   "En ejecución": "#f5b800",
   Finalizado: "#00a34f",
 };
@@ -38,6 +39,8 @@ function popupEspacios(feature, layer) {
   const estadoPopUp =
     feature.properties.estado === "Prevista"
       ? "prevision-pophover"
+      : feature.properties.estado === "Obras iniciadas"
+      ? "obrasiniciadas-pophover"
       : feature.properties.estado === "En ejecución"
       ? "enejecucion-pophover"
       : feature.properties.estado === "Finalizado"
@@ -91,7 +94,12 @@ function crearLayer(capa, estado) {
 }
 
 // Crear layers por capa y estado
-const estadosEspacios = ["Prevista", "En ejecución", "Finalizado"];
+const estadosEspacios = [
+  "Prevista",
+  "Obras iniciadas",
+  "En ejecución",
+  "Finalizado",
+];
 const plazasParquesJardinesLayer = L.layerGroup(
   estadosEspacios.map((e) => crearLayer("Plazas, parques y jardines", e))
 );
