@@ -18,7 +18,7 @@ var pai = {
           "Actuaciones incluidas en e P4. Sistemas de protección ciudadana y servicios públicos para la gestión de emergencias.\nActuación 4.1. Rehabilitación del Centro Social Espai Barraques como refugio temporal y equipamiento de protección ante inundaciones.\nPAI Convocatoria Europea EDIL DANA",
         val_inv: "1.100.000 €",
         subv_apro: "Solicitada",
-        estado: "Previsto",
+        estado: "Prevista",
         estado_d: "Prevista",
         enlace: "https://catarrojavanza.es/programa-edil-dana/",
         enlace_2: null,
