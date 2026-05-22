@@ -124,18 +124,24 @@ var overlayMaps = {
       ],
     },
     {
-      label: "<b>06. PAI Convocatoria Europea<br/> EDIL DANA</b>",
+      label: "<b>06. PAI Convocatoria<br/>Europea EDIL DANA</b>",
       selectAllCheckbox: false,
       collapsed: true,
       children: [
         {
-          label: "P1. Infraestructura habita-<br/>cional y social resiliente",
+          label:
+            "P1. Reconstrucción y<br/>refuerzo de la resiliencia del<br/>sistemaurbano habitacional<br/>afectadopor la DANA",
           layer: pai1Layer,
         },
         {
           label:
-            "P3. Catarroja Verde: Resi-<br/>liencia Climática y soluciones<br/>basadas en la naturaleza",
+            "P3. Catarroja Verde:<br/>Proyecto de reconstrucción<br/>del espaciopúblico afectado<br/>por la DANA, incorporando<br/>soluciones basadas en la<br/>naturaleza",
           layer: pai3Layer,
+        },
+        {
+          label:
+            "P4. Sistemas de protección<br/>ciudadana y servicios públicos<br/>para la gestión de emergencias",
+          layer: pai4Layer,
         },
         /*
         {

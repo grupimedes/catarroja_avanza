@@ -107,13 +107,19 @@ function detectarCapaActiva() {
     { nombre: "Megafonía", layer: megafoniaLayer },
     { nombre: "Centro de emergencias", layer: centroEmergenciasLayer },
     {
-      nombre: "P1. Infraestructura habitacional y social resiliente",
+      nombre:
+        "P1. Reconstrucción y refuerzo de la resiliencia del sistema urbano habitacional afectado por la DANA",
       layer: pai1Layer,
     },
     {
       nombre:
-        "P3. Catarroja Verde: Resiliencia Climática y soluciones basadas en la naturaleza",
+        "P3. Catarroja Verde: Proyecto de reconstrucción del espacio público afectado por la DANA, incorporando soluciones basadas en la naturaleza",
       layer: pai3Layer,
+    },
+    {
+      nombre:
+        "P4. Sistemas de protección ciudadana y servicios públicos para la gestión de emergencias",
+      layer: pai4Layer,
     },
   ];
 
@@ -127,8 +133,9 @@ const capasExcluidas = [
   "Centros educativos",
   "Centros culturales",
   "Centros sociosanitarios",
-  "P1. Infraestructura habitacional y social resiliente",
-  "P3. Catarroja Verde: Resiliencia Climática y soluciones basadas en la naturaleza",
+  "P1. Reconstrucción y refuerzo de la resiliencia del sistema urbano habitacional afectado por la DANA",
+  "P3. Catarroja Verde: Proyecto de reconstrucción del espacio público afectado por la DANA, incorporando soluciones basadas en la naturaleza",
+  "P4. Sistemas de protección ciudadana y servicios públicos para la gestión de emergencias",
 ];
 
 // === Evento principal ===

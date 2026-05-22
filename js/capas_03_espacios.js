@@ -8,10 +8,10 @@ const capasEspacios = {
 
 // Colores por estado
 const coloresEspacios = {
-  Prevista: "#14688F",
-  "Obras iniciadas": "#85CC85",
-  "En ejecución": "#f5b800",
-  Finalizado: "#00a34f",
+  Prevista: "#413A3C",
+  "Obra iniciada": "#115A7D",
+  "En ejecución": "#AA2C2D",
+  Finalizado: "#2E8B57",
 };
 
 // Función para crear icono personalizado
@@ -39,7 +39,7 @@ function popupEspacios(feature, layer) {
   const estadoPopUp =
     feature.properties.estado === "Prevista"
       ? "prevision-pophover"
-      : feature.properties.estado === "Obras iniciadas"
+      : feature.properties.estado === "Obra iniciada"
       ? "obrasiniciadas-pophover"
       : feature.properties.estado === "En ejecución"
       ? "enejecucion-pophover"
@@ -96,7 +96,7 @@ function crearLayer(capa, estado) {
 // Crear layers por capa y estado
 const estadosEspacios = [
   "Prevista",
-  "Obras iniciadas",
+  "Obra iniciada",
   "En ejecución",
   "Finalizado",
 ];

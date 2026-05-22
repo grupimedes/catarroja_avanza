@@ -1,19 +1,19 @@
 const estadosLeyenda = [
   {
     label: "Prevista",
-    color: "#14688F",
+    color: "#413A3C",
   },
     {
     label: "En ejecución",
-    color: "#F5B800",
+    color: "#AA2C2D",
   },
   {
-    label: "Obras iniciadas",
-    color: "#85CC85",
+    label: "Obra iniciada",
+    color: "#115A7D",
   },
   {
     label: "Finalizado",
-    color: "#00A34F",
+    color: "#2E8B57",
   },
 ];
 
@@ -139,6 +139,11 @@ var leyenda = L.control.htmllegend({
       name: "P3. Catarroja Verde: Resiliencia Climática y soluciones basadas en la naturaleza",
       layer: pai3Layer,
       elements: crearElementosLeyenda("poligono"),
+    },
+    {
+      name: "P4. Sistemas de protección ciudadana y servicios públicos para la gestión de emergencias",
+      layer: pai4Layer,
+      elements: crearElementosLeyenda("punto"),
     },
   ],
   disableVisibilityControls: true,

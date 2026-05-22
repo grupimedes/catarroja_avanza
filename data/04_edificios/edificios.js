@@ -391,7 +391,7 @@ var edificios = {
           "Proyecto 08:  Reconstrucción del local destinado a servicois sociales municipales. Incluido en la Orden TMD/101/2025 Ministerio",
         val_dany: "429.836,55 €",
         subv_apro: "279.836,55 €",
-        estado: "En ejecución",
+        estado: "Obra iniciada",
         estado_d:
           "En Ejecución: Obra iniciada en Abril 2026. Memoria validada por el Ministerio. Redacción de proyecto adjudicado JGL 20-06-2025: DAIA ARQUITECTES, SLP. Obra pendiente de ejecución a TRAGSA",
         enlace:

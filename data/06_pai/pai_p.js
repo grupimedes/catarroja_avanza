@@ -6,18 +6,18 @@ var pai_p = {
     {
       type: "Feature",
       properties: {
-        id: "3",
+        id: "4",
         grupo: "06. PAI",
-        capa: "P3. Catarroja Verde: Resiliencia Climática y soluciones basadas en la naturaleza",
+        capa: "P3. Catarroja Verde: Proyecto de reconstrucción del espacio público afectado por la DANA, incorporando soluciones basadas en la naturaleza",
         titulo:
-          "Actuación 3. 2. Adaptación climática de parques y espacios verdes conectados",
+          "Actuación 3.2. Reconstrucción y adaptación hidrológica de parques y espacios verdes conectados",
         direccion:
           "En espacios clasificados como sistemas libres y zonas verdes en el Plan General de\nOrdenación Urbana de Catarroja",
         actuacion:
-          "Esta actuación comprende un conjunto de intervenciones puntuales de adaptación climática y mejora funcional en los parques y espacios verdes que forman parte del eje “Catarroja Verde” y de su entorno inmediato, priorizando aquellos ámbitos no incluidos o con actuaciones limitadas en la Orden TMD. Actuaciones:<br/><br/>- Mejora de los sistemas de riego, orientada a maximizar la eficiencia hídrica, reducir consumos y huella hídrica, e incorporar soluciones sostenibles en aquellos espacios donde la infraestructura existente permita su actualización o integración con sistemas de gestión más eficientes<br/>- Renaturalización y adecuación de la vegetación, mediante la repoblación o sustitución progresiva por especies adaptadas a las condiciones climáticas locales y con menores necesidades de riego<br/>- Adaptación climática de los espacios de uso público, revisando la disposición de zonas de estancia, recorridos, equipamientos y elementos urbanos para mejorar el confort térmico, la sombra y la habitabilidad del espacio público frente a las altas temperaturas derivadas del cambio climático, e incorporando criterios de ermeabilidad y gestión del agua que refuercen su resiliencia frente a episodios de\nlluvias intensas",
+          "Reconstrucción funcional de los parques y espacios verdes del municipio, incorporando criterios de gestión del agua y adaptación frente a inundaciones, de modo que estos espacios pasen a desempeñar un papel activo en la reducción de la vulnerabilidad urbana.ámbito. Actuaciones:\n<br><br/>- Implantación de soluciones basadas en la naturaleza para la reconstrucción del sistema hidrológico urbano: Incorporación de jardines de lluvia, cunetas verdes, superficies permeables y otras soluciones que favorezcan la infiltración, retención y laminación de caudales, como parte de la mejora del comportamiento.<br/>- Recuperación y mejora del comportamiento hidrológico de la vegetación.<br/>- Adaptación y recuperación de espacios públicos para su uso en situaciones de emergencia.<br/>- Reconexión funcional con la red municipal de refugios: Refuerzo de la conexión peatonal y funcional entre los espacios verdes y los puntos de refugio definidos por el Ayuntamiento, facilitando itinerarios seguros y mejorando la capacidad de respuesta ante situaciones de riesgo.<br/>- Señalización e información para la gestión del riesgo post DANA: Incorporación de elementos informativos que permitan a la ciudadanía comprender el comportamiento del municipio ante episodios de inundación, así como identificar recorridos seguros y pautas básicas de autoprotección.",
         masinfo:
-          "Actuaciones incluidas en el P3. Catarroja Verde: Resiliencia Climática y soluciones basadas en la naturaleza. Actuación 3. 2. Adaptación climática de parques y espacios verdes conectados. PAI Convocatoria Europea EDIL DANA",
-        val_inv: "400.000 €",
+          "Actuaciones incluidas en el P3. Catarroja Verde: P3. Catarroja Verde: Proyecto de reconstrucción del espacio público afectado por la DANA, incorporando soluciones basadas en la naturaleza. Actuación 3.2. Reconstrucción y adaptación hidrológica de parques y espacios verdes conectados PAI Convocatoria Europea EDIL DANA",
+        val_inv: "1.100.000 €\n(Total A3.1. y A3.2.)",
         subv_apro: "Solicitada",
         estado: "Prevista",
         estado_d: "Previsto",
@@ -8911,15 +8911,15 @@ var pai_p = {
       properties: {
         id: "1",
         grupo: "06. PAI",
-        capa: "P1. Infraestructura habitacional y social resiliente",
+        capa: "P1. Reconstrucción y refuerzo de la resiliencia del sistema urbano habitacional afectado por la DANA",
         titulo:
-          "Actuación 1.1. Construcción de edificio de vivienda pública inclusiva en alquiler",
+          "Actuación 1.1 Infraestructura habitacional resiliente para la respuesta ante emergencias derivadas de la DANA",
         direccion: "Ámbito Mundial 82 – Motor de la República de Catarroja",
         actuacion:
-          "Actuación integrada de regeneración urbana y fortalecimiento social incluye: <br/><br/>- Construcción de edificio de vivienda pública inclusiva en alquiler<br/>- Proyecto de urbanización y regeneración climática del entorno<br/>- Oficina Local de Rehabilitación y Resilencia<br/>- Ampliación y rehabitliación edificio Motor de la República. Adecuación como Casa de la Mujer, reforzando la red de equipamientos sociales",
+          "Actuación integrada de regeneración urbana incluye:<br/><br/>- Construcción de edificio de vivienda pública inclusiva en alquiler.<br/>- Las viviendas se destinarán prioritariamente a dar respuesta a situaciones de emergencia habitacional derivadas de la DANA, así como a paliar sus consecuencias socioeconómicas en el acceso a la vivienda, Especialmente en colectivos afectados por la pérdida o deterioro de sus viviendas\n<br/>- Oficina Local de Rehabilitación y Resilencia\n<br/>- Superficie construida 2.800 m2 (2.400 m2 vivienda + 400 m2 espacio asistencial).\n<br/>- Adecuación funcional y reconstrucción resiliente del entorno urbano para la respuesta antes episodios de inundación",
         masinfo:
-          "Actuaciones incluidas en el Proyecto P1. Infraestructura habitacional y social resiliente. PAI Convocatoria Europea EDIL DANA.",
-        val_inv: "6.000.000 €",
+          "Actuaciones incluidas en el Proyecto P1. Reconstrucción y refuerzo de la resiliencia del sistema urbano habitacional afectado por la DANA. PAI Convocatoria Europea EDIL DANA\n",
+        val_inv: "5.100.000 €",
         subv_apro: "Solicitada",
         estado: "Prevista",
         estado_d: "Previsto",
@@ -8946,16 +8946,17 @@ var pai_p = {
     {
       type: "Feature",
       properties: {
-        id: "2",
+        id: "3",
         grupo: "06. PAI",
-        capa: "P3. Catarroja Verde: Resiliencia Climática y soluciones basadas en la naturaleza",
-        titulo: 'Actuación 3.1. Eje "Catarroja Verde"',
+        capa: "P3. Catarroja Verde: Proyecto de reconstrucción del espacio público afectado por la DANA, incorporando soluciones basadas en la naturaleza",
+        titulo:
+          "Actuación 3.1. Eje “Catarroja Verde” Reconstrucción urbana y adaptación climática mediante urbanismo táctico en la Av. Jaume I",
         direccion: null,
         actuacion:
-          "La actuación consiste en una intervención integral de urbanismo táctico y naturalización ligera a lo largo de la Avenida Jaume I, incluyendo su prolongación natural a través de la Avenida de la Diputación, que actúa como eje de borde entre el tejido urbano consolidado y los sistemas libres y verdes del municipio, transformándola en un corredor verde continuo orientado a mejorar la conectividad ambiental, la movilidad activa y el confort climático en Catarroja mediante:\n<br/><br/>- Creación y mejora de itinerarios ciclopeatonales continuos, seguros y\naccesibles, favoreciendo los desplazamientos cotidianos a pie y en bicicleta<br/>- Incremento de la sombra y reducción del estrés térmico, mediante arbolado, pérgolas ligeras, elementos vegetales y soluciones temporales adaptables<br/>- Incorporación de soluciones de drenaje urbano sostenible y permeabilización del espacio público, que mejoren la infiltración y laminación de escorrentías y refuercen la capacidad del eje para gestionar episodios de lluvias intensas\n<br/>- Habilitación de espacios de estancia y descanso, con mobiliario urbano diseñado para mejorar el confort climático y fomentar el uso social del eje<br/>- Incorporación de pavimentos y materiales de baja absorción térmica, que contribuyan a mitigar el efecto isla de calor",
+          "La actuación consiste en una intervención integral de urbanismo táctico y naturalización ligera a lo largo de la Avenida Jaume I, incluyendo su prolongación natural a través de la Avenida de la Diputación:\n<br><br/>- Corredor verde. La actuación consiste en una intervención integral de reconstrucción y adaptación climática del espacio público mediante urbanismo táctico, drenaje urbano sostenible y soluciones basadas en la naturaleza.<br/>- La incorporación de soluciones basadas en la naturaleza permite mejorar la infiltración, favorecer la retención y laminación superficial del agua, y reducir el riesgo de acumulaciones en puntos críticos",
         masinfo:
-          'Actuaciones incluidas en el P3. Catarroja Verde: Resiliencia Climática y soluciones basadas en la naturaleza. Actuación 3.1. Eje "Catarroja Verde". PAI Convocatoria Europea EDIL DANA',
-        val_inv: "500.000 €",
+          "Actuaciones incluidas en el P3. Catarroja Verde: P3. Catarroja Verde: Proyecto de reconstrucción del espacio público afectado por la DANA, incorporando soluciones basadas en la naturaleza. Actuación 3.1. Eje “Catarroja Verde” Reconstrucción urbana y adaptación climática mediante urbanismo táctico en la Av. Jaume I.",
+        val_inv: "1.100.000 €\n(Total A3.1. y A3.2.)",
         subv_apro: "Solicitada",
         estado: "Prevista",
         estado_d: "Previsto",
@@ -9546,6 +9547,43 @@ var pai_p = {
               [-0.408540287637938, 39.405069635628898],
               [-0.40854863380345, 39.405025756667492],
               [-0.408560650965965, 39.404982488221414],
+            ],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: "2",
+        grupo: "06. PAI",
+        capa: "P1. Reconstrucción y refuerzo de la resiliencia del sistema urbano habitacional afectado por la DANA",
+        titulo:
+          "Actuación 1.3. Recuperación y rehabilitación del edificio Motor de la República como infraestructura de apoyo a la respuesta ante emergencias",
+        direccion: "Ámbito Mundial 82 – Motor de la República de Catarroja",
+        actuacion:
+          "- Rehabilitación de un edificio público existente en el ámbito de actuación para su adecuación como infraestructura de apoyo a la respuesta ante emergencias, incluyendo su uso como refugio ante episodios de inundación y como equipamiento de atención a la población afectada por la DANA\n<br/>- Se habilitarán espacios adaptados para su utilización como refugio en situaciones de inundación, así como áreas destinadas a la atención, acompañamiento y apoyo a la población afectada por la DANA. En condiciones ordinarias, el equipamiento funcionará como espacio de atención social y de actividades comunitarias\n",
+        masinfo:
+          "Actuaciones incluidas en el Proyecto P1. Reconstrucción y refuerzo de la resiliencia del sistema urbano habitacional afectado por la DANA. PAI Convocatoria Europea EDIL DANA",
+        val_inv: "900.000 €",
+        subv_apro: "Solicitada",
+        estado: "Prevista",
+        estado_d: "Previsto",
+        enlace: "https://catarrojavanza.es/programa-edil-dana/",
+        enlace_2: null,
+        fecha_prev: "Ejecución finalizada en diciembre de 2030",
+        general: 0,
+      },
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
+          [
+            [
+              [-0.413693942220699, 39.405026601527148],
+              [-0.413488589954603, 39.404973479943209],
+              [-0.413645185504247, 39.404705368337645],
+              [-0.413916027292144, 39.404785740308533],
+              [-0.413693942220699, 39.405026601527148],
             ],
           ],
         ],

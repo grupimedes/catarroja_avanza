@@ -99,7 +99,7 @@ table.detalle tfoot .links a {
 }
 
 .prevision-pophover .leaflet-popup-content-wrapper {
-  background: #14688f;
+  background: #413A3C;
   color: #eee;
   font-size: 12px;
   line-height: 24px;
@@ -112,12 +112,12 @@ table.detalle tfoot .links a {
   margin-top: -1px;
 }
 .prevision-pophover .leaflet-popup-tip {
-  background: #14688f;
+  background: #413A3C;
   color: #333;
   box-shadow: 0 3px 140px rgba(0, 0, 0, 0.4);
 }
 
-/* popup hover obras iniciadas */
+/* popup hover obra iniciada */
 
 .obrasiniciadas-pophover.leaflet-popup {
   position: absolute;
@@ -126,7 +126,7 @@ table.detalle tfoot .links a {
 }
 
 .obrasiniciadas-pophover .leaflet-popup-content-wrapper {
-  background: #85CC85;
+  background: #115A7D;
   color: #eee;
   font-size: 12px;
   line-height: 24px;
@@ -139,7 +139,7 @@ table.detalle tfoot .links a {
   margin-top: -1px;
 }
 .obrasiniciadas-pophover .leaflet-popup-tip {
-  background: #85CC85;
+  background: #115A7D;
   color: #333;
   box-shadow: 0 3px 140px rgba(0, 0, 0, 0.4);
 }
@@ -153,7 +153,7 @@ table.detalle tfoot .links a {
 }
 
 .enejecucion-pophover .leaflet-popup-content-wrapper {
-  background: #f5b800;
+  background: #AA2C2D;
   color: #eee;
   font-size: 12px;
   line-height: 24px;
@@ -166,7 +166,7 @@ table.detalle tfoot .links a {
   margin-top: -1px;
 }
 .enejecucion-pophover .leaflet-popup-tip {
-  background: #f5b800;
+  background: #AA2C2D;
   color: #333;
   box-shadow: 0 3px 140px rgba(0, 0, 0, 0.4);
 }
@@ -180,7 +180,7 @@ table.detalle tfoot .links a {
 }
 
 .finalizado-pophover .leaflet-popup-content-wrapper {
-  background: #00a34f;
+  background: #2E8B57;
   color: #eee;
   font-size: 12px;
   line-height: 24px;
@@ -193,7 +193,7 @@ table.detalle tfoot .links a {
   margin-top: -1px;
 }
 .finalizado-pophover .leaflet-popup-tip {
-  background: #00a34f;
+  background: #2E8B57;
   color: #333;
   box-shadow: 0 3px 140px rgba(0, 0, 0, 0.4);
 }
