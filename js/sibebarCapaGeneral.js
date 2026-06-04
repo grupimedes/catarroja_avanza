@@ -92,6 +92,7 @@ function detectarCapaActiva() {
   const capas = [
     { nombre: "Alcantarillado", layer: alcantarilladoLayer },
     { nombre: "Contenedores", layer: contenedoresLayer },
+    { nombre: "Alumbrado", layer: alumbradoLayer },
     { nombre: "Reurbanización", layer: reurbanizacionLayer },
     { nombre: "Deportivas", layer: deportivasLayer },
     { nombre: "Instalaciones eléctricas", layer: electricasLayer },

@@ -22,11 +22,10 @@ var overlayMaps = {
           label: "Contenedores",
           layer: contenedoresLayer,
         },
-        /*
         {
           label: "Alumbrado",
-          layer: sinDatos,
-        },*/
+          layer: alumbradoLayer,
+        },
         {
           label: "Reurbanización",
           layer: reurbanizacionLayer,
@@ -45,10 +44,6 @@ var overlayMaps = {
         {
           label: "Instalaciones eléctricas",
           layer: electricasLayer,
-        },
-        {
-          label: "Alumbrado",
-          layer: alumbradoLayer,
         },
         {
           label: "Red de riegos",

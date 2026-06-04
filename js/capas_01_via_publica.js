@@ -3,6 +3,7 @@
 // Capas y sus iconos FontAwesome
 const capasViapublica = {
   Contenedores: "fa-trash",
+  Alumbrado: "fa-lightbulb",
 };
 
 // Colores por estado
@@ -51,11 +52,11 @@ function popupViapublica(feature, layer) {
       ? "prevision-pophover"
       : feature.properties.estado === "Obra iniciada"
         ? "obrasiniciadas-pophover"
-      : feature.properties.estado === "En ejecución"
-        ? "enejecucion-pophover"
-        : feature.properties.estado === "Finalizado"
-          ? "finalizado-pophover"
-          : "prevision-pophover";
+        : feature.properties.estado === "En ejecución"
+          ? "enejecucion-pophover"
+          : feature.properties.estado === "Finalizado"
+            ? "finalizado-pophover"
+            : "prevision-pophover";
 
   layer.on("mouseover", (e) => {
     const tooltip = L.popup({ offset: L.point(8, -5), className: estadoPopUp });
@@ -139,6 +140,10 @@ const estadosViapublica = [
 
 const contenedoresLayer = L.layerGroup(
   estadosViapublica.map((e) => crearLayer("Contenedores", e)),
+);
+
+const alumbradoLayer = L.layerGroup(
+  estadosViapublica.map((e) => crearLayer("Alumbrado", e)),
 );
 
 const alcantarilladoLayer = L.layerGroup(

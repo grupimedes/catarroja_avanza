@@ -3,7 +3,7 @@ const estadosLeyenda = [
     label: "Prevista",
     color: "#413A3C",
   },
-    {
+  {
     label: "En ejecución",
     color: "#AA2C2D",
   },
@@ -61,6 +61,11 @@ var leyenda = L.control.htmllegend({
       elements: crearElementosLeyenda("punto"),
     },
     {
+      name: "Alumbrado",
+      layer: alumbradoLayer,
+      elements: crearElementosLeyenda("punto"),
+    },
+    {
       name: "Reurbanización",
       layer: reurbanizacionLayer,
       elements: crearElementosLeyenda("poligono"),
@@ -73,11 +78,6 @@ var leyenda = L.control.htmllegend({
     {
       name: "Eléctricas",
       layer: electricasLayer,
-      elements: crearElementosLeyenda("punto"),
-    },
-    {
-      name: "Alumbrado",
-      layer: alumbradoLayer,
       elements: crearElementosLeyenda("punto"),
     },
     {

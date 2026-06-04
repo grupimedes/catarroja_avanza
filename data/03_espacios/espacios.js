@@ -43,11 +43,11 @@ var espacios = {
         masinfo:
           "Proyecto 23: Obras de reconstrucción de la Plaza Major(no incluye el parking).  Incluido en la Orden TMD/101/2025 Ministerio. ",
         val_dany: "1.000.000,00 €",
-        subv_apro: "Pendiente",
-        estado: "Prevista",
-        estado_d:
-          "En previsión : Memoria validada por el Ministerio. Encargada la memoria de valoración de daños a TRAGSATEC",
-        enlace: "",
+        subv_apro: "2.473.417,69 €",
+        estado: "En ejecución",
+        estado_d: "En ejecución : Memoria aprobada 04/05/2026",
+        enlace:
+          "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/Memoria_Valorada_obra_reparacion_Plaza_Mayor.pdf",
         fecha_prev: null,
         equip: "Plaza Major",
         general: 0,
@@ -221,10 +221,10 @@ var espacios = {
         masinfo:
           "Proyecto 07: Restitución del yacimiento arqueológico Hort de Pepica. Incluido en la Orden TDM/101/2025 Ministerio",
         val_dany: "460.090,12 €",
-        subv_apro: "Pendiente",
-        estado: "Prevista",
+        subv_apro: "460.090,12 €",
+        estado: "En ejecución",
         estado_d:
-          "Prevista: Memoria presentada al Ministerio pendiente de su validación",
+          "En ejecución: Memoria aprobada por el  Ministerio . Pendiente formalización encargo .",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/memoria_TMD_Hort_de_Pepica.pdf",
         fecha_prev: null,
@@ -275,10 +275,10 @@ var espacios = {
         masinfo:
           "Proyecto 07: Restitución del yacimiento arqueológico Hort de Pepica. Incluido en la Orden TDM/101/2025 Ministerio",
         val_dany: "460.090,12 €",
-        subv_apro: "Pendiente",
-        estado: "Prevista",
+        subv_apro: "460.090,12 €",
+        estado: "En ejecución",
         estado_d:
-          "Prevista: Memoria presentada al Ministerio pendiente de su validación",
+          "En ejecución: Memoria aprobada por el  Ministerio . Pendiente formalización encargo .",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/memoria_TMD_Hort_de_Pepica.pdf",
         fecha_prev: null,

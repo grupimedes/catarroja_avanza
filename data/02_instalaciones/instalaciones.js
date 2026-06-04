@@ -78,10 +78,10 @@ var instalaciones = {
         subv_apro: "171.181,19 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
-          "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
+          "En ejecución : Memoria validada por el Ministerio. Convenio formalizado con TRAGSATEC 23/12/2025",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
-        fecha_prev: "04/2026",
+        fecha_prev: "",
         intervencion: "Instalación de enlace. Placas: 70 kw",
         general: 0,
       },
@@ -106,10 +106,10 @@ var instalaciones = {
         subv_apro: "171.181,19 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
-          "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
+          "En ejecución : Memoria validada por el Ministerio. Convenio formalizado con TRAGSATEC 23/12/2025",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
-        fecha_prev: "04/2026",
+        fecha_prev: "",
         intervencion: "Instalación de enlace. Placas: 70 kw",
         general: 0,
       },
@@ -135,10 +135,10 @@ var instalaciones = {
         subv_apro: "171.181,19 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
-          "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
+          "En ejecución : Memoria validada por el Ministerio. Convenio formalizado con TRAGSATEC 23/12/2025",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
-        fecha_prev: "04/2026",
+        fecha_prev: "",
         intervencion: "Instalación de enlace. Placas: 50 kw",
         general: 0,
       },
@@ -163,10 +163,10 @@ var instalaciones = {
         subv_apro: "171.181,19 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
-          "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
+          "En ejecución : Memoria validada por el Ministerio. Convenio formalizado con TRAGSATEC 23/12/2025",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
-        fecha_prev: "04/2026",
+        fecha_prev: "",
         intervencion: "Instalación de enlace. Placas: 35 kw",
         general: 0,
       },
@@ -191,10 +191,10 @@ var instalaciones = {
         subv_apro: "171.181,19 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
-          "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
+          "En ejecución : Memoria validada por el Ministerio. Convenio formalizado con TRAGSATEC 23/12/2025",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
-        fecha_prev: "04/2026",
+        fecha_prev: "",
         intervencion: "Instalación de enlace. Placas: 20 kw",
         general: 0,
       },
@@ -219,10 +219,10 @@ var instalaciones = {
         subv_apro: "171.181,19 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
-          "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
+          "En ejecución : Memoria validada por el Ministerio. Convenio formalizado con TRAGSATEC 23/12/2025",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
-        fecha_prev: "04/2026",
+        fecha_prev: "",
         intervencion: "Instalación de enlace. Placas: 100 kw",
         general: 0,
       },
@@ -247,10 +247,10 @@ var instalaciones = {
         subv_apro: "171.181,19 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
-          "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
+          "En ejecución : Memoria validada por el Ministerio. Convenio formalizado con TRAGSATEC 23/12/2025",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
-        fecha_prev: "04/2026",
+        fecha_prev: "",
         intervencion: "Instalación de enlace",
         general: 0,
       },
@@ -275,10 +275,10 @@ var instalaciones = {
         subv_apro: "171.181,19 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
-          "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
+          "En ejecución : Memoria validada por el Ministerio. Convenio formalizado con TRAGSATEC 23/12/2025",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
-        fecha_prev: "04/2026",
+        fecha_prev: "",
         intervencion: "Instalación de enlace",
         general: 0,
       },
@@ -290,7 +290,7 @@ var instalaciones = {
     {
       type: "Feature",
       properties: {
-        id: null,
+        id: ".",
         grupo: "02. Instalaciones públicas",
         capa: "Red de riegos",
         titulo: "Restitución de instalación de riego de zonas verdes municipio",
@@ -300,8 +300,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total ",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -444,10 +444,10 @@ var instalaciones = {
         subv_apro: "171.181,19 € (Total proyecto)",
         estado: "En ejecución",
         estado_d:
-          "En ejecución: Memoria validada por el Ministerio. Pendiente de encargo a TRAGASET y obra a TRAGSA",
+          "En ejecución : Memoria validada por el Ministerio. Convenio formalizado con TRAGSATEC 23/12/2025",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV9_TMD_Instalaciones_electricas.pdf",
-        fecha_prev: "04/2026",
+        fecha_prev: "",
         intervencion: null,
         general: 1,
       },
@@ -469,8 +469,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -494,8 +494,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -519,8 +519,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -544,8 +544,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -569,8 +569,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -594,8 +594,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -619,8 +619,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -644,8 +644,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -669,8 +669,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -694,8 +694,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -719,8 +719,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -744,8 +744,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -769,8 +769,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -794,8 +794,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -819,8 +819,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -844,8 +844,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -869,8 +869,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -894,8 +894,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -919,8 +919,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -944,8 +944,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -969,8 +969,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -994,8 +994,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1019,8 +1019,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1044,8 +1044,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1069,8 +1069,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1094,8 +1094,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1119,8 +1119,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1144,8 +1144,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1169,8 +1169,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1194,8 +1194,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1219,8 +1219,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1244,8 +1244,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1269,8 +1269,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1294,8 +1294,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1319,8 +1319,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1344,8 +1344,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1369,8 +1369,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1394,8 +1394,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1419,8 +1419,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1444,8 +1444,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1469,8 +1469,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1494,8 +1494,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1519,8 +1519,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1544,8 +1544,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1569,8 +1569,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1594,8 +1594,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1619,8 +1619,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1644,8 +1644,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1669,8 +1669,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1694,8 +1694,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1719,8 +1719,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1744,8 +1744,8 @@ var instalaciones = {
           "Restitución de las instalaciones como arquetas y tuberías, elementos de aspersión o válvulas",
         masinfo:
           "Proyecto 10:  Obras del proyecto de restitución de instalación de red de riesgo de zonas verdes espacios ajardinados y parques municipales . Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: "183.656,49 € (Total proyecto)",
-        subv_apro: "183.656,49 € (Total proyecto)",
+        val_dany: "198.158,49 € (Total proyecto)",
+        subv_apro: "198.158,49 € (Total proyecto)",
         estado: "En ejecución",
         estado_d: null,
         enlace:
@@ -1825,12 +1825,12 @@ var instalaciones = {
         masinfo:
           "Proyecto 18:Obras de proyecto de reparacion de los baños del Port y la escual Vela Latina.Incluido en la Orden TMD/101/2025 Ministerio",
         val_dany: "102.982,87 €",
-        subv_apro: "Pendiente de validar",
+        subv_apro: "102.982,87 €",
         estado: "En ejecución",
         estado_d:
-          "En ejecución: Memoria aprobada para enviar al minsterio para su validación el 14/11/2025",
+          "En ejecución : Memoria aprobada por el ministerio. Pendiente formalización encargo",
         enlace: null,
-        fecha_prev: null,
+        fecha_prev: "2026",
         intervencion: null,
         general: 0,
       },
@@ -1851,11 +1851,13 @@ var instalaciones = {
         actuacion: "Obras de reparación Port  de Catarroja",
         masinfo:
           "Proyecto 28:Obras de Port Catarroja_Incluido en la Orden TMD/101/2025 Ministerio",
-        val_dany: null,
-        subv_apro: null,
-        estado: "Prevista",
-        estado_d: "Pendiente de elaboración memoria",
-        enlace: null,
+        val_dany: "1.100.504,56 €",
+        subv_apro: "1.100.504,56 €",
+        estado: "En ejecución",
+        estado_d:
+          "En ejecución : Memoria aprobada por el Ministerio. Pendientte formalización de encargo",
+        enlace:
+          "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV_03_%20PuertodeCatarroja.pdf",
         fecha_prev: null,
         intervencion: null,
         general: 0,
@@ -1879,7 +1881,7 @@ var instalaciones = {
           "Este proyecto está incluido en la subvención de Diputación Subvenciones directas para reparación de infraestructuras turísticas de municipios afectados DANA",
         val_dany: "19.500,00 €",
         subv_apro: "19.500,00 €",
-        estado: "En ejecución",
+        estado: "Finalizado",
         estado_d: "En ejecución",
         enlace:
           "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/SUBVENCIONS/cl_DECRETO_PRESIDENTE_DANA.pdf",

@@ -1613,5 +1613,59 @@ var viapublica = {
         coordinates: [0.102141567125998, 39.406143764999221],
       },
     },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alumbrado",
+        titulo: null,
+        direccion: "Casco urbano",
+        actuacion:
+          "Restitución de las instalaciones\nalumbrado público del municipio de Catarroja, al objeto de garantizar la funcionalidad y seguridad de\nlas mismas",
+        masinfo:
+          "Proyecto 06: Obra restitución instalaciones alumbrado público . Incluido en la Orden TMD/101/2025 Ministerio",
+        val_dany: "809.417,67 €",
+        subv_apro: "Pendiente",
+        estado: "En ejecución",
+        estado_d: "En ejecución",
+        enlace:
+          "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/Restitucion_instalaciones_alumbrado_publico_A_DANYS.pdf",
+        enlace_2: null,
+        fecha_prev: null,
+        general: 0,
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [-0.403811820546318, 39.403037427547432],
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        id: null,
+        grupo: "01. Vía pública",
+        capa: "Alumbrado",
+        titulo: "Alumbrado",
+        direccion: "Casco urbano",
+        actuacion:
+          "Restitución de las instalaciones\nalumbrado público del municipio de Catarroja, al objeto de garantizar la funcionalidad y seguridad de\nlas mismas",
+        masinfo:
+          "Proyecto 06: Obra restitución instalaciones alumbrado público . Incluido en la Orden TMD/101/2025 Ministerio",
+        val_dany: "809.417,67 €",
+        subv_apro: "Pendiente",
+        estado: "En ejecución",
+        estado_d: "En ejecución",
+        enlace:
+          "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/Restitucion_instalaciones_alumbrado_publico_A_DANYS.pdf",
+        enlace_2: null,
+        fecha_prev: null,
+        general: 1,
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [-0.403811820546318, 39.403037427547432],
+      },
+    },
   ],
 };

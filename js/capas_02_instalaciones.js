@@ -4,7 +4,6 @@
 const capasInstalaciones = {
   Deportivas: "fa-volleyball",
   "Instalaciones eléctricas": "fa-bolt",
-  Alumbrado: "fa-lightbulb",
   "Parking Plaça Major": "fa-square-parking",
   "Red de riegos": "fa-droplet",
   "Port de Catarroja": "fa-sailboat",
@@ -44,12 +43,12 @@ function popupInstalaciones(feature, layer) {
     feature.properties.estado === "Prevista"
       ? "prevision-pophover"
       : feature.properties.estado === "Obra iniciada"
-      ? "obrasiniciadas-pophover"
-      : feature.properties.estado === "En ejecución"
-      ? "enejecucion-pophover"
-      : feature.properties.estado === "Finalizado"
-      ? "finalizado-pophover"
-      : "prevision-pophover";
+        ? "obrasiniciadas-pophover"
+        : feature.properties.estado === "En ejecución"
+          ? "enejecucion-pophover"
+          : feature.properties.estado === "Finalizado"
+            ? "finalizado-pophover"
+            : "prevision-pophover";
 
   layer.on("mouseover", (e) => {
     tooltipPopup = L.popup({ offset: L.point(8, -5), className: estadoPopUp });
@@ -106,20 +105,17 @@ const estadosInstalaciones = [
   "Finalizado",
 ];
 const deportivasLayer = L.layerGroup(
-  estadosInstalaciones.map((e) => crearLayer("Deportivas", e))
+  estadosInstalaciones.map((e) => crearLayer("Deportivas", e)),
 );
 const electricasLayer = L.layerGroup(
-  estadosInstalaciones.map((e) => crearLayer("Instalaciones eléctricas", e))
-);
-const alumbradoLayer = L.layerGroup(
-  estadosInstalaciones.map((e) => crearLayer("Alumbrado", e))
+  estadosInstalaciones.map((e) => crearLayer("Instalaciones eléctricas", e)),
 );
 const riegoLayer = L.layerGroup(
-  estadosInstalaciones.map((e) => crearLayer("Red de riegos", e))
+  estadosInstalaciones.map((e) => crearLayer("Red de riegos", e)),
 );
 const portLayer = L.layerGroup(
-  estadosInstalaciones.map((e) => crearLayer("Port de Catarroja", e))
+  estadosInstalaciones.map((e) => crearLayer("Port de Catarroja", e)),
 );
 const parkingLayer = L.layerGroup(
-  estadosInstalaciones.map((e) => crearLayer("Parking Plaça Major", e))
+  estadosInstalaciones.map((e) => crearLayer("Parking Plaça Major", e)),
 );
