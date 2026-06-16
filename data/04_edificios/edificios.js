@@ -83,13 +83,15 @@ var edificios = {
         direccion:
           "Av de la, Avinguda la Rambleta, 1, 46470 Catarroja, Valencia",
         actuacion:
-          "Actuaciones urgentes de sustitución de pavimentos, carpinterías, instalaciones eléctricas, reposición de vallados, tabiquería, drenaje",
+          "Tras la ejecución de las primeras actuaciones de emergencia y reparación llevadas a cabo con\nmotivo de la DANA\n ejecutadas en el municipio de Catarroja mediante los trabajos encargados\na TRAGSA (Fase I finalizada) , se ha podido constatar que determinadas\nzonas del CEIP presentan todavía deficiencias y daños derivados siendo necesario acometer nuevas actuaciones de\nreparación y reposición: (Fase 2)",
         masinfo: "Informe de actuaciones DANA Grupo TRAGSA",
-        val_dany: "",
-        subv_apro: null,
-        estado: "Finalizada",
-        estado_d: null,
-        enlace: null,
+        val_dany: "314.458,56 €",
+        subv_apro: "",
+        estado: "Prevista",
+        estado_d:
+          "Prevista: Pendiente de validación memoria por parte del Ministerio",
+        enlace:
+          "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/RECURSOS_MEMORIES/CAT_MV36_Reparaciones%20colegios_f.pdf",
         fecha_prev: null,
       },
       geometry: {
@@ -103,14 +105,16 @@ var edificios = {
         id: "5",
         grupo: "04. Edificios públicos",
         capa: "Centros educativos",
-        titulo: "CEIP Jaume I el Conqueridor",
+        titulo: "CEIP Jaume I",
         direccion: "Cam. Sta. Ana, 12, 46470 Catarroja, Valencia",
-        actuacion: null,
+        actuacion:
+          "Tras la ejecución de las primeras actuaciones de emergencia y reparación llevadas a cabo con\nmotivo de la DANA\n ejecutadas en el municipio de Catarroja mediante los trabajos encargados\na TRAGSA (Fase I finalizada) , se ha podido constatar que determinadas\nzonas del CEIP presentan todavía deficiencias y daños derivados siendo necesario acometer nuevas actuaciones de\nreparación y reposición: (Fase 2)",
         masinfo: null,
-        val_dany: null,
+        val_dany: "89.185 €",
         subv_apro: null,
         estado: "Prevista",
-        estado_d: null,
+        estado_d:
+          "Prevista: Pendiente de validación memoria por parte del Ministerio",
         enlace: null,
         fecha_prev: null,
       },
@@ -129,13 +133,15 @@ var edificios = {
         direccion:
           "C. del Músico Don Miguel Gimeno Puchalt, 2, 46470 Catarroja, Valencia",
         actuacion:
-          "Actuaciones urgentes de sustitución de pavimentos, carpinterías, instalaciones eléctricas, reposición de vallados, tabiquería, drenaje",
+          "Tras la ejecución de las primeras actuaciones de emergencia y reparación llevadas a cabo con\nmotivo de la DANA\n ejecutadas en el municipio de Catarroja mediante los trabajos encargados\na TRAGSA (Fase I finalizada) , se ha podido constatar que determinadas\nzonas del CEIP presentan todavía deficiencias y daños derivados siendo necesario acometer nuevas actuaciones de\nreparación y reposición: (Fase 2)",
         masinfo: "Informe de actuaciones DANA Grupo TRAGSA",
-        val_dany: null,
+        val_dany: "212.231,96 €",
         subv_apro: null,
-        estado: "Finalizada",
-        estado_d: null,
-        enlace: null,
+        estado: "Prevista",
+        estado_d:
+          "Prevista: Pendiente de validación memoria por parte del Ministerio",
+        enlace:
+          "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/RECURSOS_MEMORIES/CAT_MV36_Reparaciones%20colegios_f.pdf",
         fecha_prev: null,
       },
       geometry: {
@@ -152,13 +158,15 @@ var edificios = {
         titulo: "CEIP Vil·la Romana",
         direccion: "C. Sant Vicent Ferrer, 1C, 46470 València",
         actuacion:
-          "Actuaciones urgentes de sustitución de pavimentos, carpinterías, instalaciones eléctricas, reposición de vallados, tabiquería, drenaje",
+          '"Tras la ejecución de las primeras actuaciones de emergencia y reparación llevadas a cabo con\nmotivo de la DANA\n ejecutadas en el municipio de Catarroja mediante los trabajos encargados\na TRAGSA (Fase I finalizada) , se ha podido constatar que determinadas\nzonas del CEIP presentan todavía deficiencias y daños derivados siendo necesario acometer nuevas actuaciones de\nreparación y reposición: (Fase 2)',
         masinfo: "Informe de actuaciones DANA Grupo TRAGSA",
-        val_dany: null,
+        val_dany: "270.427,74 €",
         subv_apro: null,
-        estado: "Finalizada",
-        estado_d: null,
-        enlace: null,
+        estado: "Prevista",
+        estado_d:
+          "Prevista: Pendiente de validación memoria por parte del Ministerio",
+        enlace:
+          "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/RECURSOS_MEMORIES/CAT_MV36_Reparaciones%20colegios_f.pdf",
         fecha_prev: null,
       },
       geometry: {
@@ -218,12 +226,11 @@ var edificios = {
         capa: "Centros educativos",
         titulo: "Conservatori Professional de Música José Manuel Izquierdo",
         direccion: "Carrer Josep Serra Carsí, 15, 46470 Catarroja, Valencia",
-        actuacion:
-          "Actuaciones urgentes de sustitución de pavimentos, carpinterías, instalaciones eléctricas, reposición de vallados, tabiquería, drenaje",
-        masinfo: "Informe de actuaciones DANA Grupo TRAGSA",
+        actuacion: "",
+        masinfo: "",
         val_dany: null,
         subv_apro: null,
-        estado: "Finalizada",
+        estado: "Prevista",
         estado_d: null,
         enlace: null,
         fecha_prev: null,
@@ -246,11 +253,12 @@ var edificios = {
         masinfo:
           "Proyecto 24:  Obras reconstrucción EPA. Incluido en la Orden TMD/101/2025 Ministerio",
         val_dany: "1.750.000,00 €",
-        subv_apro: null,
-        estado: "Prevista",
+        subv_apro: "4.008.824,34 €",
+        estado: "En ejecución",
         estado_d:
-          "Pendiente: Redacción de memoria por TRAGASEC para remitirla al Ministerio para su validación",
-        enlace: null,
+          "En ejecución: Memoria aprobada 04/05/2026. Pendiente formalización encargo",
+        enlace:
+          "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/MV_24_Obra_reconstruccion_Escuela_de_Adultos.pdf",
         fecha_prev: null,
       },
       geometry: {
