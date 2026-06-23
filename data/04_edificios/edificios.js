@@ -16,7 +16,7 @@ var edificios = {
         masinfo: null,
         val_dany: null,
         subv_apro: "Donación IKEA",
-        estado: "Finalizada",
+        estado: "Finalizado",
         estado_d: "Finalizada",
         enlace:
           "https://www.catarroja.es/va/noticia/biblioteca-publica-ramon-guillem-inicia-obres-renovacio",
