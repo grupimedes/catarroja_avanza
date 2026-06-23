@@ -16,8 +16,8 @@ var edificios = {
         masinfo: null,
         val_dany: null,
         subv_apro: "Donación IKEA",
-        estado: "En ejecución",
-        estado_d: "En Ejecución desde el 14/10/2025",
+        estado: "Finalizada",
+        estado_d: "Finalizada",
         enlace:
           "https://www.catarroja.es/va/noticia/biblioteca-publica-ramon-guillem-inicia-obres-renovacio",
         fecha_prev: null,
@@ -39,11 +39,12 @@ var edificios = {
         masinfo:
           "Proyecto 17:  Obras del proyecto de reparación de la Casa de la Cultura. Incluido en la Orden TMD/101/2025 Ministerio",
         val_dany: "790.375,44 €",
-        subv_apro: null,
-        estado: "Prevista",
+        subv_apro: "790.375,44 €",
+        estado: "En ejecución",
         estado_d:
-          "Pendiente: Memoria remitida al  Ministerio para su validación (24/11/2025)",
-        enlace: null,
+          "En ejecución: Memoria aprobada por el Ministerio. Pendiente formalización de encargo",
+        enlace:
+          "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/1_CAT_MV_04_Casa_de_la_cultura_vB_f.pdf",
         fecha_prev: null,
       },
       geometry: {
@@ -348,11 +349,11 @@ var edificios = {
         masinfo:
           "Proyecto 12:  Obras del proyecto de reparación del Museo . Incluido en la Orden TMD/101/2025 Ministerio",
         val_dany: "744.245,98 €",
-        subv_apro: null,
-        estado: "Prevista",
-        estado_d:
-          "Pendiente: Memoria remitida al  Ministerio para su validación (5/12/2025)",
-        enlace: null,
+        subv_apro: "474.108,21 €",
+        estado: "En ejecución",
+        estado_d: "En ejecución : Memoria aprobada- Encargo formalizado",
+        enlace:
+          "https://www.catarroja.es/sites/www.catarroja.es/files/documents/Catarroja/PorTemas/PLA-RECUPERACIO/AVALUACIO/1_CAT_MV-03-Espai_Jove_completa_f.pdf",
         fecha_prev: null,
       },
       geometry: {
@@ -471,10 +472,10 @@ var edificios = {
         masinfo:
           "Proyecto 25:  Obras Obra reparación residencia. Incluido en la Orden TMD/101/2025 Ministerio",
         val_dany: "1.827.760,00 €",
-        subv_apro: null,
-        estado: "Prevista",
+        subv_apro: "1.588.836,38 €",
+        estado: "En ejecución",
         estado_d:
-          "Pendiente: Redacción de memoria por TRAGASEC para remitirla al Ministerio para su validación",
+          "En ejecucion: Memoria aprobada por el Ministerio 20/05/2026. Pendiente de formalización de encargo.\n",
         enlace: null,
         fecha_prev: null,
       },
